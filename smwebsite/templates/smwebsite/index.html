@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -11,19 +12,19 @@
     <!-- Title -->
     <title>Smart Traffic Project</title>
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/ico" href="images/smarttrafficlogoicon.ico" />
+    <link rel="apple-touch-icon" href="{% static 'smwebsite/images/apple-touch-icon.png' %}">
+    <link rel="shortcut icon" type="image/ico" href="{% static 'smwebsite/images/smarttrafficlogoicon.ico' %}" />
     <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/animate.css' %}">
     <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="{% static 'smwebsite/css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/style.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/responsive.css' %}">
+    <script src="{% static 'smwebsite/js/vendor/modernizr-2.8.3.min.js' %}"></script>
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -52,7 +53,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand logo">
-                    <img src="images/logos/smarttrafficLogo.png" alt="">
+                    <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
                 </a>
             </div>
             <!--Logo/-->
@@ -62,10 +63,10 @@
                     <!--<li><a href="#goal-page">Goals</a></li>-->
                     <li><a href="#institutions-page">Institutions</a></li>
                     <li><a href="#publications-page">Expected Results</a></li>
-                    <li><a href="#team-page">Team</a></li>
+                    <li><a href="#team-page">Our Team</a></li>
                     <!--<li><a href="#faq-page">FAQ</a></li>-->
                     <!--<li><a href="#blog-page">Blog</a></li>-->
-                    <li><a href="#contact-page">Contact</a></li>
+                    <li><a href="#contact-page">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -77,8 +78,8 @@
         <div class="container">
             <div class="row v-center">
                 <div class="col-xs-12 col-md-7 header-text">
-                    <h1> All about improving urban mobility in Asuncion, Paraguay</h1>
-                    <p> This project is part of the PROCIENCIA program, financed by CONACYT to make solutions for the people.</p>
+                    <h1>All about improving urban mobility in Asunción, Paraguay</h1>
+                    <p>This project is part of the PROCIENCIA program, financed by CONACYT to make solutions for the people.</p>
                     <!--<a href="#" class="button white">Watch video</a>-->
                 </div>
                 <!--TODO: Aca se podria poner las imagenes de las instituciones por ejemplo... y que vaya girando-->
@@ -117,37 +118,54 @@
                             <h2>Project Goals</h2>
                         </div>
                             <h3>Primary Goals</h3>
-                            <p><i class="ti-star"></i> Research and application of existing theory and technologies related to CAS and MCS approaches to propose innovative solutions to typical problems of smart cities,
-                                specifically to solve problems related to urban mobility in the city of Asunción, capital of Paraguay. </p>
+                            <p><i class="ti-star"></i>
+                                Research and application of existing theory and technologies related to CAS and MCS to propose innovative solutions to typical problems of smart cities.
+                                Specifically, we aim to solve problems related to urban mobility in the city of Asunción, Paraguay.
+                            </p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Specific Goal</h3>
+                    <h3>Specific Goals</h3>
                  <div class="panel-group" id="accordion">
                      <div class="panel">
                          <h4 class="panel-title">
-                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Definition of the "SmartCity Asunción"</a>
+                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Design of the "SmartCity Asunción" platform</a>
                          </h4>
                          <div id="collapse1" class="panel-collapse collapse in">
-                             <p>Plan through the investigation of international models and technologies related to SmartCities, CAS, crowdsourcing and citizen participation. This includes the adaptation and extension of this technology to the particular needs of the city of Asunción</p>
+                             <p>
+                                 Taking inspiration from methodologies, models and technologies in the areas of smart cities,
+                                 CAS, crowdsourcing and citizen participation, we will design a service platform tailored to the needs of the city of Asunción.
+                                 <!-- Plan through the investigation of international models and technologies related to SmartCities,
+                                 CAS, crowdsourcing and citizen participation. This includes the adaptation and extension of this technology
+                                 to the particular needs of the city of Asunción -->
+                             </p>
                          </div>
                      </div>
                      <div class="panel">
                          <h4 class="panel-title">
-                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true">Development of a prototype</a>
+                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true">Implementation of a prototype</a>
                          </h4>
                          <div id="collapse2" class="panel-collapse collapse in">
-                             <p>Platform that offers common services to the smart city and a demonstrative application aimed at collecting and providing information to citizens about the traffic problem in the city of Asunción<</p>
+                             <p>
+                                 After a thorough analysis and relying on the services provided by our platform,
+                                 we will implement a prototype application to help solve urban mobility issues.
+                                 <!-- Platform that offers common services to the smart city and a demonstrative application
+                                 aimed at collecting and providing information to citizens about the traffic problem in the city of Asunción -->
+                             </p>
                          </div>
                      </div>
                      <div class="panel">
                          <h4 class="panel-title">
-                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true">Demonstration</a>
+                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true">Dissemination</a>
                          </h4>
                          <div id="collapse3" class="panel-collapse collapse in">
-                             <p>Making available of the results and services obtained to the authorities and the public</p>
+                             <p>
+                                 As a continuous task for the duration of the project, we will be communicating our findings, proposals and results
+                                 to city authorities and the general public.
+                                 <!-- Making available of the results and services obtained to the authorities and the public -->
+                             </p>
                          </div>
                      </div>
                  </div>
@@ -166,59 +184,63 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class = "col-xs-6">
-                    <div class="col-xs-12 col-sm-4">
-                        <a href="http://www.universidadcatolica.edu.py/" target="_blank">
-                            <div class="box">
-                                <div class="box-icon">
-                                    <img src="images/logos/logo_uca.png" alt="">
+            <div class="row equal">
+                <!-- <div class = "col-xs-6">
+                    <div class="row equal"> -->
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="http://www.universidadcatolica.edu.py/" target="_blank">
+                                <div class="box">
+                                    <div class="box-icon">
+                                        <img src="{% static 'smwebsite/images/logos/logo_uca.png' %}" alt="">
+                                    </div>
+                                    <h4>Universidad Catolica "Nuestra Señora de la Asunción"</h4>
                                 </div>
-                                <h4>Universidad Catolica "Nuestra Señora de la Asuncion"</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <a href="http://www.dei.uc.edu.py/" target="_blank">
-                            <div class="box">
-                                <div class="box-icon">
-                                    <img src="images/logos/logo_dei.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="http://www.dei.uc.edu.py/" target="_blank">
+                                <div class="box">
+                                    <div class="box-icon">
+                                        <img src="{% static 'smwebsite/images/logos/logo_dei.png' %}" alt="">
+                                    </div>
+                                    <h4>DEI</h4>
                                 </div>
-                                <h4>DEI</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <a href="https://www.unitn.it/" target="_blank">
-                            <div class="box">
-                                <div class="box-icon">
-                                    <img src="images/logos/logo_trento.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="https://www.unitn.it/" target="_blank">
+                                <div class="box">
+                                    <div class="box-icon">
+                                        <img src="{% static 'smwebsite/images/logos/logo_trento.png' %}" alt="">
+                                    </div>
+                                    <h4>Università degli Studi di Trento</h4>
                                 </div>
-                                <h4>Università degli Studi di Trento</h4>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                    <!-- </div>
                 </div>
                 <div class = "col-xs-6">
-                    <div class="col-xs-12 col-sm-6">
-                        <a href="http://www.conacyt.gov.py" target="_blank">
-                            <div class="box">
-                                <div class="box-icon">
-                                    <img src="images/logos/logo_conacyt.png" alt="">
+                    <div class="row"> -->
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="http://www.conacyt.gov.py" target="_blank">
+                                <div class="box">
+                                    <div class="box-icon">
+                                        <img src="{% static 'smwebsite/images/logos/logo_conacyt.png' %}" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <a href="http://www.conacyt.gov.py/programa-prociencia" target="_blank">
-                            <div class="box">
-                                <div class="box-icon">
-                                    <img src="images/logos/logo_prociencia.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="http://www.conacyt.gov.py/programa-prociencia" target="_blank">
+                                <div class="box">
+                                    <div class="box-icon">
+                                        <img src="{% static 'smwebsite/images/logos/logo_prociencia.png' %}" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                            </a>
+                        </div>
+                    <!-- </div>
+                </div> -->
             </div>
         </div>
 
@@ -526,7 +548,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/nathalie.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/nathalie.jpg' %}" alt="">
                         </div>
                         <h4>Ing. Nathalie Aquino</h4>
                         <h6>Lead Researcher</h6>
@@ -542,7 +564,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/fausto.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/fausto.jpg' %}" alt="">
                         </div>
                         <h4>Fausto Giunchiglia</h4>
                         <h6>Associated Researcher</h6>
@@ -556,7 +578,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/jorgeprofile.jpeg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/jorgeprofile.jpeg' %}" alt="">
                         </div>
                         <h4>Ing. Jorge Saldivar</h4>
                         <h6>Researcher</h6>
@@ -572,7 +594,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/javierprofile.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/javierprofile.jpg' %}" alt="">
                         </div>
                         <h4>Ing. Javier Paniagua</h4>
                         <h6>Researcher</h6>
@@ -587,7 +609,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/ronaldprofile.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/ronaldprofile.jpg' %}" alt="">
                         </div>
                         <h4>Ing. Ronald Chenu</h4>
                         <h6>Researcher</h6>
@@ -602,7 +624,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/patyprofile.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/patyprofile.jpg' %}" alt="">
                         </div>
                         <h4>Paty Fauvety</h4>
                         <h6>Associated Researcher</h6>
@@ -617,7 +639,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/eduprofile.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/eduprofile.jpg' %}" alt="">
                         </div>
                         <h4>Eduardo Maidana</h4>
                         <h6>Administrator</h6>
@@ -632,7 +654,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/moniprofile.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/moniprofile.jpg' %}" alt="">
                         </div>
                         <h4>Monica Fatecha</h4>
                         <h6>Junior Researcher</h6>
@@ -647,7 +669,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/wacho.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/wacho.jpg' %}" alt="">
                         </div>
                         <h4>Joaquin Olivera</h4>
                         <h6>Junior Researcher</h6>
@@ -662,7 +684,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/profilespics/elolugoprofile.jpg" alt="">
+                            <img src="{% static 'smwebsite/images/profilespics/elolugoprofile.jpg' %}" alt="">
                         </div>
                         <h4>Alejandro Lugo</h4>
                         <h6>Junior Researcher</h6>
@@ -837,8 +859,8 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                         <div class="page-title">
-                            <h2>Contact with us</h2>
-                            <p>If you have anything you would like to tell us, that will improve our project, feel free to do so!</p>
+                            <h2>Contact Us</h2>
+                            <p>Want to help? We will be very delighted to hear from you! Use the following channels and have your say:</p>
                         </div>
                     </div>
                 </div>
@@ -847,22 +869,22 @@
                         <address class="side-icon-boxes">
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/location-arrow.png" alt="">
+                                    <img src="{% static 'smwebsite/images/location-arrow.png' %}" alt="">
                                 </div>
                                 <p>Universidad Católica "Nuestra Señora de la Asunción" Campus Universitario</p><p><strong>Address: </strong> Tte. Cantaluppi y G. Molinas <br/>Asunción, Paraguay</p>
                             </div>
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/phone-arrow.png" alt="">
+                                    <img src="{% static 'smwebsite/images/phone-arrow.png' %}" alt="">
                                 </div>
                                 <p><strong>Telephone: </strong>
-                                    +59521334650 Int 101<br />
+                                    +595 21334650 Int 101<br />
                                     <!--<a href="callto:8801687420471">+8801687420471</a>-->
                                 </p>
                             </div>
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/mail-arrow.png" alt="">
+                                    <img src="{% static 'smwebsite/images/mail-arrow.png' %}" alt="">
                                 </div>
                                 <p><strong>E-mail: </strong>
                                     <a href="smart-traffic@uc.edu.py<">smart-traffic@uc.edu.py</a> <br />
@@ -900,7 +922,7 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <p>We want to create solutions to improve the quality of life of the people in Paraguay.</p>
+                        <p>Or reach us on any of these social networks:</p>
                     </div>
                 </div>
             </div>
@@ -909,24 +931,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by Colorlib</p>
+                        <p>&copy;Copyright 2018 All right reserved. This template is made with <i class="ti-heart" aria-hidden="true"></i> by Colorlib</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="{% static 'smwebsite/js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/bootstrap.min.js' %}"></script>
     <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="{% static 'smwebsite/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/contact-form.js' %}"></script>
+    <script src="{% static 'smwebsite/js/jquery.parallax-1.1.3.js' %}"></script>
+    <script src="{% static 'smwebsite/js/scrollUp.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/magnific-popup.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/wow.min.js' %}"></script>
     <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+    <script src="{% static 'smwebsite/js/main.js' %}"></script>
 </body>
 
 </html>

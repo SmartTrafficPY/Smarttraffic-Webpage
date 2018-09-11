@@ -93,6 +93,10 @@
     }
 }
 
+.row.equal {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* Wide Mobile Layout: 480px. */
 

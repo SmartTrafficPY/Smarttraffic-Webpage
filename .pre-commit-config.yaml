@@ -6,5 +6,4 @@
     rev: v1.4.0
     hooks:
     -   id: flake8
-
-
+        args: [--max-line-length=129]

@@ -3,7 +3,7 @@ FROM python:3.7-slim
 RUN groupadd user && useradd -ms /bin/bash -g user user
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -qq && \
-    apt-get install -qq -y build-essential && \
+    apt-get install -qq -y build-essential mime-support && \
     pip install -q --no-cache-dir -U pip && \
     pip install -q --no-cache-dir uwsgi && \
     pip install -q --no-cache-dir pipenv

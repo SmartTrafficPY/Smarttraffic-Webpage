@@ -3,6 +3,9 @@ services:
     smwebsite:
         image: smarttraffic/smwebsite:latest
         container_name: smwebsite
+        environment:
+            - DJANGO_SETTINGS_MODULE=smwebsite.settings.production
+            - ALLOWED_HOSTS=www.smarttraffic.com.py,smarttraffic.com.py,127.0.0.1
         # build:
         # context: ../
         # networks:

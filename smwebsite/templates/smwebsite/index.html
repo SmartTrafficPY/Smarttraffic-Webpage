@@ -1,6 +1,7 @@
-{% load static %}
+{% load static i18n %}
 <!doctype html>
-<html class="no-js" lang="zxx">
+{% get_current_language as LANGUAGE_CODE %}
+<html class="no-js" lang="{{ LANGUAGE_CODE }}">
 
 <head>
     <meta charset="utf-8">
@@ -10,7 +11,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>Smart Traffic Project</title>
+    <title>{% trans 'Smart Traffic Project' %}</title>
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="{% static 'smwebsite/images/apple-touch-icon.png' %}">
     <link rel="shortcut icon" type="image/ico" href="{% static 'smwebsite/images/smarttrafficlogoicon.ico' %}" />
@@ -78,7 +79,7 @@
         <div class="container">
             <div class="row v-center">
                 <div class="col-xs-12 col-md-7 header-text">
-                    <h1>All about improving urban mobility in Asunción, Paraguay</h1>
+                    <h1>{% trans 'All about improving urban mobility in Asunción, Paraguay' %}</h1>
                     <p>This project is part of the PROCIENCIA program, financed by CONACYT to make solutions for the people.</p>
                     <!--<a href="#" class="button white">Watch video</a>-->
                 </div>

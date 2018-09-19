@@ -37,6 +37,8 @@ CSS INDEX
 2. Theme Default CSS
 --------------------*/
 
+
+
 a {
     text-decoration: none;
     outline: none;
@@ -94,6 +96,11 @@ input:-webkit-autofill:focus {
 /**
 *Helper-Classes
 **/
+
+/**
+template classes
+**/
+
 
 .full-height {
     width: 100%;
@@ -170,6 +177,21 @@ input:-webkit-autofill:focus {
 *Default Background Class
 **/
 
+/**
+User-defined classes
+**/
+
+.definition {
+  padding-left: 25px;
+}
+
+
+.specific-goal {
+  padding-left: 15px;
+}
+/**
+template-defined classes
+**/
 .overlay:before,
 .sky-bg {
     background: #75cbe7;

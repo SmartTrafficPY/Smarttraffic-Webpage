@@ -84,5 +84,5 @@ db.sqlite3
 .idea
 
 /requirements/
-/static/
+/static
 /.venv

@@ -11,7 +11,8 @@ services:
         # networks:
         #     - dsne-django-nginx
         volumes:
-            - smwebsite-static:/home/user/static
+            # - smwebsite-static:/home/user/static
+            - /var/www/smarttraffic.com.py/html/static:/home/user/static
         ports:
             - 8000:8888
 
@@ -29,8 +30,8 @@ services:
   #   depends_on:
   #     - django
 
-volumes:
-    smwebsite-static:
+# volumes:
+#     smwebsite-static:
 
 # networks:
 #   dsne-django-nginx:

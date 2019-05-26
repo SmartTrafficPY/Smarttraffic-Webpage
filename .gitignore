@@ -64,10 +64,6 @@ htmlcov/
 .cache
 nosetests.xml
 
-# Translations
-*.mo
-*.pot
-
 # Sphinx documentation
 docs/_build/
 

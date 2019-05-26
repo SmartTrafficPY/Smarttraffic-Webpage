@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 13:43-0400\n"
+"POT-Creation-Date: 2019-05-25 14:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,80 +18,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\smwebsite\settings\base.py:113
+#: smwebsite/settings/base.py:113
 msgid "English"
 msgstr "Inglés"
 
-#: .\smwebsite\settings\base.py:114
+#: smwebsite/settings/base.py:114
 msgid "Spanish"
 msgstr "Español"
 
-#: .\smwebsite\settings\base.py:115
+#: smwebsite/settings/base.py:115
 msgid "Italian"
 msgstr "Italiano"
 
-#: .\smwebsite\templates\smwebsite\index.html:14
+#: smwebsite/templates/smwebsite/index.html:14
 msgid "Smart Traffic Project"
 msgstr "Proyecto Smart Traffic"
 
-#: .\smwebsite\templates\smwebsite\index.html:63
+#: smwebsite/templates/smwebsite/index.html:63
 msgid "Project"
 msgstr "Proyecto"
 
-#: .\smwebsite\templates\smwebsite\index.html:65
-#: .\smwebsite\templates\smwebsite\index.html:148
+#: smwebsite/templates/smwebsite/index.html:65
+#: smwebsite/templates/smwebsite/index.html:148
 msgid "Institutions"
 msgstr "Instituciones"
 
-#: .\smwebsite\templates\smwebsite\index.html:66
-#: .\smwebsite\templates\smwebsite\index.html:226
+#: smwebsite/templates/smwebsite/index.html:66
+#: smwebsite/templates/smwebsite/index.html:226
 msgid "Expected Results"
 msgstr "Resultados Esperados"
 
-#: .\smwebsite\templates\smwebsite\index.html:67
-#: .\smwebsite\templates\smwebsite\index.html:507
+#: smwebsite/templates/smwebsite/index.html:67
+#: smwebsite/templates/smwebsite/index.html:507
 msgid "Team"
 msgstr "Equipo"
 
-#: .\smwebsite\templates\smwebsite\index.html:70
-#: .\smwebsite\templates\smwebsite\index.html:826
+#: smwebsite/templates/smwebsite/index.html:70
+#: smwebsite/templates/smwebsite/index.html:826
 msgid "Contact Us"
 msgstr "Contáctenos"
 
-#: .\smwebsite\templates\smwebsite\index.html:82
+#: smwebsite/templates/smwebsite/index.html:82
 msgid "Improving urban mobility in Asunción, Paraguay"
 msgstr "Mejorando la movilidad urbana en Asunción, Paraguay"
 
-#: .\smwebsite\templates\smwebsite\index.html:83
+#: smwebsite/templates/smwebsite/index.html:83
 msgid ""
 "This project is part of the PROCIENCIA program, financed by CONACYT to make "
 "solutions for the people."
-msgstr "Este proyecto es parte del programa PROCIENCIA, financiada por la CONACYT para generar soluciones para los ciudadanos"
+msgstr ""
+"Este proyecto es parte del programa PROCIENCIA, financiada por la CONACYT "
+"para generar soluciones para los ciudadanos"
 
-#: .\smwebsite\templates\smwebsite\index.html:102
+#: smwebsite/templates/smwebsite/index.html:102
 msgid "Project Goals"
 msgstr "Objetivos del Proyecto"
 
-#: .\smwebsite\templates\smwebsite\index.html:104
+#: smwebsite/templates/smwebsite/index.html:104
 msgid "Primary Goal"
 msgstr "Objetivo Principal"
 
-#: .\smwebsite\templates\smwebsite\index.html:106
+#: smwebsite/templates/smwebsite/index.html:106
 msgid ""
 "Research, design, and implementation of technologies that exploit the "
 "advantages of Collective Adaptative Systems (CAS) and Mobile Crowdsensing "
 "(MCS) to improve the urban mobility of Asunción, the capital city of "
 "Paraguay."
-msgstr "Investigar, diseñar, e implementar tecnologias que exploten las ventajas de Sistemas Colectivos Adaptativos (CAS) y Mobile Crowdsensing (MCS) para mejorar la movilidad urbana de Asunción, capital de Paraguay"
+msgstr ""
+"Investigar, diseñar, e implementar tecnologias que exploten las ventajas de "
+"Sistemas Colectivos Adaptativos (CAS) y Mobile Crowdsensing (MCS) para "
+"mejorar la movilidad urbana de Asunción, capital de Paraguay"
 
-#: .\smwebsite\templates\smwebsite\index.html:109
+#: smwebsite/templates/smwebsite/index.html:109
 msgid ""
 "Mobile crowdsensing (MCS), or simply crowdsensing, is a sensing paradigm "
 "that uses the power of various mobile devices, such as smartphones, tablets, "
 "wearable devices, smart sensors, etc., to monitor large-scale phenomena."
-msgstr "Mobile crowdsensing (MCS), o simplemente crowdsensing, es un paradigma de detección que utiliza el poder de varios dispositivos mobiles, como los celulares inteligentes, tabletas, relojes inteligentes, sensores inteligentes, etc., para monitorear un fenomeno de gran escala"
+msgstr ""
+"Mobile crowdsensing (MCS), o simplemente crowdsensing, es un paradigma de "
+"detección que utiliza el poder de varios dispositivos mobiles, como los "
+"celulares inteligentes, tabletas, relojes inteligentes, sensores "
+"inteligentes, etc., para monitorear un fenomeno de gran escala"
 
-#: .\smwebsite\templates\smwebsite\index.html:112
+#: smwebsite/templates/smwebsite/index.html:112
 msgid ""
 "Collective Adaptive Systems (CAS) are systems that consist of multiple "
 "components or agents that interact collaboratively on common goals, and "
@@ -99,136 +108,171 @@ msgid ""
 "agents identify with each other as a group or collective, they lack a "
 "complete view of the system and all decisions they take must rely only on "
 "partial, localized information."
-msgstr "Sistemas Colectivos Adaptativos (CAS) son sistemas que consisten en multiples componentes o agentes que interactuan colaborativamente por objetivos comunes, y compiten para alcanzar objetivos individuales. La noción clave es que aunque estos agentes se identifican entre ellos como grupo o colectivo, éstos carecen de una vista completa del sistema y todas las decisiones que toman deben confiar en información parcial local"
+msgstr ""
+"Sistemas Colectivos Adaptativos (CAS) son sistemas que consisten en "
+"multiples componentes o agentes que interactuan colaborativamente por "
+"objetivos comunes, y compiten para alcanzar objetivos individuales. La "
+"noción clave es que aunque estos agentes se identifican entre ellos como "
+"grupo o colectivo, éstos carecen de una vista completa del sistema y todas "
+"las decisiones que toman deben confiar en información parcial local"
 
-#: .\smwebsite\templates\smwebsite\index.html:119
+#: smwebsite/templates/smwebsite/index.html:119
 msgid "Specific Goals"
 msgstr "Objetivos Específicos"
 
-#: .\smwebsite\templates\smwebsite\index.html:123
+#: smwebsite/templates/smwebsite/index.html:123
 msgid ""
 "Understand the start of the art on CAS- and MCS-based technologies proposed "
 "to address urban mobility problems."
-msgstr "Comprender el estado del arte sobre tecnologias basadas en CAS y MCS que proponen abordar problemas de movilidad urbana"
+msgstr ""
+"Comprender el estado del arte sobre tecnologias basadas en CAS y MCS que "
+"proponen abordar problemas de movilidad urbana"
 
-#: .\smwebsite\templates\smwebsite\index.html:128
+#: smwebsite/templates/smwebsite/index.html:128
 msgid ""
 "Model, design, and implement solutions that leverage on CAS and MCS "
 "technologies to improve the urban mobility of Asuncion, Paraguay."
-msgstr "Modelar, diseñar, e implementar soluciones que aprovechen tecnologias sobre CAS y MCS para mejor la mobilidad urbana de Asunción, Paraguay"
+msgstr ""
+"Modelar, diseñar, e implementar soluciones que aprovechen tecnologias sobre "
+"CAS y MCS para mejor la mobilidad urbana de Asunción, Paraguay"
 
-#: .\smwebsite\templates\smwebsite\index.html:133
+#: smwebsite/templates/smwebsite/index.html:133
 msgid ""
 "Validate the solutions as efficient platforms to solve problems in urban "
 "mobility."
-msgstr "Validar las soluciones como plataformas eficientes que resuelvan problemas de mobilidad urbana"
+msgstr ""
+"Validar las soluciones como plataformas eficientes que resuelvan problemas "
+"de mobilidad urbana"
 
-#: .\smwebsite\templates\smwebsite\index.html:236
-#: .\smwebsite\templates\smwebsite\index.html:296
+#: smwebsite/templates/smwebsite/index.html:236
+#: smwebsite/templates/smwebsite/index.html:296
 msgid "Report"
 msgstr "Reporte"
 
-#: .\smwebsite\templates\smwebsite\index.html:239
+#: smwebsite/templates/smwebsite/index.html:239
 msgid ""
 "The report \"SmartCity Asunción\" where the state of the art related to the "
 "different models and technologies related to SmartCities is compiled and its "
 "possible application and utility for the city of Asunción is studied."
-msgstr "El reporte \"SmartCity Asunción\" donde el estado del arte relacionado a diferentes modelos y tecnologias relacionas a SmartCities es compilado y su posible aplicacion e utilidad para la ciudad de Asunción es estudiada"
+msgstr ""
+"El reporte \"SmartCity Asunción\" donde el estado del arte relacionado a "
+"diferentes modelos y tecnologias relacionas a SmartCities es compilado y su "
+"posible aplicacion e utilidad para la ciudad de Asunción es estudiada"
 
-#: .\smwebsite\templates\smwebsite\index.html:248
-#: .\smwebsite\templates\smwebsite\index.html:299
+#: smwebsite/templates/smwebsite/index.html:248
+#: smwebsite/templates/smwebsite/index.html:299
 msgid "Design"
 msgstr "Diseño"
 
-#: .\smwebsite\templates\smwebsite\index.html:251
+#: smwebsite/templates/smwebsite/index.html:251
 msgid ""
 "A proposal of architectural design of the SmartCity platform adapted to the "
 "demands of Asunción, product of research, adaptation and contribution to the "
 "state of the art of the models and related technologies, in line with the "
 "areas of interest identified in the previous report."
-msgstr "Una propuesta de diseño arquitectural de la plataforma SmartCity adaptada a las demandas de Asunción, producto de investigación, adaptación y contribucion al estado del arte de los modelos y tecnologías relacionadas, en línea con las áreas de interés identificadas en el reporte previo"
+msgstr ""
+"Una propuesta de diseño arquitectural de la plataforma SmartCity adaptada a "
+"las demandas de Asunción, producto de investigación, adaptación y "
+"contribucion al estado del arte de los modelos y tecnologías relacionadas, "
+"en línea con las áreas de interés identificadas en el reporte previo"
 
-#: .\smwebsite\templates\smwebsite\index.html:260
-msgid "Dissemination of results"
-msgstr "Diseminación de resultados"
-
-#: .\smwebsite\templates\smwebsite\index.html:263
-msgid ""
-"Dissemination of results and software tools resulting in web and other "
-"social media. Consolidation of research: publication in congresses and "
-"international journals. Other general and / or specialized disseminating "
-"activities."
-msgstr "Diseminación de resultados y herramientas de software resultado en web y otra red social. Consolidacion de la investigación: publicacion en congresos y otras revistas internacionales. Otras actividades diseminante generales y / o especializadas"
-
-#: .\smwebsite\templates\smwebsite\index.html:272
-#: .\smwebsite\templates\smwebsite\index.html:302
+#: smwebsite/templates/smwebsite/index.html:260
+#: smwebsite/templates/smwebsite/index.html:302
 msgid "Prototype"
 msgstr "Prototipo"
 
-#: .\smwebsite\templates\smwebsite\index.html:275
+#: smwebsite/templates/smwebsite/index.html:263
 msgid ""
 "The implementation of the prototype platform \"SmartCity of Asunción\" that "
 "offers services of registration and processing of the collected data, and "
 "the implementation of SmartTraffic and other demonstrative applications to "
 "collect input data from each of the mobile sensor units and present the "
 "joint result of monitoring when it is required by the user."
-msgstr "La implementación de la plataforma prototipo \"SmartCity de Asunción\" que ofrece servicios de registro y procesamiento de datos recolectados, y la implementación de SmartTraffic y otras aplicaciones demonstrativas para recolectar datos de entrada de cada unidad sensorial en el móvil  y presentar el resultado conjunto de monitoreo cuando éste es requerido por el usuario"
+msgstr ""
+"La implementación de la plataforma prototipo \"SmartCity de Asunción\" que "
+"ofrece servicios de registro y procesamiento de datos recolectados, y la "
+"implementación de SmartTraffic y otras aplicaciones demonstrativas para "
+"recolectar datos de entrada de cada unidad sensorial en el móvil  y "
+"presentar el resultado conjunto de monitoreo cuando éste es requerido por el "
+"usuario"
 
-#: .\smwebsite\templates\smwebsite\index.html:284
-msgid "Test report"
-msgstr "Reporte de la Prueba"
+#: smwebsite/templates/smwebsite/index.html:272
+#: smwebsite/templates/smwebsite/index.html:305
+msgid "Test"
+msgstr "Prueba"
 
-#: .\smwebsite\templates\smwebsite\index.html:287
+#: smwebsite/templates/smwebsite/index.html:275
 msgid ""
 "A test report, validation and evaluation of the results of the prototype "
 "platform and the SmartTraffic demonstration application, using various types "
 "of empirical studies for the usability analysis and other attributes that "
 "determine the quality of a product."
-msgstr "Un reporte de la prueba, validando y evaluando los resultados de la plataforma prototipo y la demostración de la aplicación de SmartTraffic, usando varios tipos de estudios empíricos para el análisis de usabilidad y otros atributos que determinan la calidad del producto"
+msgstr ""
+"Un reporte de la prueba, validando y evaluando los resultados de la "
+"plataforma prototipo y la demostración de la aplicación de SmartTraffic, "
+"usando varios tipos de estudios empíricos para el análisis de usabilidad y "
+"otros atributos que determinan la calidad del producto"
 
-#: .\smwebsite\templates\smwebsite\index.html:305
-msgid "Test"
-msgstr "Prueba"
+#: smwebsite/templates/smwebsite/index.html:284
+msgid "Dissemination of results"
+msgstr "Diseminación de resultados"
 
-#: .\smwebsite\templates\smwebsite\index.html:308
+#: smwebsite/templates/smwebsite/index.html:287
+msgid ""
+"Dissemination of results and software tools resulting in web and other "
+"social media. Consolidation of research: publication in congresses and "
+"international journals. Other general and / or specialized disseminating "
+"activities."
+msgstr ""
+"Diseminación de resultados y herramientas de software resultado en web y "
+"otra red social. Consolidacion de la investigación: publicacion en congresos "
+"y otras revistas internacionales. Otras actividades diseminante generales "
+"y / o especializadas"
+
+#: smwebsite/templates/smwebsite/index.html:308
 msgid "Dissemination"
 msgstr "Diseminación"
 
-#: .\smwebsite\templates\smwebsite\index.html:518
+#: smwebsite/templates/smwebsite/index.html:518
 msgid "Lead Researcher"
 msgstr "Investigadora Principal"
 
-#: .\smwebsite\templates\smwebsite\index.html:534
-#: .\smwebsite\templates\smwebsite\index.html:594
+#: smwebsite/templates/smwebsite/index.html:534
+#: smwebsite/templates/smwebsite/index.html:594
 msgid "Associated Researcher"
 msgstr "Investigador Asociado"
 
-#: .\smwebsite\templates\smwebsite\index.html:548
-#: .\smwebsite\templates\smwebsite\index.html:564
-#: .\smwebsite\templates\smwebsite\index.html:579
+#: smwebsite/templates/smwebsite/index.html:548
+#: smwebsite/templates/smwebsite/index.html:564
+#: smwebsite/templates/smwebsite/index.html:579
 msgid "Researcher"
 msgstr "Investigador"
 
-#: .\smwebsite\templates\smwebsite\index.html:609
+#: smwebsite/templates/smwebsite/index.html:609
 msgid "Administrator"
 msgstr "Administrador"
 
-#: .\smwebsite\templates\smwebsite\index.html:624
-#: .\smwebsite\templates\smwebsite\index.html:639
-#: .\smwebsite\templates\smwebsite\index.html:654
+#: smwebsite/templates/smwebsite/index.html:624
+#: smwebsite/templates/smwebsite/index.html:639
+#: smwebsite/templates/smwebsite/index.html:654
 msgid "Junior Researcher"
 msgstr "Investigador en formación"
 
-#: .\smwebsite\templates\smwebsite\index.html:827
+#: smwebsite/templates/smwebsite/index.html:827
 msgid ""
 "Want to help? We will be very delighted to hear from you! Use the following "
 "channels and have your say:"
-msgstr "¿Quisiera ayudar? ¡Estaremos encantados de saber de usted! Utilice los siguientes canales y dé su opinión:"
+msgstr ""
+"¿Quisiera ayudar? ¡Estaremos encantados de saber de usted! Utilice los "
+"siguientes canales y dé su opinión:"
 
-#: .\smwebsite\templates\smwebsite\index.html:844
+#: smwebsite/templates/smwebsite/index.html:844
 msgid "Telephone: "
 msgstr "Telefono: "
 
-#: .\smwebsite\templates\smwebsite\index.html:889
+#: smwebsite/templates/smwebsite/index.html:888
 msgid "Or reach us on any of these social networks:"
 msgstr "O alcáncenos en cualquiera de estas redes sociales:"
+
+#~ msgid "Test report"
+#~ msgstr "Reporte de la Prueba"

@@ -1,0 +1,291 @@
+{% load static i18n %}
+<!doctype html>
+{% get_current_language as LANGUAGE_CODE %}
+<html class="no-js" lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>{% trans 'Smart Traffic Project' %}</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="{% static 'smwebsite/images/apple-touch-icon.png' %}">
+    <link rel="shortcut icon" type="image/ico" href="{% static 'smwebsite/images/smarttrafficlogoicon.ico' %}" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="{% static 'smwebsite/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/animate.css' %}">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="{% static 'smwebsite/css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/style.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/responsive.css' %}">
+    <script src="{% static 'smwebsite/main.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#primary-menu">
+
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="https://www.smarttraffic.com.py/" class="navbar-brand logo">
+                    <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
+                </a>
+            </div>
+            <!--Logo/-->
+        </div>
+    </div>
+    <!--Mainmenu-area/-->
+
+
+
+    <section class="testimonial-area section-padding gray-bg overlay" id="blog-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h1>Blog</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20190531-IntroIng/IMG_20190531_144013.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Presentacion del proyecto a alumnos de introduccion a la ingenieria</h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span> <a href="#">Mayo 31, 2019</a></li>
+                            </ul>
+                            <p>De nuevo los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20181106-IIIEncuentroInvestigadores-SCP/paty_encuesta.jpeg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Presentacion de resultados de la encuesta en el Encuentro de Investigadores</a></h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span>Nov 06, 2018</li>
+                            </ul>
+                            <p>Los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20181102-JitCita/nathalie_presentando.jpeg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Presentacion del proyecto en JitCita</a></h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span>Nov 02, 2018</li>
+                            </ul>
+                            <p>Se presento el proyecto en el foro de JitCita realizado en la Universidad Autonoma de Asuncion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20180531-PresentacionJavierUC/IMG-8047.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Presentacion a los alumnos de la UCA</h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span> <a href="#">Mayo 31, 2018</a></li>
+                            </ul>
+                            <p>El investigador Javier Paniagua presento el proyecto Smartrtraffic a los alumnos de 4to año de Ingenieria Informatica de la Universidad Catolica "Nuestra Señora de la Asuncion".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20180521-InauguracionOficina/20180521_162409.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Inauguracion de nueva oficina</h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span> <a href="#">Mayo 21, 2018</a></li>
+                            </ul>
+                            <p>Los investigadores estrenaron nuevo equipo de oficina para mejorar el rendimiento en la investigacion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20180518-IntroIng/IMG-20180716-WA0011-ratio.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Presentacion del proyecto a alumnos de introduccion a la ingenieria</h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span> <a href="#">Mayo 18, 2018</a></li>
+                            </ul>
+                            <p>Los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20180410-ForoASUViva/30531001_1599465586789410_3962087565120503808_o.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Presentacion del proyecto a alumnos en el foro ASU Viva</h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span> <a href="#">Abril 10, 2018</a></li>
+                            </ul>
+                            <p>La primera presentacion del proyecto en publico de en el foro ASU Viva con la participacion del intendente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TODO:Revisar el javascript de la forma y las redes sociales del proyecto...-->
+    <footer class="footer-area relative sky-bg" id="contact-page">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="section-title">
+                            <h2>{% trans 'Contact Us' %}</h2>
+                            <p>{% trans 'Want to help? We will be very delighted to hear from you! Use the following channels and have your say:' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/location-arrow.png' %}" alt="">
+                                </div>
+                                <p>Universidad Católica "Nuestra Señora de la Asunción" Campus Universitario</p><p><strong>Address: </strong> Tte. Cantaluppi y G. Molinas <br/>Asunción, Paraguay</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/phone-arrow.png' %}" alt="">
+                                </div>
+                                <p><strong>{% trans 'Telephone: ' %}</strong>
+                                    +595 21334650 Int 101<br />
+                                    <!--<a href="callto:8801687420471">+8801687420471</a>-->
+                                </p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/mail-arrow.png' %}" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="smart-traffic@uc.edu.py<">smart-traffic@uc.edu.py</a> <br />
+                                </p>
+                            </div>
+                        </address>
+                    </div>
+                    <!--Code for sending email-->
+                    <!--<div class="col-xs-12 col-md-8">-->
+                        <!--<form action="process.php" id="contact-form" method="post" class="contact-form">-->
+                            <!--<div class="form-double">-->
+                                <!--<input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">-->
+                                <!--<input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">-->
+                            <!--</div>-->
+                            <!--<input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">-->
+                            <!--<textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>-->
+                            <!--<button type="sibmit" class="button">Submit</button>-->
+                        <!--</form>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <!--TODO: revisar las redes sociales-->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pull-right">
+                        <ul class="social-menu text-right x-left">
+                            <li><a href="https://www.facebook.com/smarttraffic.proyect/" target="_blank"><i class="ti-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/smarttrafficpy" target="_blank"><i class="ti-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/smarttrafficproject/" target="_blank"><i class="ti-instagram"></i></a></li>
+                            <!--<li><a href="#"><i class="ti-linkedin"></i></a></li>-->
+                            <!--<li><a href="#"><i class="ti-github"></i></a></li>-->
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p>{% trans 'Or reach us on any of these social networks:' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy;Copyright 2018 All right reserved. This template is made with <i class="ti-heart" aria-hidden="true"></i> by Colorlib</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Vendor-JS-->
+    <script src="{% static 'smwebsite/js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/bootstrap.min.js' %}"></script>
+    <!--Plugin-JS-->
+    <script src="{% static 'smwebsite/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/contact-form.js' %}"></script>
+    <script src="{% static 'smwebsite/js/jquery.parallax-1.1.3.js' %}"></script>
+    <script src="{% static 'smwebsite/js/scrollUp.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/magnific-popup.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/wow.min.js' %}"></script>
+    <!--Main-active-JS-->
+    <script src="{% static 'smwebsite/js/main.js' %}"></script>
+</body>
+
+</html>

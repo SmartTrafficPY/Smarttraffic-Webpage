@@ -1,0 +1,369 @@
+{% load static i18n %}
+<!doctype html>
+{% get_current_language as LANGUAGE_CODE %}
+<html class="no-js" lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>{% trans 'Smart Traffic Project' %}</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="{% static 'smwebsite/images/apple-touch-icon.png' %}">
+    <link rel="shortcut icon" type="image/ico" href="{% static 'smwebsite/images/smarttrafficlogoicon.ico' %}" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="{% static 'smwebsite/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/animate.css' %}">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="{% static 'smwebsite/css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/style.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/responsive.css' %}">
+    <script src="{% static 'smwebsite/main.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#primary-menu">
+
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="https://www.smarttraffic.com.py/" class="navbar-brand logo">
+                    <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
+                </a>
+            </div>
+            <!--Logo/-->
+            <nav class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#project-page">{% trans 'Project' %}</a></li>
+                    <!--<li><a href="#goal-page">Goals</a></li>-->
+                    <li><a href="#institutions-page">{% trans 'Institutions' %}</a></li>
+                    <li><a href="#publications-page">{% trans 'Expected Results' %}</a></li>
+                    <li><a href="#team-page">{% trans 'Team' %}</a></li>
+                    <!--<li><a href="#faq-page">FAQ</a></li>-->
+                    <li><a href="#blog-page">Blog</a></li>
+                    <li><a href="#contact-page">{% trans 'Contact Us' %}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Mainmenu-area/-->
+    <!--Header-area-->
+    <header class="header-area overlay full-height relative v-center" id="home-page">
+        <div class="absolute anlge-bg"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text">
+                    <h1>{% trans 'Improving urban mobility in Asunción, Paraguay' %}</h1>
+                    <p>{% trans 'This project is part of the PROCIENCIA program, financed by CONACYT to make solutions for the people.' %}
+                    </p>
+                    <!--<a href="#" class="button white">Watch video</a>-->
+                </div>
+                <!-- Aca se podria poner las imagenes de las instituciones por ejemplo... y que vaya girando-->
+                <div class="hidden-xs hidden-sm col-md-5 text-right">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header-area/-->
+    <!--SE VAN DETALLANDO MAS ABAJO LAS SECCIONES DIVIDIDAS EN PAGINAS, PARA SALTOS...(team, institutions,etc...)-->
+    <!--Feature-area-->
+
+    <section class="gray-bg section-padding" id="project-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-title">
+                        <div class="text-center">
+                            <h2>Publicaciones</h2>
+                        </div>
+                        <h3 style="text-align: left;"><strong>Para CONACYT</strong></h3>
+                        <ul>
+                            <li><strong>Fatecha, M., Lugo, A., Olivera, J., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
+                                    &nbsp;(2018)</strong>
+                                <div>Estado del arte de aplicaciones relacionadas a la movilidad urbana</div>
+                                <div class="row v-center">
+                                    <div class="col-xs-12 col-md-7 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                            <li><strong>Fatecha, M., Lugo, A., Olivera, J., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
+                                    &nbsp;(2018)</strong>
+                                <div>Mobile Crowdsensing and Collective Adaptive Systems
+                                     Applied to Solve Urban Mobility Problems: 
+                                     A Systematic Mapping Study</div>
+                                <div class="row v-center">
+                                    <div class="col-xs-6 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                            Poster:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                            <li><strong>Fauvety P.,Fatecha, M., Lugo, A., Olivera, J., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
+                                    &nbsp;(2018)</strong>
+                                <div>Percepción ciudadana acerca de los problemas de movilidad en Asunción</div>
+                                <div class="row v-center">
+                                    <div class="col-xs-6 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                            Poster:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                            Presentacion:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                            <li><strong>Aquino, N., Chenu-Abente, R., Paniagua, J.
+                                    &nbsp;(2018)</strong>
+                                <div>
+                                    Casos de uso de movilidad urbana en Asunción
+                                </div>
+                                <div class="row v-center">
+                                    <div class="col-xs-6 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                            <li><strong>Fatecha, M., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
+                                    &nbsp;(2018)</strong>
+                                <div>
+                                    Propuestas de aplicaciones de movilidad urbana en Asunción:                                     
+                                    SmartMoving
+                                </div>
+                                <div class="row v-center">
+                                    <div class="col-xs-12 col-md-7 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                            <li><strong>Olivera, J., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
+                                    &nbsp;(2018)</strong>
+                                <div>
+                                    Propuestas de aplicaciones de movilidad urbana en Asunción:                                     
+                                    SmartParking
+                                </div>
+                                <div class="row v-center">
+                                    <div class="col-xs-12 col-md-7 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                            <li><strong>Lugo, A., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
+                                    &nbsp;(2018)</strong>
+                                <div>
+                                    Propuestas de aplicaciones de movilidad urbana en Asunción:                                     
+                                    UCArpooling
+                                </div>
+                                <div class="row v-center">
+                                    <div class="col-xs-12 col-md-7 header-text">
+                                        <p>
+                                            Documento:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
+                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
+                            </li>
+                        </ul>
+                        <p>&nbsp;</p>
+                        <h3 style="text-align: left;"><strong>Para publico general</strong></h3>
+                        <ul>
+                            <li><strong>González, M., Cernuzzi, L., Aquino, N., Pastor, O. (2016)</strong>
+                                <div>Developing Web Applications For Different Architectures: The MoWebA Approach.</div>
+                                <div>In Tenth IEEE International Conference on Research Challenges in Information
+                                    Science, RCIS 2016, Grenoble, France, June 1-3, pages 1-11.</div>
+                                <p><a href="http://ieeexplore.ieee.org/document/7549344/" target="_blank"><i
+                                            class="fa fa-file-pdf-o fa-2x "></i></a> <a
+                                        href="https://www.dei.uc.edu.py/proyectos/mddplus/wp-content/uploads/2016/06/presentationRCIS2016-final.pdf"
+                                        target="_blank"><i class="fa fa-file-powerpoint-o fa-2x "></i></a></p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <div><strong>López, I., González, M., Aquino, N., Cernuzzi, L.&nbsp;(2016)</strong>
+                                </div>
+                                <div>Una Propuesta Basada en Model Driven Architecture para el Soporte de Rich Internet
+                                    Applications.</div>
+                                <div>In Memorias de la XIX Conferencia Iberoamericana de Software Engineering, CIbSE
+                                    2016, Quito, Ecuador, April 27-29, pages 25-38.</div>
+                                <p><i class="fa fa-file-pdf-o fa-2x "></i> <a
+                                        href="https://www.dei.uc.edu.py/proyectos/mddplus/wp-content/uploads/2016/06/Presentacion-final_v3-.pdf"
+                                        target="_blank"><i class="fa fa-file-powerpoint-o fa-2x "></i></a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TODO:Revisar el javascript de la forma y las redes sociales del proyecto...-->
+    <footer class="footer-area relative sky-bg" id="contact-page">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="section-title">
+                            <h2>{% trans 'Contact Us' %}</h2>
+                            <p>{% trans 'Want to help? We will be very delighted to hear from you! Use the following channels and have your say:' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/location-arrow.png' %}" alt="">
+                                </div>
+                                <p>Universidad Católica "Nuestra Señora de la Asunción" Campus Universitario</p>
+                                <p><strong>Address: </strong> Tte. Cantaluppi y G. Molinas <br />Asunción, Paraguay</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/phone-arrow.png' %}" alt="">
+                                </div>
+                                <p><strong>{% trans 'Telephone: ' %}</strong>
+                                    +595 21334650 Int 101<br />
+                                    <!--<a href="callto:8801687420471">+8801687420471</a>-->
+                                </p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/mail-arrow.png' %}" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="smart-traffic@uc.edu.py<">smart-traffic@uc.edu.py</a> <br />
+                                </p>
+                            </div>
+                        </address>
+                    </div>
+                    <!--Code for sending email-->
+                    <!--<div class="col-xs-12 col-md-8">-->
+                    <!--<form action="process.php" id="contact-form" method="post" class="contact-form">-->
+                    <!--<div class="form-double">-->
+                    <!--<input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">-->
+                    <!--<input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">-->
+                    <!--</div>-->
+                    <!--<input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">-->
+                    <!--<textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>-->
+                    <!--<button type="sibmit" class="button">Submit</button>-->
+                    <!--</form>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <!--TODO: revisar las redes sociales-->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pull-right">
+                        <ul class="social-menu text-right x-left">
+                            <li><a href="https://www.facebook.com/smarttraffic.proyect/" target="_blank"><i
+                                        class="ti-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/smarttrafficpy" target="_blank"><i
+                                        class="ti-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/smarttrafficproject/" target="_blank"><i
+                                        class="ti-instagram"></i></a></li>
+                            <!--<li><a href="#"><i class="ti-linkedin"></i></a></li>-->
+                            <!--<li><a href="#"><i class="ti-github"></i></a></li>-->
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p>{% trans 'Or reach us on any of these social networks:' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy;Copyright 2018 All right reserved. This template is made with <i class="ti-heart"
+                                aria-hidden="true"></i> by Colorlib</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Vendor-JS-->
+    <script src="{% static 'smwebsite/js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/bootstrap.min.js' %}"></script>
+    <!--Plugin-JS-->
+    <script src="{% static 'smwebsite/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/contact-form.js' %}"></script>
+    <script src="{% static 'smwebsite/js/jquery.parallax-1.1.3.js' %}"></script>
+    <script src="{% static 'smwebsite/js/scrollUp.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/magnific-popup.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/wow.min.js' %}"></script>
+    <!--Main-active-JS-->
+    <script src="{% static 'smwebsite/js/main.js' %}"></script>
+</body>
+
+</html>

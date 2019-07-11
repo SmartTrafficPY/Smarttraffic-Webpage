@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-11 11:38-0400\n"
+"POT-Creation-Date: 2019-07-11 13:44-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,17 +46,22 @@ msgstr "Presentación del proyecto a alumnos de introducción a la ingeniería."
 
 #: .\smwebsite\templates\blog\index.html:89
 msgid "Once again, the boys inspired the youngest to carry out projects."
-msgstr "Una vez más, los chicos inspiraron a los más jóvenes a realizar proyectos."
+msgstr ""
+"Una vez más, los chicos inspiraron a los más jóvenes a realizar proyectos."
 
 #: .\smwebsite\templates\blog\index.html:99
 msgid "Presentation of the results of the survey in the Meeting of Researchers"
-msgstr "Presentación de los resultados de la encuesta en el Encuentro de Investigadores."
+msgstr ""
+"Presentación de los resultados de la encuesta en el Encuentro de "
+"Investigadores."
 
 #: .\smwebsite\templates\blog\index.html:104
 msgid ""
 "The psychologist of the team presented the results of the survey in the "
 "meeting of researchers."
-msgstr "La psicóloga del equipo presentó los resultados de la encuesta en la reunión de investigadores."
+msgstr ""
+"La psicóloga del equipo presentó los resultados de la encuesta en la reunión "
+"de investigadores."
 
 #: .\smwebsite\templates\blog\index.html:114
 msgid "Presentation of the project in JitCita"
@@ -66,7 +71,9 @@ msgstr "Presentación del proyecto en JitCita."
 msgid ""
 "The project was presented in the JitCita forum held at the Autonomous "
 "University of Asuncion."
-msgstr "El proyecto se presentó en el foro JitCita celebrado en la Universidad Autónoma de Asunción."
+msgstr ""
+"El proyecto se presentó en el foro JitCita celebrado en la Universidad "
+"Autónoma de Asunción."
 
 #: .\smwebsite\templates\blog\index.html:131
 msgid "Presentation to the students of the UCA"
@@ -77,9 +84,10 @@ msgid ""
 "The researcher of the team, Javier Paniagua, presented the Smartrtraffic "
 "project to the 4th year students of Informatics Engineering of the Catholic "
 "University \"Nuestra Señora de la Asuncion\"."
-msgstr "El investigador del equipo, Javier Paniagua, presentó el proyecto Smartrtraffic"
-" a los alumnos de 4º año de Ingeniería Informática de la Universidad Católica"
-" \"Nuestra Señora de la Asunción\"."
+msgstr ""
+"El investigador del equipo, Javier Paniagua, presentó el proyecto "
+"Smartrtraffic a los alumnos de 4º año de Ingeniería Informática de la "
+"Universidad Católica \"Nuestra Señora de la Asunción\"."
 
 #: .\smwebsite\templates\blog\index.html:146
 msgid "Inauguration of the office"
@@ -89,7 +97,9 @@ msgstr "Inauguración de la oficina."
 msgid ""
 "The team of researchers launched new office equipment to improve research "
 "performance."
-msgstr "El equipo de investigadores lanzó nuevos equipos de oficina para mejorar el rendimiento de la investigación."
+msgstr ""
+"El equipo de investigadores lanzó nuevos equipos de oficina para mejorar el "
+"rendimiento de la investigación."
 
 #: .\smwebsite\templates\blog\index.html:166
 msgid "The boys inspired the youngest ones to carry out projects."
@@ -107,7 +117,9 @@ msgstr "Abril"
 msgid ""
 "The first presentation of the project in public of the forum ASU Viva with "
 "the participation of the mayor."
-msgstr "La primera presentación del proyecto en público del foro ASU Viva con la participación del alcalde."
+msgstr ""
+"La primera presentación del proyecto en público del foro ASU Viva con la "
+"participación del alcalde."
 
 #: .\smwebsite\templates\blog\index.html:200
 #: .\smwebsite\templates\dissemination\index.html:254
@@ -158,8 +170,8 @@ msgid "Publications and Technical Documents"
 msgstr "Publicaciones y Documentos Técnicos."
 
 #: .\smwebsite\templates\dissemination\index.html:74
-msgid "Deliverables for CONACYT"
-msgstr "Entregables para la CONACYT"
+msgid "Project deliverables"
+msgstr "Entregables del proyecto"
 
 #: .\smwebsite\templates\dissemination\index.html:82
 #: .\smwebsite\templates\dissemination\index.html:98
@@ -174,11 +186,11 @@ msgid "Document"
 msgstr "Documento"
 
 #: .\smwebsite\templates\dissemination\index.html:102
-#: .\smwebsite\templates\dissemination\index.html:120
+#: .\smwebsite\templates\dissemination\index.html:124
 msgid "Poster"
 msgstr "Poster"
 
-#: .\smwebsite\templates\dissemination\index.html:124
+#: .\smwebsite\templates\dissemination\index.html:120
 #: .\smwebsite\templates\dissemination\index.html:213
 #: .\smwebsite\templates\dissemination\index.html:231
 #, fuzzy
@@ -662,6 +674,9 @@ msgstr ""
 #| msgid "Report"
 msgid "Repository"
 msgstr "Repositorio"
+
+#~ msgid "Deliverables for CONACYT"
+#~ msgstr "Entregables para la CONACYT"
 
 #~ msgid "Test report"
 #~ msgstr "Reporte de la Prueba"

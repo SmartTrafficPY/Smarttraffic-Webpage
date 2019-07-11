@@ -9,9 +9,6 @@ docker-compose = "*"
 pyyaml = "==4.2b4"
 
 [dev-packages]
-"flake8" = "*"
-isort = "*"
-pep8 = "*"
 
 [requires]
 python_version = "3.7"

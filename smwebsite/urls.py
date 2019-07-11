@@ -25,10 +25,11 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     path('', views.home, name='home'),
-    path('UCArpooling/', views.ucarpooling, name='home'),
-    path('SmartParking/', views.smartparking, name='home'),
-    path('SmartMoving/', views.smartmoving, name='home'),
-    path('blog/', views.blog, name='home'),
+    path('UCArpooling/', views.ucarpooling, name='ucarpooling'),
+    path('SmartParking/', views.smartparking, name='smartparking'),
+    path('SmartMoving/', views.smartmoving, name='smartmoving'),
+    path('blog/', views.blog, name='blog'),
+    path('dissemination/', views.dissemination, name='dissemination'),
 )
 
 # urlpatterns += [

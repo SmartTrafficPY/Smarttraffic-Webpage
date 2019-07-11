@@ -86,3 +86,7 @@ db.sqlite3
 /requirements/
 /static
 /.venv
+
+
+### Visual Studio Code ###
+.vscode

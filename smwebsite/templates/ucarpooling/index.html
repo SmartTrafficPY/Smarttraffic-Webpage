@@ -1,0 +1,444 @@
+{% load static i18n %}
+<!doctype html>
+{% get_current_language as LANGUAGE_CODE %}
+<html class="no-js" lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>{% trans 'Smart Traffic Project' %}</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="{% static 'smwebsite/images/apple-touch-icon.png' %}">
+    <link rel="shortcut icon" type="image/ico" href="{% static 'smwebsite/images/smarttrafficlogoicon.ico' %}" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="{% static 'smwebsite/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/animate.css' %}">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="{% static 'smwebsite/css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/style.css' %}">
+    <link rel="stylesheet" href="{% static 'smwebsite/css/responsive.css' %}">
+    <script src="{% static 'smwebsite/main.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#primary-menu">
+
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="50">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="{% url 'home' %}" class="navbar-brand logo">
+                    <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
+                </a>
+            </div>
+            <!--Logo/-->
+            <nav class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#objective-section">{% trans 'Project' %}</a></li>
+                    <li><a href="#feature-section">{% trans 'Features' %}</a></li>
+                    <li><a href="#contribution-section">{% trans 'Contribute' %}</a></li>
+                    <li><a href="#blog-page">Blog</a></li>
+                    <li><a href="#contact-page">{% trans 'Contact Us' %}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Mainmenu-area/-->
+
+    <!--Header-area-->
+    <header class="header-area overlay medium-height relative v-center" id="header-area-ucarpooling">
+        <div class="absolute"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text-usecase">
+                    <h1>UCArpooling</h1>
+                    <p>{% trans 'Improving congestion by reducing the number of vehicles on the streets, at the same time providing security' %}</p>
+                    <!--<a href="#" class="button white">Watch video</a>-->
+                </div>
+                <!-- Aca se podria poner las imagenes de las instituciones por ejemplo... y que vaya girando-->
+                <div class="hidden-xs hidden-sm col-md-5 text-right">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header-area/-->
+
+
+
+<!--SE VAN DETALLANDO MAS ABAJO LAS SECCIONES DIVIDIDAS EN PAGINAS, PARA SALTOS...(team, institutions,etc...)-->
+
+    <!--TODO: Agregar una seccion de justificacion del caso de uso-->
+
+
+
+    <!--Use case objective section-->
+    <section class="gray-bg section-padding" id="objective-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-title">
+                        <div class="text-center">
+                            <h2>{% trans 'Project Goals' %}</h2>
+                        </div>
+                        <h3>{% trans 'Primary Goal' %}</h3>
+                        <p><i class="ti-star"></i>
+                            {% trans 'Design a non-profit carpooling system with a mobile application aimed at closed communities, decreasing the number of vehicles while commuting.' %}
+                        </p>
+                        <p class="definition"><i class="ti-shift-right"></i>
+                            {% trans 'It would benefit the city by reducing the number of vehicles on the road and everything that this causes, like less waiting time at traffic lights, especially during peak hours.' %}
+                        </p>
+                        <p class="definition"><i class="ti-shift-right"></i>
+                            {% trans 'It would benefit the institution that adopts it, by improving the camaraderie among its members and would help with difficulties of parking spaces' %}
+                        </p>
+                        <p class="definition"><i class="ti-shift-right"></i>
+                            {% trans 'It would benefit people by saving fuel money and generating new friendships and connections' %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>{% trans 'Specific Goals' %}</h3>
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                            <p class="specific-goal"><i class="ti-control-play"></i>
+                                {% trans 'Study the techniques and strategies that apply to the situation of a carpooling system for users of the same institution' %}
+                            </p>
+                        </div>
+                        <div class="panel">
+                            <p class="specific-goal"><i class="ti-control-play"></i>
+                                {% trans 'Design the carpooling system taking into account what has been studied' %}
+                            </p>
+                        </div>
+                        <div class="panel">
+                            <p class="specific-goal"><i class="ti-control-play"></i>
+                                {% trans 'Implement the matcher module between people for the system' %}
+                            </p>
+                        </div>
+                        <div class="panel">
+                            <p class="specific-goal"><i class="ti-control-play"></i>
+                                {% trans 'Analyze the impact of such system in a closed community. In particular at the Catholic University "Nuestra señora de la Asunción"' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Use case objective section/-->
+
+
+
+    <section class="gray-bg section-padding" id="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="section-title">
+                        <h2>{% trans 'Main features' %}</h2>
+                        <p>{% trans 'What UCArpooling has to offer' %} </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-screenshot">
+                            <img src="{% static 'smwebsite/images/ucarpooling/screenshot-ucarpooling.png' %}" alt="">
+                        </div>
+                        <h3>{% trans 'Safe' %}</h3>
+                        <p>{% trans 'Only the people of a community can make carpool between them' %}</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-screenshot">
+                            <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
+                        </div>
+                        <h3>{% trans 'Automatic matching' %}</h3>
+                        <p>{% trans 'Accepting fellow poolers based on a level of compatibility' %}</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-screenshot">
+                            <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
+                        </div>
+                        <h3>{% trans 'In-app chat system' %}</h3>
+                        <p>{% trans 'Chat with pool mates within the app to not share phone numbers or email' %}</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-screenshot">
+                            <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
+                        </div>
+                        <h3>{% trans 'Filter of poolers' %}</h3>
+                        <p>{% trans 'The ability to filter by sex, musical tastes, level of eloquence, smoker' %}</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-screenshot">
+                            <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
+                        </div>
+                        <h3>{% trans 'Real-time map' %}</h3>
+                        <p>{% trans 'To be able to see exactly where the fellow poolers are' %}</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-screenshot">
+                            <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
+                        </div>
+                        <h3>{% trans 'Reviews and friends in common system' %}</h3>
+                        <p>{% trans 'The ability to have the necessary information to accept or reject a carpool' %} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Contribution open source code repo. it has support for a background image similar to the background header image-->
+    <section class="price-area overlay section-padding" id="contribution-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="section-title">
+                        <h2>{% trans 'Contribute' %}</h2>
+                        <p>{% trans 'UCArpooling is an open source project hosted in Github, feel free to contribute' %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="price-table">
+                        <h3 class="text-uppercase price-title">Front end</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+<!--                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>-->
+                            <li>Android</li>
+<!--                            <li>2 Subdomains</li>-->
+<!--                            <li>5 Email Accounts</li>-->
+<!--                            <li>Webmail Support</li>-->
+<!--                            <li>Customer Support 24/7</li>-->
+                        </ul>
+                        <hr>
+                        <a target="_blank" href="https://github.com/SmartTrafficPY/ucarpooling" class="button">{% trans 'Repository' %}</a>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="price-table">
+                        <h3 class="text-uppercase price-title">Back end</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+<!--                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>-->
+                            <li>Django</li>
+<!--                            <li>2 Subdomains</li>-->
+<!--                            <li>5 Email Accounts</li>-->
+<!--                            <li>Webmail Support</li>-->
+<!--                            <li>Customer Support 24/7</li>-->
+                        </ul>
+                        <hr>
+                        <a target="_blank" href="https://github.com/SmartTrafficPY/smartcity-asuncion" class="button">{% trans 'Repository' %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonial-area section-padding gray-bg overlay" id="blog-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="section-title">
+                        <h2>Blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20180518-IntroIng/IMG-20180716-WA0011-ratio.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>Presentacion del proyecto a alumnos de introduccion a la ingenieria</h3>
+                            <ul class="blog-meta">
+<!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span> <a href="#">Mayo 18, 2018</a></li>
+                            </ul>
+                            <p>Los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20181102-JitCita/nathalie_presentando.jpeg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Presentacion del proyecto en JitCita</a></h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span>Nov 02, 2018</li>
+                            </ul>
+                            <p>Se presento el proyecto en el foro de JitCita realizado en la Universidad Autonoma de Asuncion .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <img src="{% static 'smwebsite/images/dissemination/20181106-IIIEncuentroInvestigadores-SCP/paty_encuesta.jpeg' %}" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Presentacion de resultados de la encuesta en el Encuentro de Investigadores</a></h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span>Nov 06, 2018</li>
+                            </ul>
+                            <p>Los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="button-news">
+                        <a href="../blog">{% trans 'see more news'%}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TODO:Revisar el javascript de la forma y las redes sociales del proyecto...-->
+    <footer class="footer-area relative sky-bg" id="contact-page">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="section-title">
+                            <h2>{% trans 'Contact Us' %}</h2>
+                            <p>{% trans 'Want to help? We will be very delighted to hear from you! Use the following channels and have your say:' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/location-arrow.png' %}" alt="">
+                                </div>
+                                <p>Universidad Católica "Nuestra Señora de la Asunción" Campus Universitario</p><p><strong>Address: </strong> Tte. Cantaluppi y G. Molinas <br/>Asunción, Paraguay</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/phone-arrow.png' %}" alt="">
+                                </div>
+                                <p><strong>{% trans 'Telephone: ' %}</strong>
+                                    +595 21334650 Int 101<br />
+                                    <!--<a href="callto:8801687420471">+8801687420471</a>-->
+                                </p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="{% static 'smwebsite/images/mail-arrow.png' %}" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="smart-traffic@uc.edu.py<">smart-traffic@uc.edu.py</a> <br />
+                                </p>
+                            </div>
+                        </address>
+                    </div>
+                    <!--Code for sending email-->
+                    <!--<div class="col-xs-12 col-md-8">-->
+                    <!--<form action="process.php" id="contact-form" method="post" class="contact-form">-->
+                    <!--<div class="form-double">-->
+                    <!--<input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">-->
+                    <!--<input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">-->
+                    <!--</div>-->
+                    <!--<input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">-->
+                    <!--<textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>-->
+                    <!--<button type="sibmit" class="button">Submit</button>-->
+                    <!--</form>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <!--TODO: revisar las redes sociales-->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pull-right">
+                        <ul class="social-menu text-right x-left">
+                            <li><a href="https://www.facebook.com/smarttraffic.proyect/" target="_blank"><i class="ti-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/smarttrafficpy" target="_blank"><i class="ti-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/smarttrafficproject/" target="_blank"><i class="ti-instagram"></i></a></li>
+                            <!--<li><a href="#"><i class="ti-linkedin"></i></a></li>-->
+                            <!--<li><a href="#"><i class="ti-github"></i></a></li>-->
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p>{% trans 'Or reach us on any of these social networks:' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy;Copyright 2018 All right reserved. This template is made with <i class="ti-heart" aria-hidden="true"></i> by Colorlib</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Vendor-JS-->
+    <script src="{% static 'smwebsite/js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/vendor/bootstrap.min.js' %}"></script>
+    <!--Plugin-JS-->
+    <script src="{% static 'smwebsite/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/contact-form.js' %}"></script>
+    <script src="{% static 'smwebsite/js/jquery.parallax-1.1.3.js' %}"></script>
+    <script src="{% static 'smwebsite/js/scrollUp.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/magnific-popup.min.js' %}"></script>
+    <script src="{% static 'smwebsite/js/wow.min.js' %}"></script>
+    <!--Main-active-JS-->
+    <script src="{% static 'smwebsite/js/main.js' %}"></script>
+</body>
+
+</html>

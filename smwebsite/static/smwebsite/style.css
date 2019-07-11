@@ -107,6 +107,11 @@ template classes
     height: 100vh;
 }
 
+.medium-height {
+    width: 100%;
+    height: 50vh;
+}
+
 .relative {
     position: relative;
 }
@@ -138,7 +143,7 @@ template classes
 }
 
 .section-padding {
-    padding: 110px 0;
+    padding: 75px 0;
 }
 
 .social-menu {
@@ -180,6 +185,12 @@ template classes
 /**
 User-defined classes
 **/
+
+.single-blog{
+    background: #75cbe7;
+    color: #000000;
+}
+
 
 .definition {
   padding-left: 25px;
@@ -241,23 +252,32 @@ template-defined classes
 *Page title
 **/
 
-.page-title {
-    margin-bottom: 60px;
+.page-title{
+    font-size: 2.75em;
+    margin-bottom: 75px;
+    color: #012f3f;
+    text-shadow:
+            -1px -1px 0 #8e8e8e,
+            1px -1px 0 #8e8e8e,
+            -1px 1px 0 #8e8e8e,
+            1px 1px 0 #8e8e8e;
+    font-family: Verdana;
+    text-transform: uppercase;
 }
 
-.page-title {
+.section-title {
     margin-bottom: 60px;
 
 }
 
-.page-title h2 {
+.section-title h2 {
     text-transform: uppercase;
     position: relative;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
 
-.page-title h2:after {
+.section-title h2:after {
     content: "\e675";
     font-family: 'themify';
     position: absolute;
@@ -297,6 +317,31 @@ template-defined classes
 .box h4 {
     text-transform: uppercase;
 }
+
+
+
+/*The box in which the screenshots for the use cases are in*/
+.box .box-screenshot {
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+.box .box-screenshot img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    max-width:100%;
+    max-height:100%;
+}
+
+.box:hover .box-screenshot img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+
+
 
 .box .box-icon {
     height: 160px;
@@ -399,9 +444,14 @@ template-defined classes
     background: #000000 url('images/Smarttrafficheader.jpg') no-repeat scroll center center / cover;
 }
 
+#header-area-ucarpooling {
+    /*Image of header !!*/
+    background: #000000 url('images/ucarpooling/header_ucarpooling.jpg') no-repeat scroll center center / cover;
+}
+
 .anlge-bg {
     /*Image in front of header picture... and in the end !*/
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    background: url('images/angle-bg.png') no-repeat scroll center bottom -70px / 100% auto;
 }
 
 .overlay {
@@ -425,6 +475,19 @@ template-defined classes
 
 .header-text .button {
     margin-top: 30px;
+}
+
+
+/*For the main title of the use case page*/
+.header-text-usecase h1{
+    margin-bottom: 20px;
+    font-size: 3.5em;
+}
+
+/*For the brief text that describes the use case below the title*/
+.header-text-usecase p{
+    margin-bottom: 20px;
+    font-size: 1.25em;
 }
 
 .screen-slider .item {
@@ -629,7 +692,7 @@ template-defined classes
 .testimonial-area {
     background: url('images/parallax-7.jpg') no-repeat scroll center center / cover;
     position: relative;
-    color: #ffffff;
+    color: #000000;
 }
 
 .testimonial-area:before {
@@ -671,7 +734,7 @@ template-defined classes
 ***/
 
 .price-area {
-    background: url('images/parallax-6.jpg') no-repeat scroll center center / cover
+    background: url('images/parallax-2048x1365.jpg') no-repeat scroll center center / cover
 }
 
 .price-table h3 {
@@ -774,12 +837,12 @@ template-defined classes
 *Blog-area
 *****/
 
-.single-blog {
+.single-blog a {
     overflow: hidden;
     border-radius: 5px;
     -webkit-box-shadow: 10px 15px 50px -10px rgba(0, 0, 0, 0.1);
     box-shadow: 10px 15px 50px -10px rgba(0, 0, 0, 0.1);
-
+    color: #0b0b0b;
 }
 
 .single-blog h3 {
@@ -809,7 +872,47 @@ template-defined classes
     background-color: #ffffff
 }
 
+.blog-foto{
+    height: 270px;
+}
 
+.blog-foto img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.button-news {
+    background-color: #f4f6f9;
+    font-size: 20pt;
+    color: #0b0b0b;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.button-news a{
+    color: #0b0b0b;
+}
+
+
+.anchors-carousel-area{
+    margin-left: 10%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.buttons-area{
+    margin-top: 1%;
+}
+
+
+.button{
+    margin-top: 15px;
+    background-color: #20a0ea;
+}
 /***
 *Footer-area
 ***/

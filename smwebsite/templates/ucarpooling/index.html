@@ -45,7 +45,7 @@
         </div>
     </div>
     <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="50">
         <div class="container">
             <!--Logo-->
             <div class="navbar-header">
@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="https://www.smarttraffic.com.py/" class="navbar-brand logo">
+                <a href="{% url 'home' %}" class="navbar-brand logo">
                     <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
                 </a>
             </div>
@@ -62,8 +62,8 @@
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#objective-section">{% trans 'Project' %}</a></li>
-                    <li><a href="#feature-section">Caracteristicas</a></li>
-                    <li><a href="#contribution-section">Contribuir</a></li>
+                    <li><a href="#feature-section">{% trans 'Features' %}</a></li>
+                    <li><a href="#contribution-section">{% trans 'Contribute' %}</a></li>
                     <li><a href="#blog-page">Blog</a></li>
                     <li><a href="#contact-page">{% trans 'Contact Us' %}</a></li>
                 </ul>
@@ -79,7 +79,7 @@
             <div class="row v-center">
                 <div class="col-xs-12 col-md-7 header-text-usecase">
                     <h1>UCArpooling</h1>
-                    <p>Mejorando la congestion reduciendo la cantidad de vehiculos en las calles, al mismo tiempo poteciando la seguridad</p>
+                    <p>{% trans 'Improving congestion by reducing the number of vehicles on the streets, at the same time providing security' %}</p>
                     <!--<a href="#" class="button white">Watch video</a>-->
                 </div>
                 <!-- Aca se podria poner las imagenes de las instituciones por ejemplo... y que vaya girando-->
@@ -109,16 +109,16 @@
                         </div>
                         <h3>{% trans 'Primary Goal' %}</h3>
                         <p><i class="ti-star"></i>
-                            Diseñar un sistema de carpooling sin fines de lucro con una aplicación para móviles orientada a comunidades cerradas, disminuyendo la cantidad de vehiculos en las migraciones pendulares.
+                            {% trans 'Design a non-profit carpooling system with a mobile application aimed at closed communities, decreasing the number of vehicles while commuting.' %}
                         </p>
                         <p class="definition"><i class="ti-shift-right"></i>
-                            Beneficiaria a la ciudad reduciendo la cantidad de vehiculos presentes y todo lo que esto accarrea como menos tiempo de espera en los semaforos, especialmente en las horas pico.
+                            {% trans 'It would benefit the city by reducing the number of vehicles on the road and everything that this causes, like less waiting time at traffic lights, especially during peak hours.' %}
                         </p>
                         <p class="definition"><i class="ti-shift-right"></i>
-                            Beneficiaria a la institucion que la adopta mejorando la camaraderia entre sus miembros y ayudaria con las dificultades de espacios
+                            {% trans 'It would benefit the institution that adopts it, by improving the camaraderie among its members and would help with difficulties of parking spaces' %}
                         </p>
                         <p class="definition"><i class="ti-shift-right"></i>
-                            Beneficiaria a las personas ahorrando dinero de combustible y generando nuevas conexiones de amistades
+                            {% trans 'It would benefit people by saving fuel money and generating new friendships and connections' %}
                         </p>
                     </div>
                 </div>
@@ -129,22 +129,22 @@
                     <div class="panel-group" id="accordion">
                         <div class="panel">
                             <p class="specific-goal"><i class="ti-control-play"></i>
-                                Estudiar las técnicas y estrategias que se aplican a la situación de un sistema de carpooling para usuarios de una misma institución
+                                {% trans 'Study the techniques and strategies that apply to the situation of a carpooling system for users of the same institution' %}
                             </p>
                         </div>
                         <div class="panel">
                             <p class="specific-goal"><i class="ti-control-play"></i>
-                                Diseñar el sistema de carpooling tomando en cuenta lo estudiado
+                                {% trans 'Design the carpooling system taking into account what has been studied' %}
                             </p>
                         </div>
                         <div class="panel">
                             <p class="specific-goal"><i class="ti-control-play"></i>
-                                Implementar el emparejamiento entre las personas para el sistema
+                                {% trans 'Implement the matcher module between people for the system' %}
                             </p>
                         </div>
                         <div class="panel">
                             <p class="specific-goal"><i class="ti-control-play"></i>
-                                Analizar el impacto de dicho sistema en una comunidad cerrada. En concreto en la Universidad Católica “Nuestra señora de la Asunción”
+                                {% trans 'Analyze the impact of such system in a closed community. In particular at the Catholic University "Nuestra señora de la Asunción"' %}
                             </p>
                         </div>
                     </div>
@@ -161,8 +161,8 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
-                        <h2>Caracteristicas principales</h2>
-                        <p>Las funcionalidades que UCArpooling tiene para ofrecer </p>
+                        <h2>{% trans 'Main features' %}</h2>
+                        <p>{% trans 'What UCArpooling has to offer' %} </p>
                     </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/ucarpooling/screenshot-ucarpooling.png' %}" alt="">
                         </div>
-                        <h3>Seguro</h3>
-                        <p>Solamente las personas de una comunidad pueden hacer carpool entre ellas</p>
+                        <h3>{% trans 'Safe' %}</h3>
+                        <p>{% trans 'Only the people of a community can make carpool between them' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -181,8 +181,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
                         </div>
-                        <h3>Emparejamiento automatico</h3>
-                        <p>Aceptar a los compañeros poolers en base a un nivel de compatibilidad</p>
+                        <h3>{% trans 'Automatic matching' %}</h3>
+                        <p>{% trans 'Accepting fellow poolers based on a level of compatibility' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -190,8 +190,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
                         </div>
-                        <h3>Sistema de chat in-app</h3>
-                        <p>Chatear con los compañeros de pool dentro de la app para no compartir numeros de telefono ni mail</p>
+                        <h3>{% trans 'In-app chat system' %}</h3>
+                        <p>{% trans 'Chat with pool mates within the app to not share phone numbers or email' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -199,8 +199,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
                         </div>
-                        <h3>Filtro de poolers</h3>
-                        <p>La capacidad de poder filtrar por sexo, gustos musicales, nivel de elocuencia, fumador/a</p>
+                        <h3>{% trans 'Filter of poolers' %}</h3>
+                        <p>{% trans 'The ability to filter by sex, musical tastes, level of eloquence, smoker' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -208,8 +208,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
                         </div>
-                        <h3>Mapa en tiempo real</h3>
-                        <p>Para poder ver con exactitud donde se encuentran los compañeros poolers</p>
+                        <h3>{% trans 'Real-time map' %}</h3>
+                        <p>{% trans 'To be able to see exactly where the fellow poolers are' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -217,8 +217,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/screenshot-example.png' %}" alt="">
                         </div>
-                        <h3>Sistema de reviews y amigos en comun</h3>
-                        <p>La capacidad de tener la informacion necesaria para aceptar o rechazar un carpool </p>
+                        <h3>{% trans 'Reviews and friends in common system' %}</h3>
+                        <p>{% trans 'The ability to have the necessary information to accept or reject a carpool' %} </p>
                     </div>
                 </div>
             </div>
@@ -232,8 +232,8 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
-                        <h2>Contribucion</h2>
-                        <p>UCArpooling es un proyecto de codigo abierto hosteado en Github, sientete libre de contribuir</p>
+                        <h2>{% trans 'Contribute' %}</h2>
+                        <p>{% trans 'UCArpooling is an open source project hosted in Github, feel free to contribute' %}</p>
                     </div>
                 </div>
             </div>
@@ -251,7 +251,7 @@
 <!--                            <li>Customer Support 24/7</li>-->
                         </ul>
                         <hr>
-                        <a target="_blank" href="https://github.com/SmartTrafficPY/ucarpooling" class="button">Repositorio</a>
+                        <a target="_blank" href="https://github.com/SmartTrafficPY/ucarpooling" class="button">{% trans 'Repository' %}</a>
                     </div>
                 </div>
                 <div class="col-xs-6">
@@ -267,7 +267,7 @@
 <!--                            <li>Customer Support 24/7</li>-->
                         </ul>
                         <hr>
-                        <a target="_blank" href="https://github.com/SmartTrafficPY/smartcity-asuncion" class="button">Repositorio</a>
+                        <a target="_blank" href="https://github.com/SmartTrafficPY/smartcity-asuncion" class="button">{% trans 'Repository' %}</a>
                     </div>
                 </div>
             </div>
@@ -334,7 +334,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="button-news">
-                        <a href="../blog">Ver mas noticias</a>
+                        <a href="../blog">{% trans 'see more news'%}</a>
                     </div>
                 </div>
             </div>

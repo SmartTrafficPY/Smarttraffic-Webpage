@@ -45,7 +45,7 @@
         </div>
     </div>
     <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="-1">
         <div class="container">
             <!--Logo-->
             <div class="navbar-header">
@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="https://www.smarttraffic.com.py/" class="navbar-brand logo">
+                <a href="{% url 'home' %}" class="navbar-brand logo">
                     <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
                 </a>
             </div>
@@ -81,12 +81,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20190531-IntroIng/IMG_20190531_144013.jpg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3>Presentacion del proyecto a alumnos de introduccion a la ingenieria</h3>
+                            <h3>{% trans 'Presentation of the project to students of introduction to engineering' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
-                                <li><span class="ti-calendar"></span> <a href="#">Mayo 31, 2019</a></li>
+                                <li><span class="ti-calendar"></span>May 31, 2019</li>
                             </ul>
-                            <p>De nuevo los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                            <p>{% trans 'Once again, the boys inspired the youngest to carry out projects.'%} </p>
                         </div>
                     </div>
                 </div>
@@ -96,12 +96,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20181106-IIIEncuentroInvestigadores-SCP/paty_encuesta.jpeg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3><a href="#">Presentacion de resultados de la encuesta en el Encuentro de Investigadores</a></h3>
+                            <h3>{% trans 'Presentation of the results of the survey in the Meeting of Researchers' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
                                 <li><span class="ti-calendar"></span>Nov 06, 2018</li>
                             </ul>
-                            <p>Los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                            <p>{% trans 'The psychologist of the team presented the results of the survey in the meeting of researchers.'%}</p>
                         </div>
                     </div>
                 </div>
@@ -111,12 +111,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20181102-JitCita/nathalie_presentando.jpeg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3><a href="#">Presentacion del proyecto en JitCita</a></h3>
+                            <h3>{% trans 'Presentation of the project in JitCita' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
                                 <li><span class="ti-calendar"></span>Nov 02, 2018</li>
                             </ul>
-                            <p>Se presento el proyecto en el foro de JitCita realizado en la Universidad Autonoma de Asuncion.</p>
+                            <p>{% trans 'The project was presented in the JitCita forum held at the Autonomous University of Asuncion.' %}</p>
                         </div>
                     </div>
                 </div>
@@ -128,12 +128,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20180531-PresentacionJavierUC/IMG-8047.jpg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3>Presentacion a los alumnos de la UCA</h3>
+                                <h3>{% trans 'Presentation to the students of the UCA' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
-                                <li><span class="ti-calendar"></span> <a href="#">Mayo 31, 2018</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">May 31, 2018</a></li>
                             </ul>
-                            <p>El investigador Javier Paniagua presento el proyecto Smartrtraffic a los alumnos de 4to año de Ingenieria Informatica de la Universidad Catolica "Nuestra Señora de la Asuncion".</p>
+                            <p>{% trans 'The researcher of the team, Javier Paniagua, presented the Smartrtraffic project to the 4th year students of Informatics Engineering of the Catholic University "Nuestra Señora de la Asuncion".' %}</p>
                         </div>
                     </div>
                 </div>
@@ -143,12 +143,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20180521-InauguracionOficina/20180521_162409.jpg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3>Inauguracion de nueva oficina</h3>
+                                <h3>{% trans 'Inauguration of the office' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
-                                <li><span class="ti-calendar"></span> <a href="#">Mayo 21, 2018</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">May 21, 2018</a></li>
                             </ul>
-                            <p>Los investigadores estrenaron nuevo equipo de oficina para mejorar el rendimiento en la investigacion.</p>
+                            <p>{% trans 'The team of researchers launched new office equipment to improve research performance.' %}</p>
                         </div>
                     </div>
                 </div>
@@ -158,12 +158,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20180518-IntroIng/IMG-20180716-WA0011-ratio.jpg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3>Presentacion del proyecto a alumnos de introduccion a la ingenieria</h3>
+                            <h3>{% trans 'Presentation of the project to students of introduction to engineering' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
                                 <li><span class="ti-calendar"></span> <a href="#">Mayo 18, 2018</a></li>
                             </ul>
-                            <p>Los chicos inspiraron a los mas jovenes a realizar proyectos.</p>
+                            <p>{% trans 'The boys inspired the youngest ones to carry out projects.' %}</p>
                         </div>
                     </div>
                 </div>
@@ -175,12 +175,12 @@
                             <img src="{% static 'smwebsite/images/dissemination/20180410-ForoASUViva/30531001_1599465586789410_3962087565120503808_o.jpg' %}" alt="">
                         </div>
                         <div class="blog-content">
-                            <h3>Presentacion del proyecto a alumnos en el foro ASU Viva</h3>
+                            <h3>{% trans 'Presentation of the project in the ASU Viva forum' %}</h3>
                             <ul class="blog-meta">
                                 <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
-                                <li><span class="ti-calendar"></span> <a href="#">Abril 10, 2018</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">{% trans 'April' %} 10, 2018</a></li>
                             </ul>
-                            <p>La primera presentacion del proyecto en publico de en el foro ASU Viva con la participacion del intendente.</p>
+                            <p>{% trans 'The first presentation of the project in public of the forum ASU Viva with the participation of the mayor.' %}</p>
                         </div>
                     </div>
                 </div>

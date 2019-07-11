@@ -45,7 +45,7 @@
         </div>
     </div>
     <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="-1"><!--Navbar fixed when scrolling-->
         <div class="container">
             <!--Logo-->
             <div class="navbar-header">
@@ -54,56 +54,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="https://www.smarttraffic.com.py/" class="navbar-brand logo">
+                <a href="{% url 'home' %}" class="navbar-brand logo">
                     <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
                 </a>
             </div>
-            <!--Logo/-->
-            <nav class="collapse navbar-collapse" id="primary-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#project-page">{% trans 'Project' %}</a></li>
-                    <!--<li><a href="#goal-page">Goals</a></li>-->
-                    <li><a href="#institutions-page">{% trans 'Institutions' %}</a></li>
-                    <li><a href="#publications-page">{% trans 'Expected Results' %}</a></li>
-                    <li><a href="#team-page">{% trans 'Team' %}</a></li>
-                    <!--<li><a href="#faq-page">FAQ</a></li>-->
-                    <li><a href="#blog-page">Blog</a></li>
-                    <li><a href="#contact-page">{% trans 'Contact Us' %}</a></li>
-                </ul>
-            </nav>
         </div>
     </div>
-    <!--Mainmenu-area/-->
-    <!--Header-area-->
-    <header class="header-area overlay full-height relative v-center" id="home-page">
-        <div class="absolute anlge-bg"></div>
-        <div class="container">
-            <div class="row v-center">
-                <div class="col-xs-12 col-md-7 header-text">
-                    <h1>{% trans 'Improving urban mobility in Asunción, Paraguay' %}</h1>
-                    <p>{% trans 'This project is part of the PROCIENCIA program, financed by CONACYT to make solutions for the people.' %}
-                    </p>
-                    <!--<a href="#" class="button white">Watch video</a>-->
-                </div>
-                <!-- Aca se podria poner las imagenes de las instituciones por ejemplo... y que vaya girando-->
-                <div class="hidden-xs hidden-sm col-md-5 text-right">
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--Header-area/-->
-    <!--SE VAN DETALLANDO MAS ABAJO LAS SECCIONES DIVIDIDAS EN PAGINAS, PARA SALTOS...(team, institutions,etc...)-->
-    <!--Feature-area-->
 
-    <section class="gray-bg section-padding" id="project-page">
+
+    <!--Body-->
+    <section class="gray-bg section-padding" id="project-page" style="padding-top: 120px;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="section-title">
                         <div class="text-center">
-                            <h2>Publicaciones</h2>
+                            <h2>{% trans 'Publications and Technical Documents' %}</h2>
                         </div>
-                        <h3 style="text-align: left;"><strong>Para CONACYT</strong></h3>
+                        <h3 style="text-align: left;"><strong>{% trans 'Deliverables for CONACYT' %}</strong></h3>
                         <ul>
                             <li><strong>Fatecha, M., Lugo, A., Olivera, J., Aquino, N., Chenu-Abente, R., Paniagua, J., Saldivar, J.
                                     &nbsp;(2018)</strong>
@@ -111,9 +79,9 @@
                                 <div class="row v-center">
                                     <div class="col-xs-12 col-md-7 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -127,13 +95,13 @@
                                 <div class="row v-center">
                                     <div class="col-xs-6 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1azSSrKyZ87UDLtsQc9qBrrk6Vlz-ZJ-G/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
-                                            Poster:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Poster' %}:
+                                            <a href="https://drive.google.com/file/d/1B_VLP9m88v83zgoF6DnKk489ZhstlU94/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_poster.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -145,17 +113,17 @@
                                 <div class="row v-center">
                                     <div class="col-xs-6 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1le_-Tt-N-RaizqCKOR3m6LyOPfDdLc0v/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
-                                            Poster:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Poster' %}:
+                                            <a href="https://drive.google.com/file/d/1k6G1J-nX7alGqQaPB2gXHPAbvY4QSj8f/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_poster.png' %}" style="max-width: 8%">
                                             </a>
-                                            Presentacion:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Presentation' %}:
+                                            <a href="https://drive.google.com/file/d/1_CxbxDF5N2_fNjEx156BBqId6tRYxnJx/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_presentation.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -169,9 +137,9 @@
                                 <div class="row v-center">
                                     <div class="col-xs-6 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1SKpXUmqTS0t6irN6dz9qdNuJVMirQ5Xn/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -186,9 +154,9 @@
                                 <div class="row v-center">
                                     <div class="col-xs-12 col-md-7 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1YKQ1429In7mRspevopHz0ddeS_sAX9bs/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -203,9 +171,9 @@
                                 <div class="row v-center">
                                     <div class="col-xs-12 col-md-7 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1eQHpi4KE9VOE1Z0kefwobKDTQVzcGyP4/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -220,9 +188,9 @@
                                 <div class="row v-center">
                                     <div class="col-xs-12 col-md-7 header-text">
                                         <p>
-                                            Documento:
-                                            <a href="https://drive.google.com/file/d/18j-8cRJdh99LGGWPR42TEMGIPVxGO4Lg/view?usp=sharing">
-                                                <img src="{% static 'smwebsite/images/icons/logo_pdf.png' %}" style="max-width: 8%">
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1kbmJEcVGKZpRcjwA2Q2ia6mMcvrnVJST/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
                                             </a>
                                         </p>
                                     </div>  
@@ -230,29 +198,43 @@
                             </li>
                         </ul>
                         <p>&nbsp;</p>
-                        <h3 style="text-align: left;"><strong>Para publico general</strong></h3>
+                        <h3 style="text-align: left;"><strong>{% trans 'End-of-career project documents' %}</strong></h3>
                         <ul>
-                            <li><strong>González, M., Cernuzzi, L., Aquino, N., Pastor, O. (2016)</strong>
-                                <div>Developing Web Applications For Different Architectures: The MoWebA Approach.</div>
-                                <div>In Tenth IEEE International Conference on Research Challenges in Information
-                                    Science, RCIS 2016, Grenoble, France, June 1-3, pages 1-11.</div>
-                                <p><a href="http://ieeexplore.ieee.org/document/7549344/" target="_blank"><i
-                                            class="fa fa-file-pdf-o fa-2x "></i></a> <a
-                                        href="https://www.dei.uc.edu.py/proyectos/mddplus/wp-content/uploads/2016/06/presentationRCIS2016-final.pdf"
-                                        target="_blank"><i class="fa fa-file-powerpoint-o fa-2x "></i></a></p>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div><strong>López, I., González, M., Aquino, N., Cernuzzi, L.&nbsp;(2016)</strong>
+                            <li><strong>Olivera, J., Aquino, N., Saldivar, J.
+                                &nbsp;(2019)</strong>
+                                <div>SmartParking: Facilitando la búsqueda de espacios de estacionamiento en Asunción</div>
+                                <div class="row v-center">
+                                    <div class="col-xs-6 header-text">
+                                        <p>
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1TVd9gGquB6xgFmaFN_TOvFv7_-ellnJB/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                            {% trans 'Presentation' %}:
+                                            <a href="https://docs.google.com/presentation/d/1lSxWW_irPnmkSyGKWh7Q5-rAn8uPtWA4a_lttVwwKyM/edit?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_presentation.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
                                 </div>
-                                <div>Una Propuesta Basada en Model Driven Architecture para el Soporte de Rich Internet
-                                    Applications.</div>
-                                <div>In Memorias de la XIX Conferencia Iberoamericana de Software Engineering, CIbSE
-                                    2016, Quito, Ecuador, April 27-29, pages 25-38.</div>
-                                <p><i class="fa fa-file-pdf-o fa-2x "></i> <a
-                                        href="https://www.dei.uc.edu.py/proyectos/mddplus/wp-content/uploads/2016/06/Presentacion-final_v3-.pdf"
-                                        target="_blank"><i class="fa fa-file-powerpoint-o fa-2x "></i></a></p>
+                            </li>
+                            <li><strong>Lugo, A., Aquino, N., Chenu-Abente, R.
+                                &nbsp;(2019)</strong>
+                                <div>Carpooling institucional, una respuesta ante problemas de severa congestión vial</div>
+                                <div class="row v-center">
+                                    <div class="col-xs-6 header-text">
+                                        <p>
+                                            {% trans 'Document' %}:
+                                            <a href="https://drive.google.com/file/d/1GZXI7T3Ayweze01-v4_vwZxLB_8Wuqox/view?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_pdf.png' %}" style="max-width: 8%">
+                                            </a>
+                                            {% trans 'Presentation' %}:
+                                            <a href="https://docs.google.com/presentation/d/1Fwb269gjsCPYxWcsrSf95SE0w6b8SwIDwh9ltGcSHaE/edit?usp=sharing" target="_blank">
+                                                <img src="{% static 'smwebsite/images/icons/icon_presentation.png' %}" style="max-width: 8%">
+                                            </a>
+                                        </p>
+                                    </div>  
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -304,18 +286,6 @@
                             </div>
                         </address>
                     </div>
-                    <!--Code for sending email-->
-                    <!--<div class="col-xs-12 col-md-8">-->
-                    <!--<form action="process.php" id="contact-form" method="post" class="contact-form">-->
-                    <!--<div class="form-double">-->
-                    <!--<input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">-->
-                    <!--<input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">-->
-                    <!--</div>-->
-                    <!--<input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">-->
-                    <!--<textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>-->
-                    <!--<button type="sibmit" class="button">Submit</button>-->
-                    <!--</form>-->
-                    <!--</div>-->
                 </div>
             </div>
         </div>

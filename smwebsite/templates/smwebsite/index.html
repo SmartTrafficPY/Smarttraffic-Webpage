@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="https://www.smarttraffic.com.py/" class="navbar-brand logo">
+                <a href="{% url 'home' %}" class="navbar-brand logo">
                     <img src="{% static 'smwebsite/images/logos/smarttrafficLogo.png' %}" alt="">
                 </a>
             </div>
@@ -243,13 +243,13 @@
                                     <div class="col-xs-12 col-md-6">
                                         <div class="caption-desc anchors-carousel-area" data-animation="animated fadeInUp">
                                             <div class="buttons-area">
-                                                <a class="button" href="SmartParking/">SmartParking</a>
+                                                <a class="button" href="{% url 'smartparking' %}">SmartParking</a>
                                             </div>
                                             <div class="buttons-area">
-                                                <a class="button" href="UCArpooling/">UCArpooling</a>
+                                                <a class="button" href="{% url 'ucarpooling' %}">UCArpooling</a>
                                             </div>
                                             <div class="buttons-area">
-                                                <a class="button" href="SmartMoving/">SmartMoving</a>
+                                                <a class="button" href="{% url 'smartmoving' %}">SmartMoving</a>
                                             </div>
                                         </div>
                                     </div>
@@ -268,7 +268,7 @@
                                     <div class="col-xs-12 col-md-6">
                                         <div class="caption-desc anchors-carousel-area" data-animation="animated fadeInUp">
                                             <div class="buttons-area">
-                                                <a class="button" href="dissemination/">Resultados</a>
+                                                <a class="button" href="{% url 'dissemination' %}">{% trans 'Results' %}</a>
                                             </div>
                                         </div>
                                     </div>
@@ -641,11 +641,6 @@
         </div>
     </section>
 
-
-
-sgsfdg
-
-
     <section class="testimonial-area section-padding gray-bg overlay" id="blog-page">
         <div class="container">
             <div class="row">
@@ -705,7 +700,7 @@ sgsfdg
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="button-news">
-                        <a href="blog/">Ver mas noticias</a>
+                        <a href="blog/">{% trans 'see more news'%}</a>
                     </div>
                 </div>
             </div>

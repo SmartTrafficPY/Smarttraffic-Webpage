@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-11 13:44-0400\n"
+"POT-Creation-Date: 2019-07-16 18:28-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -663,15 +663,14 @@ msgstr ""
 #: .\smwebsite\templates\ucarpooling\index.html:236
 msgid ""
 "UCArpooling is an open source project hosted in Github, feel free to "
-"contribute"
+"contribute. The repository contains the source code and the installation "
+"guides"
 msgstr ""
 "UCArpooling es un proyecto de código abierto alojado en Github, siéntase "
-"libre de contribuir"
+"libre de contribuir. El repositorio contiene el código fuente y la guía de instalación"
 
 #: .\smwebsite\templates\ucarpooling\index.html:254
 #: .\smwebsite\templates\ucarpooling\index.html:270
-#, fuzzy
-#| msgid "Report"
 msgid "Repository"
 msgstr "Repositorio"
 

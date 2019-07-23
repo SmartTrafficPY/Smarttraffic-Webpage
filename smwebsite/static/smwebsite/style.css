@@ -449,6 +449,11 @@ template-defined classes
     background: #000000 url('images/ucarpooling/header_ucarpooling.jpg') no-repeat scroll center center / cover;
 }
 
+
+#header-area-smartparking {
+    /*Image of header !!*/
+    background: #000000 url('images/smartparking/header_smartparking.jpg') no-repeat scroll center center / cover;
+
 #header-area-smartmoving {
     /*Image of header !!*/
     background: #000000 url('images/smartmoving/sidewalk.jpg') no-repeat scroll center center / cover;

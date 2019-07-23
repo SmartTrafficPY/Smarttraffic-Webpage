@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-11 13:44-0400\n"
+"POT-Creation-Date: 2019-07-19 14:40-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,22 +40,35 @@ msgid "Smart Traffic Project"
 msgstr "Progetto Smart Traffic"
 
 #: .\smwebsite\templates\blog\index.html:84
-#: .\smwebsite\templates\blog\index.html:161
+msgid "Expo 2019"
+msgstr ""
+
+#: .\smwebsite\templates\blog\index.html:89
+msgid ""
+"The SmartTraffic project was presented at Expo 2019. Reaching people of all "
+"ages, explaining the problems we have in Asunción about mobility and the "
+"solutions we propose."
+msgstr "Il progetto SmartTraffic è stato presentato all'Expo 2019. Raggiungere "
+"persone di tutte le età, spiegando i problemi che abbiamo ad Asunción sulla "
+"mobilità e le soluzioni che proponiamo"
+
+#: .\smwebsite\templates\blog\index.html:99
+#: .\smwebsite\templates\blog\index.html:178
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
 "presentazione del progetto agli studenti di introduzione all'ingegneria"
 
-#: .\smwebsite\templates\blog\index.html:89
+#: .\smwebsite\templates\blog\index.html:104
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
 "Ancora una volta, i ragazzi hanno ispirato i più giovani a realizzare "
 "progetti."
 
-#: .\smwebsite\templates\blog\index.html:99
+#: .\smwebsite\templates\blog\index.html:114
 msgid "Presentation of the results of the survey in the Meeting of Researchers"
 msgstr "Presentazione dei risultati del sondaggio nel Meeting of Researchers"
 
-#: .\smwebsite\templates\blog\index.html:104
+#: .\smwebsite\templates\blog\index.html:119
 msgid ""
 "The psychologist of the team presented the results of the survey in the "
 "meeting of researchers."
@@ -63,11 +76,11 @@ msgstr ""
 "La psicologa del team ha presentato i risultati del sondaggio nella riunione "
 "dei ricercatori."
 
-#: .\smwebsite\templates\blog\index.html:114
+#: .\smwebsite\templates\blog\index.html:131
 msgid "Presentation of the project in JitCita"
 msgstr "Presentazione del progetto in JitCita"
 
-#: .\smwebsite\templates\blog\index.html:119
+#: .\smwebsite\templates\blog\index.html:136
 msgid ""
 "The project was presented in the JitCita forum held at the Autonomous "
 "University of Asuncion."
@@ -75,11 +88,11 @@ msgstr ""
 "Il progetto è stato presentato nel forum JitCita presso l'Università "
 "Autonoma di Asunción."
 
-#: .\smwebsite\templates\blog\index.html:131
+#: .\smwebsite\templates\blog\index.html:146
 msgid "Presentation to the students of the UCA"
 msgstr "Presentazione agli studenti dell'UCA"
 
-#: .\smwebsite\templates\blog\index.html:136
+#: .\smwebsite\templates\blog\index.html:151
 msgid ""
 "The researcher of the team, Javier Paniagua, presented the Smartrtraffic "
 "project to the 4th year students of Informatics Engineering of the Catholic "
@@ -89,11 +102,11 @@ msgstr ""
 "Smartrtraffic agli studenti del 4 ° anno dell'Ingegneria Informatica "
 "dell'Università Cattolica \"Nuestra Señora de la Asuncion\"."
 
-#: .\smwebsite\templates\blog\index.html:146
+#: .\smwebsite\templates\blog\index.html:161
 msgid "Inauguration of the office"
 msgstr "Inaugurazione dell'ufficio"
 
-#: .\smwebsite\templates\blog\index.html:151
+#: .\smwebsite\templates\blog\index.html:166
 msgid ""
 "The team of researchers launched new office equipment to improve research "
 "performance."
@@ -101,19 +114,19 @@ msgstr ""
 "Il team di ricercatori ha lanciato nuove apparecchiature per ufficio per "
 "migliorare le prestazioni della ricerca."
 
-#: .\smwebsite\templates\blog\index.html:166
+#: .\smwebsite\templates\blog\index.html:183
 msgid "The boys inspired the youngest ones to carry out projects."
 msgstr "I ragazzi hanno ispirato i più giovani a realizzare progetti."
 
-#: .\smwebsite\templates\blog\index.html:178
+#: .\smwebsite\templates\blog\index.html:193
 msgid "Presentation of the project in the ASU Viva forum"
 msgstr "Presentazione del progetto nel forum ASU Viva"
 
-#: .\smwebsite\templates\blog\index.html:181
+#: .\smwebsite\templates\blog\index.html:196
 msgid "April"
 msgstr "Aprile"
 
-#: .\smwebsite\templates\blog\index.html:183
+#: .\smwebsite\templates\blog\index.html:198
 msgid ""
 "The first presentation of the project in public of the forum ASU Viva with "
 "the participation of the mayor."
@@ -121,7 +134,7 @@ msgstr ""
 "La prima presentazione del progetto in pubblico del forum ASU Viva con la "
 "partecipazione del sindaco."
 
-#: .\smwebsite\templates\blog\index.html:200
+#: .\smwebsite\templates\blog\index.html:215
 #: .\smwebsite\templates\dissemination\index.html:254
 #: .\smwebsite\templates\smartmoving\index.html:71
 #: .\smwebsite\templates\smartmoving\index.html:882
@@ -134,7 +147,7 @@ msgstr ""
 msgid "Contact Us"
 msgstr "Contattaci"
 
-#: .\smwebsite\templates\blog\index.html:201
+#: .\smwebsite\templates\blog\index.html:216
 #: .\smwebsite\templates\dissemination\index.html:255
 #: .\smwebsite\templates\smartmoving\index.html:883
 #: .\smwebsite\templates\smartparking\index.html:883
@@ -146,7 +159,7 @@ msgid ""
 msgstr ""
 "Vuoi aiutare? Saremo lieti di sentirti! Usa i seguenti canali e contattaci:"
 
-#: .\smwebsite\templates\blog\index.html:218
+#: .\smwebsite\templates\blog\index.html:233
 #: .\smwebsite\templates\dissemination\index.html:274
 #: .\smwebsite\templates\smartmoving\index.html:900
 #: .\smwebsite\templates\smartparking\index.html:900
@@ -155,7 +168,7 @@ msgstr ""
 msgid "Telephone: "
 msgstr "Telefono: "
 
-#: .\smwebsite\templates\blog\index.html:262
+#: .\smwebsite\templates\blog\index.html:277
 #: .\smwebsite\templates\dissemination\index.html:309
 #: .\smwebsite\templates\smartmoving\index.html:944
 #: .\smwebsite\templates\smartparking\index.html:944

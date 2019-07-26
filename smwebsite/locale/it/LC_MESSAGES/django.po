@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-25 16:07-0400\n"
+"POT-Creation-Date: 2019-07-26 09:15-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,24 +40,28 @@ msgid "Smart Traffic Project"
 msgstr "Progetto Smart Traffic"
 
 #: .\smwebsite\templates\blog\index.html:84
+#: .\smwebsite\templates\smwebsite\index.html:660
 msgid "First presentation SmartMoving"
 msgstr ""
 
 #: .\smwebsite\templates\blog\index.html:89
+#: .\smwebsite\templates\smwebsite\index.html:664
 msgid ""
 "Junior researcher Monica Fatecha gave her first presentation of her final "
 "project of the Catholic University \"Nuestra Señora de la Asunción\" for "
-"Computer Engineering. The presentatin was one of the use cases of the "
+"Computer Engineering. The presentation was one of the use cases of the "
 "project entitled \"SmartMoving: Application to collect information on the "
 "state of the sidewalks and recommend roads to pedestrians with reduced "
 "mobility\" "
 msgstr ""
 
 #: .\smwebsite\templates\blog\index.html:99
+#: .\smwebsite\templates\smwebsite\index.html:674
 msgid "Expo 2019"
 msgstr ""
 
 #: .\smwebsite\templates\blog\index.html:104
+#: .\smwebsite\templates\smwebsite\index.html:678
 msgid ""
 "The SmartTraffic project was presented at Expo 2019. Reaching people of all "
 "ages, explaining the problems we have in Asunción about mobility and the "
@@ -68,22 +72,24 @@ msgstr ""
 "mobilità e le soluzioni che proponiamo"
 
 #: .\smwebsite\templates\blog\index.html:114
-#: .\smwebsite\templates\blog\index.html:194
+#: .\smwebsite\templates\blog\index.html:193
+#: .\smwebsite\templates\smwebsite\index.html:688
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
 "presentazione del progetto agli studenti di introduzione all'ingegneria"
 
 #: .\smwebsite\templates\blog\index.html:119
+#: .\smwebsite\templates\smwebsite\index.html:692
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
 "Ancora una volta, i ragazzi hanno ispirato i più giovani a realizzare "
 "progetti."
 
-#: .\smwebsite\templates\blog\index.html:132
+#: .\smwebsite\templates\blog\index.html:131
 msgid "Presentation of the results of the survey in the Meeting of Researchers"
 msgstr "Presentazione dei risultati del sondaggio nel Meeting of Researchers"
 
-#: .\smwebsite\templates\blog\index.html:137
+#: .\smwebsite\templates\blog\index.html:136
 msgid ""
 "The psychologist of the team presented the results of the survey in the "
 "meeting of researchers."
@@ -91,11 +97,11 @@ msgstr ""
 "La psicologa del team ha presentato i risultati del sondaggio nella riunione "
 "dei ricercatori."
 
-#: .\smwebsite\templates\blog\index.html:147
+#: .\smwebsite\templates\blog\index.html:146
 msgid "Presentation of the project in JitCita"
 msgstr "Presentazione del progetto in JitCita"
 
-#: .\smwebsite\templates\blog\index.html:152
+#: .\smwebsite\templates\blog\index.html:151
 msgid ""
 "The project was presented in the JitCita forum held at the Autonomous "
 "University of Asuncion."
@@ -103,11 +109,11 @@ msgstr ""
 "Il progetto è stato presentato nel forum JitCita presso l'Università "
 "Autonoma di Asunción."
 
-#: .\smwebsite\templates\blog\index.html:162
+#: .\smwebsite\templates\blog\index.html:161
 msgid "Presentation to the students of the UCA"
 msgstr "Presentazione agli studenti dell'UCA"
 
-#: .\smwebsite\templates\blog\index.html:167
+#: .\smwebsite\templates\blog\index.html:166
 msgid ""
 "The researcher of the team, Javier Paniagua, presented the Smartrtraffic "
 "project to the 4th year students of Informatics Engineering of the Catholic "
@@ -117,11 +123,11 @@ msgstr ""
 "Smartrtraffic agli studenti del 4 ° anno dell'Ingegneria Informatica "
 "dell'Università Cattolica \"Nuestra Señora de la Asuncion\"."
 
-#: .\smwebsite\templates\blog\index.html:179
+#: .\smwebsite\templates\blog\index.html:178
 msgid "Inauguration of the office"
 msgstr "Inaugurazione dell'ufficio"
 
-#: .\smwebsite\templates\blog\index.html:184
+#: .\smwebsite\templates\blog\index.html:183
 msgid ""
 "The team of researchers launched new office equipment to improve research "
 "performance."
@@ -129,19 +135,19 @@ msgstr ""
 "Il team di ricercatori ha lanciato nuove apparecchiature per ufficio per "
 "migliorare le prestazioni della ricerca."
 
-#: .\smwebsite\templates\blog\index.html:199
+#: .\smwebsite\templates\blog\index.html:198
 msgid "The boys inspired the youngest ones to carry out projects."
 msgstr "I ragazzi hanno ispirato i più giovani a realizzare progetti."
 
-#: .\smwebsite\templates\blog\index.html:209
+#: .\smwebsite\templates\blog\index.html:208
 msgid "Presentation of the project in the ASU Viva forum"
 msgstr "Presentazione del progetto nel forum ASU Viva"
 
-#: .\smwebsite\templates\blog\index.html:212
+#: .\smwebsite\templates\blog\index.html:211
 msgid "April"
 msgstr "Aprile"
 
-#: .\smwebsite\templates\blog\index.html:214
+#: .\smwebsite\templates\blog\index.html:213
 msgid ""
 "The first presentation of the project in public of the forum ASU Viva with "
 "the participation of the mayor."
@@ -149,24 +155,24 @@ msgstr ""
 "La prima presentazione del progetto in pubblico del forum ASU Viva con la "
 "partecipazione del sindaco."
 
-#: .\smwebsite\templates\blog\index.html:231
+#: .\smwebsite\templates\blog\index.html:230
 #: .\smwebsite\templates\dissemination\index.html:254
 #: .\smwebsite\templates\smartmoving\index.html:68
 #: .\smwebsite\templates\smartmoving\index.html:340
 #: .\smwebsite\templates\smartparking\index.html:68
 #: .\smwebsite\templates\smartparking\index.html:331
 #: .\smwebsite\templates\smwebsite\index.html:71
-#: .\smwebsite\templates\smwebsite\index.html:822
+#: .\smwebsite\templates\smwebsite\index.html:819
 #: .\smwebsite\templates\ucarpooling\index.html:68
 #: .\smwebsite\templates\ucarpooling\index.html:353
 msgid "Contact Us"
 msgstr "Contattaci"
 
-#: .\smwebsite\templates\blog\index.html:232
+#: .\smwebsite\templates\blog\index.html:231
 #: .\smwebsite\templates\dissemination\index.html:255
 #: .\smwebsite\templates\smartmoving\index.html:341
 #: .\smwebsite\templates\smartparking\index.html:332
-#: .\smwebsite\templates\smwebsite\index.html:823
+#: .\smwebsite\templates\smwebsite\index.html:820
 #: .\smwebsite\templates\ucarpooling\index.html:354
 msgid ""
 "Want to help? We will be very delighted to hear from you! Use the following "
@@ -174,20 +180,20 @@ msgid ""
 msgstr ""
 "Vuoi aiutare? Saremo lieti di sentirti! Usa i seguenti canali e contattaci:"
 
-#: .\smwebsite\templates\blog\index.html:249
+#: .\smwebsite\templates\blog\index.html:248
 #: .\smwebsite\templates\dissemination\index.html:274
 #: .\smwebsite\templates\smartmoving\index.html:358
 #: .\smwebsite\templates\smartparking\index.html:349
-#: .\smwebsite\templates\smwebsite\index.html:840
+#: .\smwebsite\templates\smwebsite\index.html:837
 #: .\smwebsite\templates\ucarpooling\index.html:371
 msgid "Telephone: "
 msgstr "Telefono: "
 
-#: .\smwebsite\templates\blog\index.html:293
+#: .\smwebsite\templates\blog\index.html:292
 #: .\smwebsite\templates\dissemination\index.html:309
 #: .\smwebsite\templates\smartmoving\index.html:402
 #: .\smwebsite\templates\smartparking\index.html:393
-#: .\smwebsite\templates\smwebsite\index.html:884
+#: .\smwebsite\templates\smwebsite\index.html:881
 #: .\smwebsite\templates\ucarpooling\index.html:415
 msgid "Or reach us on any of these social networks:"
 msgstr "Oppure raggiungici su uno di questi social network:"
@@ -273,15 +279,15 @@ msgstr "Obiettivo Principale"
 
 #: .\smwebsite\templates\smartmoving\index.html:112
 msgid ""
-"Desarrollar una aplicacion para brindar al usuario informacion sobre el "
-"estado de las veredas cercanas a su ubicacion actual y recomendar peatonales "
+"Desarrollar una aplicación para brindar al usuario información sobre el "
+"estado de las veredas cercanas a su ubicación actual y recomendar peatonales "
 "con menos obstaculos de un origen a un destino"
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:115
 msgid ""
-"El usuario podria de manera voluntaria crear reportes, asi como confi\frmar "
-"y solucionar reportes que fueron hechos por otros usuarios."
+"El usuario podría de manera voluntaria crear reportes, así como confirmar y "
+"solucionar reportes que fueron hechos por otros usuarios."
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:118
@@ -406,7 +412,7 @@ msgstr "Report"
 
 #: .\smwebsite\templates\smartmoving\index.html:324
 #: .\smwebsite\templates\smartparking\index.html:315
-#: .\smwebsite\templates\smwebsite\index.html:703
+#: .\smwebsite\templates\smwebsite\index.html:700
 #: .\smwebsite\templates\ucarpooling\index.html:337
 msgid "see more news"
 msgstr "vedi più notizie"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-26 09:15-0400\n"
+"POT-Creation-Date: 2019-07-26 09:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,10 +387,6 @@ msgid "Configuración manual sobre los reportes negativos leves y graves"
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:223
-#, fuzzy
-#| msgid ""
-#| "UCArpooling is an open source project hosted in Github, feel free to "
-#| "contribute"
 msgid ""
 "SmartMoving is an open source project hosted in Github, feel free to "
 "contribute. The repository contains the source code and the installation "
@@ -405,8 +401,6 @@ msgstr ""
 #: .\smwebsite\templates\smartparking\index.html:248
 #: .\smwebsite\templates\ucarpooling\index.html:254
 #: .\smwebsite\templates\ucarpooling\index.html:270
-#, fuzzy
-#| msgid "Report"
 msgid "Repository"
 msgstr "Report"
 
@@ -505,10 +499,6 @@ msgid ""
 msgstr ""
 
 #: .\smwebsite\templates\smartparking\index.html:212
-#, fuzzy
-#| msgid ""
-#| "UCArpooling is an open source project hosted in Github, feel free to "
-#| "contribute"
 msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
@@ -611,13 +601,6 @@ msgid "Prototype"
 msgstr "Prototipo"
 
 #: .\smwebsite\templates\smwebsite\index.html:240
-#, fuzzy
-#| msgid ""
-#| "The implementation of the prototype platform \"SmartCity Asunción\" that "
-#| "offers services of registration and processing of the data collected, and "
-#| "the implementation of SmartTraffic and other demonstrative applications "
-#| "to collect input data from each of the mobile sensor units and present "
-#| "the joint result of monitoring when it is required by the user."
 msgid ""
 "The implementation of the prototype platform \"SmartCity of Asunción\" that "
 "offers services of registration and processing of the collected data, and "
@@ -814,51 +797,9 @@ msgstr ""
 #: .\smwebsite\templates\ucarpooling\index.html:236
 msgid ""
 "UCArpooling is an open source project hosted in Github, feel free to "
-"contribute"
+"contribute. The repository contains the source code and the installation "
+"guides"
 msgstr ""
 "UCArpooling è un progetto open source ospitato in Github, sentiti libero di "
-"contribuire"
-
-#~ msgid ""
-#~ "The report \"SmartCity Asunción\" where the state of the art related to "
-#~ "the different models and technologies related to SmartCities is compiled "
-#~ "and its possible application and utility for the city of Asunción is "
-#~ "studied."
-#~ msgstr ""
-#~ "Il documento \"SmartCity Asunción\" che compila lo stato dell'arte "
-#~ "relativo a diversi modelli e tecnologie SmartCities e studia le possibili "
-#~ "applicazioni e utilità per la città di Asunción."
-
-#~ msgid "Design"
-#~ msgstr "Disegno"
-
-#~ msgid ""
-#~ "A proposal of architectural design of the SmartCity platform adapted to "
-#~ "the demands of Asunción, product of research, adaptation and contribution "
-#~ "to the state of the art of the models and related technologies, in line "
-#~ "with the areas of interest identified in the previous report."
-#~ msgstr ""
-#~ "Una proposta di disegno della piattaforma SmartCity adattata alle "
-#~ "esigenze di Asunción, un prodotto di ricerca, adattamento e contributo "
-#~ "allo stato dell'arte dei modelli e delle tecnologie correlate, in linea "
-#~ "con le aree di interesse identificate nel documento precedente"
-
-#~ msgid "Test"
-#~ msgstr "Prova"
-
-#~ msgid ""
-#~ "A test report, validation and evaluation of the results of the prototype "
-#~ "platform and the SmartTraffic demonstration application, using various "
-#~ "types of empirical studies for the usability analysis and other "
-#~ "attributes that determine the quality of a product."
-#~ msgstr ""
-#~ "Un report che convalida e valuta i risultati della piattaforma prototipo "
-#~ "e la dimostrazione dell'applicazione SmartTraffic, utilizzando diversi "
-#~ "tipi di studi empirici per l'analisi dell'usabilità e altri attributi che "
-#~ "determinano la qualità del prodotto"
-
-#~ msgid "Deliverables for CONACYT"
-#~ msgstr "Prodotti per CONACYT"
-
-#~ msgid "Test report"
-#~ msgstr "Rapporto di prova"
+"farlo contribuire. Il repository contiene il codice sorgente e le guide "
+"all'installazione"

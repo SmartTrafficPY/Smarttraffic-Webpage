@@ -8,11 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2019-07-16 18:28-0400\n"
-=======
-"POT-Creation-Date: 2019-07-26 09:15-0400\n"
->>>>>>> 20190726
+"POT-Creation-Date: 2019-07-26 09:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -400,10 +396,6 @@ msgid "Configuración manual sobre los reportes negativos leves y graves"
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:223
-#, fuzzy
-#| msgid ""
-#| "UCArpooling is an open source project hosted in Github, feel free to "
-#| "contribute"
 msgid ""
 "SmartMoving is an open source project hosted in Github, feel free to "
 "contribute. The repository contains the source code and the installation "
@@ -428,7 +420,7 @@ msgstr "Repositorio"
 #: .\smwebsite\templates\smwebsite\index.html:700
 #: .\smwebsite\templates\ucarpooling\index.html:337
 msgid "see more news"
-msgstr "ver mas noticias"
+msgstr "ver más noticias"
 
 #: .\smwebsite\templates\smartparking\index.html:85
 msgid ""
@@ -518,10 +510,6 @@ msgid ""
 msgstr ""
 
 #: .\smwebsite\templates\smartparking\index.html:212
-#, fuzzy
-#| msgid ""
-#| "UCArpooling is an open source project hosted in Github, feel free to "
-#| "contribute"
 msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
@@ -823,19 +811,4 @@ msgid ""
 "guides"
 msgstr ""
 "UCArpooling es un proyecto de código abierto alojado en Github, siéntase "
-<<<<<<< HEAD
-"libre de contribuir. El repositorio contiene el código fuente y la guía de instalación"
-
-#: .\smwebsite\templates\ucarpooling\index.html:254
-#: .\smwebsite\templates\ucarpooling\index.html:270
-msgid "Repository"
-msgstr "Repositorio"
-
-#~ msgid "Deliverables for CONACYT"
-#~ msgstr "Entregables para la CONACYT"
-
-#~ msgid "Test report"
-#~ msgstr "Reporte de la Prueba"
-=======
 "libre de contribuir"
->>>>>>> 20190726

@@ -105,18 +105,28 @@
                 <div class="col-xs-12">
                     <div class="section-title">
                         <div class="text-center">
-                            <h2>{% trans 'Project Goals' %}</h2>
+                            <h2>{% trans 'SmartMoving Aplication' %}</h2>
                         </div>
+                        <p>
+                            {% trans 'Asunción suffers serious mobility problems at the time of commuting because it does not offer support for the number of citizens, where 1,320,000 people enter per day. Taking into account the number of vehicles on the streets and the average number of people per private vehicle is 1.2 to 1.5, it concludes that the use of transport is not optimized resulting in long lines of vehicles, loss of money and pollution to the environment.' %}
+                        </p>
+                        <p>
+                            {% trans 'On behalf of the SmartTraffic project, a citizenship survey was conducted to find the problems a citizen faces in Asunción regarding their daily mobility. The survey resulted in the majority, with 73% of respondents, using their own car as the main means of transportation.' %}
+                        </p>
+                        <p>
+                            {% trans 'In relation to the other transport alternatives in Asunción, public transport has a poor service, where most of the bus fleet has mechanical problems during its routines, or the traffic schedule ends early. It should also be noted that the only public transport option is the bus. About the use of bicycles, this has its difficulties since there is only in selected areas the infrastructure necessary for its safe circulation, such as the bike path.' %}
+                        </p>
+                        <p>
+                            {% trans 'So, taking the low average number of people per vehicle, plus most people move in their own car and the drawbacks already mentioned in relation to the possible alternatives, it was seen as an opportunity to make a mobile application system that offers carpooling pairing to people from the same environment.' %}
+                        </p>
                         <h3>{% trans 'Primary Goal' %}</h3>
-                        <p><i class="ti-star"></i>
-                            {% trans 'Desarrollar una aplicación para brindar al usuario información sobre el estado de las veredas cercanas a su ubicación actual y recomendar peatonales con menos obstaculos de un origen a un destino' %}
-                        </p>
-                        <p class="definition"><i class="ti-shift-right"></i>
-                            {% trans 'El usuario podría de manera voluntaria crear reportes, así como confirmar y solucionar reportes que fueron hechos por otros usuarios.' %}
-                        </p>
-                        <p class="definition"><i class="ti-shift-right"></i>
-                            {% trans 'Beneficiaría a personas que tienen movilidad reducida como, personas en silla de ruedas, andador, bastón y con carro de bebe' %}
-                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                            {% trans 'Develop an application to provide the user with information about the state of the sidewalks near their current location and recommend paths with fewer obstacles to a destination. It would benefit people who have reduced mobility such as people in a wheelchair, walker, cane and with a baby carriage' %}
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -124,25 +134,25 @@
                 <div class="col-xs-12">
                     <h3>{% trans 'Specific Goals' %}</h3>
                     <div class="panel-group" id="accordion">
-                        <div class="panel">
-                            <p class="specific-goal"><i class="ti-control-play"></i>
-                                {% trans 'Estudiar las técnicas y estrategias para aplicar a la aplicación SmartMoving' %}
-                            </p>
-                        </div>
-                        <div class="panel">
-                            <p class="specific-goal"><i class="ti-control-play"></i>
-                                {% trans 'Aplicar la metodología del diseño centrado en el usuario para realizar los siguientes pasos de manera iterativa:' %}
-                            </p>
-                            <p class="specific-goal"><i class="ti-shift-right"></i>
-                                {% trans 'Diseñar la solución y su arquitectura' %}
-                            </p>
-                            <p class="specific-goal"><i class="ti-shift-right"></i>
-                                {% trans 'Desarrollar un prototipo' %}
-                            </p>
-                            <p class="specific-goal"><i class="ti-shift-right"></i>
-                                {% trans 'Evaluar el prototipo, de manera cualitativa con usuarios finales, con el objetivo de conocer su impresión sobre la utilidad del mismo.' %}
-                            </p>
-                        </div>
+                        <ul>
+                            <li>
+                                {% trans 'Study the techniques and strategies that apply to the smartmoving solution' %}
+                            </li>
+                            <li>
+                                {% trans 'Apply the user-centered design methodology to perform the following steps iteratively:' %}
+                            </li>
+                            <ul>
+                                <li>
+                                    {% trans 'Design the solution and its architecture' %}
+                                </li>
+                                <li>
+                                    {% trans 'Develop a prototype' %}
+                                </li>
+                                <li>
+                                    {% trans 'Evaluate the prototype, qualitatively with users, in order to know their impression of its usefulness' %}
+                                </li>
+                            </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -158,7 +168,7 @@
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
                         <h2>{% trans 'Main features' %}</h2>
-                        <p>{% trans 'Lo que SmartMoving tiene para ofrecer' %} </p>
+                        <p>{% trans 'What SmartMoving has to offer' %} </p>
                     </div>
                 </div>
             </div>
@@ -168,8 +178,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/3.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Información' %}</h3>
-                        <p>{% trans 'Brinda información sobre el estado de las veredas cercanas a la ubicación actual del usuario.' %}</p>
+                        <h3>{% trans 'Information' %}</h3>
+                        <p>{% trans 'Provides information on the state of the sidewalks showing the POI(Point of interest) reports near the user's current location given' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -177,8 +187,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/8.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Recomienda caminos' %}</h3>
-                        <p>{% trans 'Recomienda dos caminos posibles desde la ubicación del usuario a un destino introducido por el mismo' %}</p>
+                        <h3>{% trans 'Recommend paths' %}</h3>
+                        <p>{% trans 'Recomend two possibles paths from the user location to a destination' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -186,8 +196,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/14.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Detalles de los Reportes' %}</h3>
-                        <p>{% trans 'El usuario podrá visualizar en detalle los reportes que fueron creados por otros usuarios y podrá solucionar o confirmar reportes' %}</p>
+                        <h3>{% trans 'POI Report Details' %}</h3>
+                        <p>{% trans 'The user would be able to visualize in detail the POI reports that were created by other users and can solve or confirm reports' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -195,8 +205,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/18.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Reportes' %}</h3>
-                        <p>{% trans 'Lista de reportes que un usuario puede crear' %}</p>
+                        <h3>{% trans 'POI Reports' %}</h3>
+                        <p>{% trans 'The list of the reports that an user would be able to create' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -204,8 +214,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/configu.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Configuración de reportes' %}</h3>
-                        <p>{% trans 'Configuración manual sobre los reportes negativos leves y graves' %} </p>
+                        <h3>{% trans 'Configuration of the POI reports' %}</h3>
+                        <p>{% trans 'Manual configuration about negatives reports' %} </p>
                     </div>
                 </div>
             </div>
@@ -231,7 +241,7 @@
                         <hr>
                         <ul class="list-unstyled">
 <!--                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>-->
-                            <li>Android</li>
+                            <li>The consumer of back-end services. All source code for such application can be found on Github</li>
 <!--                            <li>2 Subdomains</li>-->
 <!--                            <li>5 Email Accounts</li>-->
 <!--                            <li>Webmail Support</li>-->
@@ -247,7 +257,7 @@
                         <hr>
                         <ul class="list-unstyled">
 <!--                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>-->
-                            <li>Django</li>
+                            <li>Django 2.2.3 is used as an API server providing all the necessary functions. All source code for such a server can be found on Github</li>
 <!--                            <li>2 Subdomains</li>-->
 <!--                            <li>5 Email Accounts</li>-->
 <!--                            <li>Webmail Support</li>-->

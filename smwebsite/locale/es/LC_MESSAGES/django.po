@@ -729,7 +729,7 @@ msgstr ""
 
 #: .\smwebsite\templates\ucarpooling\index.html:108
 msgid "UCArpooling Application"
-msgstr ""
+msgstr "Aplicación UCArpooling"
 
 #: .\smwebsite\templates\ucarpooling\index.html:111
 msgid ""

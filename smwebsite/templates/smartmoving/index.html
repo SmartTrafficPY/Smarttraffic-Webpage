@@ -105,18 +105,25 @@
                 <div class="col-xs-12">
                     <div class="section-title">
                         <div class="text-center">
-                            <h2>{% trans 'Project Goals' %}</h2>
+                            <h2>{% trans 'SmartMoving Aplication' %}</h2>
                         </div>
+                        <p>
+                            {% trans 'According to data obtained from the municipality of Asunción, in 2018 there were a total of 1836 complaints about the sidewalks, of which 749 were about obstruction and occupation of sidewalks and 686 where about construction and repair of sidewalks.' %}
+                        </p>
+                        <p>
+                            {% trans 'On behalf of the SmartTraffic project, a citizenship survey was conducted to find the problems a citizen faces in Asunción. In the survey the 73% responded that the state of the sidewalks is a serious or very serious problem' %}
+                        </p>
+                        <p>
+                            {% trans 'So, taking the results of the survey and the large number of complaints made through the municipality, it was seen as an opportunity to make a mobile application system that offers information about the state of sidewalks and road recommendations.' %}
+                        </p>
                         <h3>{% trans 'Primary Goal' %}</h3>
-                        <p><i class="ti-star"></i>
-                            {% trans 'Desarrollar una aplicación para brindar al usuario información sobre el estado de las veredas cercanas a su ubicación actual y recomendar peatonales con menos obstaculos de un origen a un destino' %}
-                        </p>
-                        <p class="definition"><i class="ti-shift-right"></i>
-                            {% trans 'El usuario podría de manera voluntaria crear reportes, así como confirmar y solucionar reportes que fueron hechos por otros usuarios.' %}
-                        </p>
-                        <p class="definition"><i class="ti-shift-right"></i>
-                            {% trans 'Beneficiaría a personas que tienen movilidad reducida como, personas en silla de ruedas, andador, bastón y con carro de bebe' %}
-                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                            {% trans 'Develop an application to provide the user with information about the state of the sidewalks near their current location and recommend paths with fewer obstacles to a destination. It would benefit people who have reduced mobility such as people in a wheelchair, walker, cane and with a baby carriage' %}
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -124,25 +131,25 @@
                 <div class="col-xs-12">
                     <h3>{% trans 'Specific Goals' %}</h3>
                     <div class="panel-group" id="accordion">
-                        <div class="panel">
-                            <p class="specific-goal"><i class="ti-control-play"></i>
-                                {% trans 'Estudiar las técnicas y estrategias para aplicar a la aplicación SmartMoving' %}
-                            </p>
-                        </div>
-                        <div class="panel">
-                            <p class="specific-goal"><i class="ti-control-play"></i>
-                                {% trans 'Aplicar la metodología del diseño centrado en el usuario para realizar los siguientes pasos de manera iterativa:' %}
-                            </p>
-                            <p class="specific-goal"><i class="ti-shift-right"></i>
-                                {% trans 'Diseñar la solución y su arquitectura' %}
-                            </p>
-                            <p class="specific-goal"><i class="ti-shift-right"></i>
-                                {% trans 'Desarrollar un prototipo' %}
-                            </p>
-                            <p class="specific-goal"><i class="ti-shift-right"></i>
-                                {% trans 'Evaluar el prototipo, de manera cualitativa con usuarios finales, con el objetivo de conocer su impresión sobre la utilidad del mismo.' %}
-                            </p>
-                        </div>
+                        <ul>
+                            <li>
+                                {% trans 'Study the techniques and strategies that apply to the smartmoving solution' %}
+                            </li>
+                            <li>
+                                {% trans 'Apply the user-centered design methodology to perform the following steps iteratively:' %}
+                            </li>
+                            <ul>
+                                <li>
+                                    {% trans 'Design the solution and its architecture' %}
+                                </li>
+                                <li>
+                                    {% trans 'Develop a prototype' %}
+                                </li>
+                                <li>
+                                    {% trans 'Evaluate the prototype, qualitatively with users, in order to know their impression of its usefulness' %}
+                                </li>
+                            </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -157,8 +164,8 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
-                        <h2>{% trans 'Main features' %}</h2>
-                        <p>{% trans 'Lo que SmartMoving tiene para ofrecer' %} </p>
+                        <h2>{% trans 'Features' %}</h2>
+                        <p>{% trans 'What SmartMoving has to offer' %} </p>
                     </div>
                 </div>
             </div>
@@ -168,8 +175,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/3.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Información' %}</h3>
-                        <p>{% trans 'Brinda información sobre el estado de las veredas cercanas a la ubicación actual del usuario.' %}</p>
+                        <h3>{% trans 'Information' %}</h3>
+                        <p>{% trans 'Provides information on the state of the sidewalks showing the POI(Point of interest) reports near the users current location given' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -177,8 +184,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/8.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Recomienda caminos' %}</h3>
-                        <p>{% trans 'Recomienda dos caminos posibles desde la ubicación del usuario a un destino introducido por el mismo' %}</p>
+                        <h3>{% trans 'Recommend paths' %}</h3>
+                        <p>{% trans 'Recomend two possibles paths from the user location to a destination' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -186,8 +193,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/14.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Detalles de los Reportes' %}</h3>
-                        <p>{% trans 'El usuario podrá visualizar en detalle los reportes que fueron creados por otros usuarios y podrá solucionar o confirmar reportes' %}</p>
+                        <h3>{% trans 'POI Report Details' %}</h3>
+                        <p>{% trans 'The user would be able to visualize in detail the POI reports that were created by other users and can solve or confirm reports' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -195,8 +202,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/18.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Reportes' %}</h3>
-                        <p>{% trans 'Lista de reportes que un usuario puede crear' %}</p>
+                        <h3>{% trans 'POI Reports' %}</h3>
+                        <p>{% trans 'The list of the reports that an user would be able to create' %}</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -204,8 +211,8 @@
                         <div class="box-screenshot">
                             <img src="{% static 'smwebsite/images/smartmoving/configu.png' %}" alt="">
                         </div>
-                        <h3>{% trans 'Configuración de reportes' %}</h3>
-                        <p>{% trans 'Configuración manual sobre los reportes negativos leves y graves' %} </p>
+                        <h3>{% trans 'Configuration of the POI reports' %}</h3>
+                        <p>{% trans 'Manual configuration about negatives reports' %} </p>
                     </div>
                 </div>
             </div>
@@ -214,53 +221,34 @@
 
 
 <!--Contribution open source code repo. it has support for a background image similar to the background header image-->
-    <section class="price-area overlay section-padding" id="contribution-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="section-title">
-                        <h2>{% trans 'Contribute' %}</h2>
-                        <p>{% trans 'SmartMoving is an open source project hosted in Github, feel free to contribute. The repository contains the source code and the installation guides' %}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6">
-                    <div class="price-table">
-                        <h3 class="text-uppercase price-title">Front end</h3>
-                        <hr>
-                        <ul class="list-unstyled">
-<!--                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>-->
-                            <li>Android</li>
-<!--                            <li>2 Subdomains</li>-->
-<!--                            <li>5 Email Accounts</li>-->
-<!--                            <li>Webmail Support</li>-->
-<!--                            <li>Customer Support 24/7</li>-->
-                        </ul>
-                        <hr>
-                        <a target="_blank" href="https://github.com/SmartTrafficPY/smartmoving" class="button">{% trans 'Repository' %}</a>
-                    </div>
-                </div>
-                <div class="col-xs-6">
-                    <div class="price-table">
-                        <h3 class="text-uppercase price-title">Back end</h3>
-                        <hr>
-                        <ul class="list-unstyled">
-<!--                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>-->
-                            <li>Django</li>
-<!--                            <li>2 Subdomains</li>-->
-<!--                            <li>5 Email Accounts</li>-->
-<!--                            <li>Webmail Support</li>-->
-<!--                            <li>Customer Support 24/7</li>-->
-                        </ul>
-                        <hr>
-                        <a target="_blank" href="https://github.com/SmartTrafficPY/smartcity-asuncion" class="button">{% trans 'Repository' %}</a>
-                    </div>
+<section class="gray-bg section-padding" id="contribution-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                <div class="section-title">
+                    <h2>{% trans 'Contribute' %}</h2>
+                    <p>{% trans 'SmartMoving is an open source project hosted in Github, feel free to contribute' %}</p>
                 </div>
             </div>
         </div>
-    </section>
-
+        <div class="row">
+                <div class="price-table">
+                    <h3 class="text-uppercase price-title">Front end</h3>
+                    <p>
+                        {% trans 'The project is develop for Android devices' %}
+                    </p>
+                    <a target="_blank" href="https://github.com/SmartTrafficPY/smartmoving" class="button">{% trans 'Repository' %}</a>
+                </div>
+                <div class="price-table">
+                    <h3 class="text-uppercase price-title">Back end</h3>
+                    <p>
+                        {% trans 'Work with a Django server, a Postgresql database and a map server based on CartoDB' %}
+                    </p>
+                    <a target="_blank" href="https://github.com/SmartTrafficPY/smartcity-asuncion" class="button">{% trans 'Repository' %}</a>
+                </div>
+        </div>
+    </div>
+</section>
 
     <section class="testimonial-area section-padding gray-bg overlay" id="blog-page">
         <div class="container">

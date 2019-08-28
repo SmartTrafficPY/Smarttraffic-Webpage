@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{% static 'smwebsite/style.css' %}">
     <link rel="stylesheet" href="{% static 'smwebsite/css/responsive.css' %}">
     <script src="{% static 'smwebsite/main.js' %}"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="{% static 'smwebsite/js/vendor/modernizr-2.8.3.min.js' %}"></script>
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -61,9 +62,10 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#objective-section">{% trans 'Project' %}</a></li>
-                    <li><a href="#feature-section">{% trans 'Features' %}</a></li>
-                    <li><a href="#contribution-section">{% trans 'Contribute' %}</a></li>
+                    <li class="active"><a href="#experiment-section">Experimento</a></li>
+                    <li><a href="#execution-section">Ejecución</a></li>
+                    <li><a href="#prizes-section">Premios</a></li>
+                    <li><a href="#faq-section">FAQ</a></li>
                     <li><a href="#blog-page">Blog</a></li>
                     <li><a href="#contact-page">{% trans 'Contact Us' %}</a></li>
                 </ul>
@@ -99,25 +101,43 @@
 
 
     <!--Use case objective section-->
-    <section class="gray-bg section-padding" id="objective-section">
+    <section class="gray-bg section-padding" id="experiment-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="section-title">
                         <div class="text-center">
-                            <h2>{% trans 'UCArpooling Experiment' %}</h2>
+                            <h2>Experimento UCArpooling</h2>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ipsum dui. Sed porttitor, felis sed bibendum varius, sapien arcu aliquam nunc, sed dignissim dui eros at arcu. Maecenas sapien leo, ultricies ac euismod eu, auctor in mi. Maecenas in ornare sem. Maecenas convallis, nulla eu egestas vehicula, mi nisi commodo est, at posuere tellus tortor non sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas velit ligula, efficitur quis volutpat sit amet, consectetur ac felis. Etiam pretium interdum vehicula. Curabitur posuere orci at ex tempus varius. In suscipit arcu sagittis, laoreet diam in, pulvinar augue. Proin finibus maximus enim, cursus consectetur quam consectetur ut. Vestibulum viverra tellus ac nulla tristique auctor.
+                            Para comprobar la efectividad del sistema se debería poner a prueba en un ambiente real, en el que una cantidad apreciable 
+                            de personas de una institución adopte la aplicación para comprobar si realmente cumple sus objetivos. 
                         </p>
                         <p>
-                            Nulla fermentum sagittis arcu, et vehicula tellus scelerisque at. Donec nisl velit, tincidunt eget malesuada sit amet, blandit quis ex. Ut sodales congue nibh eu fermentum. Proin tempor orci neque, vel egestas tortor mattis et. Nam laoreet molestie auctor. Suspendisse quis ex vel nibh dictum cursus sit amet id velit. Quisque nibh ipsum, vehicula ut nisl sit amet, dictum vulputate velit. Pellentesque non tempus purus. Quisque vestibulum ipsum sed finibus pellentesque. Aliquam non nisi sollicitudin, lacinia mauris ac, lobortis libero. Etiam blandit tristique volutpat. Duis tincidunt feugiat venenatis. Nullam iaculis nec eros vitae mollis. Etiam viverra, magna ut volutpat sollicitudin, libero lorem pulvinar est, quis imperdiet eros eros vel augue.
+                            Todo esto implica una organización de logística considerable, por lo tanto es necesario buscar una solución factible en el contexto 
+                            de este trabajo. Tomando en cuenta las limitaciones de dinero y tiempo del proyecto SmartTraffic proponemos realizar y validar el 
+                            diseño de una aplicación de carpooling para responder directamente a la problemática establecida. El diseño de la aplicación será 
+                            validado mediante una <strong>experiencia de recolección y análisis de datos</strong> a realizarse con los alumnos de la Universidad Católica “Nuestra Señora de la Asunción” sede Santa Librada.
+                        </p>
+                        <p>
+                            La experiencia consiste en recolectar los datos de las trayectorias de los alumnos además de información acerca de algunos aspectos 
+                            de sus personalidades. Para ayudarnos a recaudar la información mencionada, gracias a un convenio con la
+                            <a style="padding: 0 3 ; font-size: 1em ;color:rgb(84, 156, 250);background-color: white" href="https://www.unitn.it/" class="badge badge-light" target="_blank"> 
+                                <i style="color: #0a4444; font-size: 15px" class="fa fa-university" aria-hidden="true"></i>
+                                Universidad de Trento
+                            </a>
+                            utilizaremos una app llamada I-Log. I-Log, cuya capacidad es la de utilizar los sensores del teléfono, servirá para generar datos acerca 
+                            del entorno de sus usuarios, además utiliza preguntas explícitas con respuestas de opción múltiple. Luego, tomando los datos de la 
+                            experiencia se pasará a analizar sobre un modelado de la red de carreteras de Asunción los <em>pools</em> que se podrían formar entre personas 
+                            que <strong>comparten una trayectoria a la misma hora y tienen una gran afinidad en sus respectivas personalidades</strong>.
                         </p>
                         <h3>{% trans 'Primary Goal' %}</h3>
                         <ul>
                             <li>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ipsum dui. Sed porttitor, felis sed bibendum varius, sapien arcu aliquam nunc, sed dignissim dui eros at arcu. Maecenas sapien leo, ultricies ac euismod eu, auctor in mi. Maecenas in ornare sem. Maecenas convallis, nulla eu egestas vehicula, mi nisi commodo est, at posuere tellus tortor non sapien.
+                                    El propósito de la evaluación es analizar el impacto que tendría el sistema de carpooling si es que fuese desplegado para las 
+                                    personas que acuden a la Universidad Católica, campus Santa Librada. Específicamente se analizará el impacto en el volumen de 
+                                    vehículos que acuden al campus regularmente comparando con la situación actual.
                                 </p>
                             </li>
                         </ul>
@@ -129,20 +149,85 @@
     <!--Use case objective section/-->
 
 
-    <section class="gray-bg section-padding" id="guide-section" style="background-color:rgb(0, 204, 255, 0.19);">
+    <section class="gray-bg section-padding" id="execution-section" style="background-color:rgb(0, 204, 255, 0.19);">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="section-title">
                         <div class="text-center">
-                            <h2>{% trans 'Usage guide' %}</h2>
+                            <h2>Ejecución del experimento</h2>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ipsum dui. Sed porttitor, felis sed bibendum varius, sapien arcu aliquam nunc, sed dignissim dui eros at arcu. Maecenas sapien leo, ultricies ac euismod eu, auctor in mi. Maecenas in ornare sem. Maecenas convallis, nulla eu egestas vehicula, mi nisi commodo est, at posuere tellus tortor non sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas velit ligula, efficitur quis volutpat sit amet, consectetur ac felis. Etiam pretium interdum vehicula. Curabitur posuere orci at ex tempus varius. In suscipit arcu sagittis, laoreet diam in, pulvinar augue. Proin finibus maximus enim, cursus consectetur quam consectetur ut. Vestibulum viverra tellus ac nulla tristique auctor.
+                            El experimento tiene una duración de <strong>3 semanas</strong> , desde el <strong>2 de setiembre</strong> hasta el <strong>20 de setiembre</strong> de 2019
                         </p>
                         <p>
-                            Nulla fermentum sagittis arcu, et vehicula tellus scelerisque at. Donec nisl velit, tincidunt eget malesuada sit amet, blandit quis ex. Ut sodales congue nibh eu fermentum. Proin tempor orci neque, vel egestas tortor mattis et. Nam laoreet molestie auctor. Suspendisse quis ex vel nibh dictum cursus sit amet id velit. Quisque nibh ipsum, vehicula ut nisl sit amet, dictum vulputate velit. Pellentesque non tempus purus. Quisque vestibulum ipsum sed finibus pellentesque. Aliquam non nisi sollicitudin, lacinia mauris ac, lobortis libero. Etiam blandit tristique volutpat. Duis tincidunt feugiat venenatis. Nullam iaculis nec eros vitae mollis. Etiam viverra, magna ut volutpat sollicitudin, libero lorem pulvinar est, quis imperdiet eros eros vel augue.
+                            Como se quiere censar el trayecto y la logística utilizada por los alumnos al ir y venir de la UCA, para este experimento, 
+                            se utilizará la herramienta tecnológica llamada 
+                            <a style="color:blue;background-color: white" href="https://play.google.com/store/apps/details?id=it.unitn.disi.witmee.sensorlog" class="badge badge-light" target="_blank"> 
+                                <i style="color: #67b4b4; font-size: 22px" class="fa fa-android" aria-hidden="true"></i>
+                                i-Log
+                            </a> 
+                            que proporciona dos funcionalidades: 
                         </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="price-table">
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h4>
+                                                        <i style="font-size: 100px;color: #ff4e4e" class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </h4>
+                                            </div>
+                                            <div class="col-md-9">
+                                                    <div class="row">
+                                                        <h4>
+                                                            Recopilación de datos
+                                                        </h4>
+                                                    </div>
+                                                    <div class="row">
+                                                        <p>
+                                                            i-Log está diseñado para recopilar datos de múltiples sensores simultáneamente, en este caso particular solo se utilizará el <strong>GPS</strong>.
+                                                            Esta herramienta censa la posición del teléfono <strong>sin intervención del usuario</strong>.
+                                                        </p>
+                                                    </div>
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="price-table">
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h4>
+                                                        <i style="font-size: 100px;color: #7ed67e" class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                </h4>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="row">
+                                                    <h4>
+                                                        Diarios de tiempo
+                                                    </h4>
+                                                </div>
+                                                <div class="row">
+                                                    <p>
+                                                        Cada día a una <strong>hora específica</strong>, 
+                                                        i-log pide que se respondan algunas 
+                                                        preguntas acerca la <strong>logística del viaje</strong> del voluntario. 
+                                                        Cada pregunta se puede dejar en cola hasta un <strong>máximo de 2 horas</strong>, 
+                                                        una vez pasado este tiempo la pregunta es tratada como "No respondida", 
+                                                        disminuyendo las chances de ganar los premios.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,77 +235,64 @@
     </section>
 
 
-    <section class="price-area overlay section-padding" id="price-page">
+    <section class="price-area overlay section-padding" id="prizes-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
-                        <h2>Prizes</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        <h2>Premios</h2>
+                        <p>Se premiará a 3 personas que tengan prendido i-Log corriendo en su celular la mayor cantidad tiempo y respondan la mayor cantidad de preguntas!</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="price-table">
-                        <h3 class="text-uppercase price-title">Basic</h3>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
-                        </ul>
-                        <hr>
-                        <a href="#" class="button">Purchase</a>
-                    </div>
-                </div>
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table active">
-                        <span class="price-info"><span class="ti-crown"></span></span>
-                        <h3 class="text-uppercase price-title">STABDARD</h3>
+                        <span class="price-info"> <span class="ti-crown"></span> 1er premio  </span>
+                        <h3 class="text-uppercase price-title">Jbl FLip 4</h3>
                         <hr>
-                        <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">39</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
-                        </ul>
+                        <div class="prize-photo">
+                            <img src="{% static 'smwebsite\images\ucarpooling\jbl_flip_4.jpg' %}" alt="">
+                        </div>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="https://www.jbl.com/bluetooth-speakers/JBL+Flip+4.html"  target="_blank" class="button">Página oficial del producto</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-table">
-                        <h3 class="text-uppercase price-title">UNLIMITED</h3>
+                        <span class="price-info">2do premio</span>
+                        <h3 class="text-uppercase price-title">Xiaomi Mi Band 4</h3>
                         <hr>
-                        <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
-                        </ul>
+                        <div class="prize-photo">
+                            <img src="{% static 'smwebsite\images\ucarpooling\xiaomi_mi_band_4.jpg' %}" alt="">
+                        </div>
                         <hr>
-                        <a href="#" class="button">Purchase</a>
+                        <a href="https://www.mi.com/es/mi-smart-band-4/"  target="_blank" class="button">Página oficial del producto</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <span class="price-info">3er premio</span>
+                        <h3 class="text-uppercase price-title">Chromecast 2</h3>
+                        <hr>
+                        <div class="prize-photo">
+                            <img src="{% static 'smwebsite\images\ucarpooling\chromecast_2.jpg' %}" alt="">
+                        </div>
+                        <hr>
+                        <a href="https://www.xataka.com/accesorios/chromecast-2"  target="_blank" class="button">Características del producto</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="gray-bg section-padding" id="faq-page">
+    <section class="gray-bg section-padding" id="faq-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
-                        <h2>Frequently Asked Questions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        <h2>Preguntas frecuentes</h2>
+                        <p>Aqui puedes encontrar las respuestas a las preguntas frecuentes que se puedan tener acerca el expermiento</p>
                     </div>
                 </div>
             </div>
@@ -229,34 +301,231 @@
                     <div class="panel-group" id="accordion">
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Sedeiusmod tempor inccsetetur aliquatraiy?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">¿Funciona i-Log en iOS?</a>
                             </h4>
                             <div id="collapse1" class="panel-collapse collapse in">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                                <p>
+                                    En este momento, i-Log solo está disponible para dispositivos Android, pero planeamos lanzar una versión de iOS pronto.
+                                </p>
                             </div>
                         </div>
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">¿Que tengo que hacer para ganar los premios?</a>
                             </h4>
                             <div id="collapse2" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                                <p>
+                                    Tienen que cumplir 2 condiciones:
+                                    <ol>
+                                        <li>
+                                            Estar seguro que i-Log este corriendo en el celular, EN ESPECIAL en el momento de ir y venir a la UCA
+                                        </li>
+                                        <li>
+                                            Responder todas las preguntas antes de que expiren. Las preguntas se generan a una hora fija todos los dias y tienen hasta 120 minutos para responder
+                                        </li>
+                                    </ol>
+                                    Al final del experimento, se sorteara entre las personas que tuvieron prendido i-log todos los dias a la hora de su viaje de ida y vuelta a la UCA y respondieron todas las preguntas
+                                </p>
                             </div>
                         </div>
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Cuando hago clic en el ícono de la aplicación parece que no pasa nada, no aparece. ¿Es normal?</a>
                             </h4>
                             <div id="collapse3" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                                <p>i-Log es una aplicación que ha sido diseñada de manera diferente con respecto a la mayoría de las aplicaciones existentes. Su objetivo principal es recopilar grandes datos personales del usuario, de acuerdo con las últimas normas de privacidad (GDPR), y no visualizar algo en el usuario. Para hacerlo de manera efectiva, decidimos eliminar la interfaz de usuario y hacer que la aplicación sea lo más simple posible. Es por eso que no ves la IU cuando haces clic en el ícono. En cambio, una (o varias) notificaciones deberían haber aparecido en la barra de notificaciones de su teléfono si ya está inscrito en un experimento.</p>
                             </div>
                         </div>
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">¿Cómo sé si la aplicación está funcionando?</a>
                             </h4>
                             <div id="collapse4" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                                <p>La aplicación se está ejecutando si al menos una notificación que dice "i-Log, el seguimiento está activado" aparece en la barra de notificaciones del teléfono inteligente. Deberías ver uno (o varios) pequeños íconos en la parte superior izquierda de la pantalla y una (o varias) notificaciones cuando desliza hacia abajo desde la parte superior (Nota: esto depende del teléfono inteligente, algunas marcas no muestran los íconos, en algunas de ellas debe deslizar con un dedo, dos dedos, etc.)</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">¿Cómo puedo detener i-Log?</a>
+                            </h4>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <p>
+                                    Nos tomamos muy en serio la privacidad y la ética. Por esta razón, el usuario puede detener i-Log (y, en consecuencia, la recopilación de datos) en cualquier momento, haciendo clic en el botón "STOP" en la notificación principal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">¿Por qué no veo botones en la notificación?</a>
+                            </h4>
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <p>
+                                    Los diferentes teléfonos se comportan de manera diferente. En la mayoría de ellos, verá los botones de forma predeterminada, en algunos de ellos debe hacer clic con uno o dos dedos en la notificación, en otros debe deslizar la notificación hacia abajo con uno / dos dedos. Quizás tenga que habilitarlo en la Configuración del teléfono inteligente. ¿Pero deberías saber cómo hacerlo bien? Es tu teléfono de hecho. ¿Me estás diciendo que nunca usaste esta funcionalidad en Whatsapp?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">¿La aplicación utiliza mucho espacio en disco?</a>
+                            </h4>
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <p>
+                                    No debería. La aplicación almacena los registros momentáneamente en el dispositivo antes de sincronizarlos a través de Wi-Fi. Si siempre está conectado a un Wi-Fi (como lo hace la mayoría de las personas), no ocupa ningún espacio. Si experimenta altas tasas de ocupación de almacenamiento, intente
+                                    vea si tiene registros no sincronizados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">¿Dónde se guardan los datos?</a>
+                            </h4>
+                            <div id="collapse8" class="panel-collapse collapse">
+                                <p>
+                                    Por razones de privacidad / seguridad, nadie puede acceder a los datos directamente en el teléfono. Esto se hace para evitar violaciones de datos en caso de que pierda su teléfono inteligente. Como respuesta más técnica, los datos se almacenan dentro del entorno limitado de la aplicación que también facilita su
+                                    eliminación simplemente desinstalando la aplicación del dispositivo.                                        
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Si elimino la aplicación, ¿también se eliminan los datos?</a>
+                            </h4>
+                            <div id="collapse9" class="panel-collapse collapse">
+                                <p>
+                                    Sí, cuando desinstala la aplicación, se eliminan todos los datos relacionados.                                     
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">¿La aplicación afectará la duración de la batería del teléfono inteligente?</a>
+                            </h4>
+                            <div id="collapse10" class="panel-collapse collapse">
+                                <p>
+                                    Hasta cierto punto, sí, pero depende. Dependiendo del experimento en el que participará (y, en consecuencia, de los sensores utilizados), la aplicación no puede consumir una cantidad considerable de batería. Pero tenga en cuenta que i-Log se ejecuta continuamente y no es como otra aplicación que abre, usa durante 5 minutos y luego cierra. En comparación, Facebook, Pinterest y otros consumen mucha más batería. Al final, si usa Facebook, ¿cuánto durará su batería? Apuesto menos de unas horas ...                                     
+                                </p>
+                                <p>
+                                    Ponemos mucho esfuerzo en minimizar el impacto en la duración de la batería de i-Log. Podemos darle algunos consejos, algunas lecciones aprendidas para que pueda usarlo de la manera más eficiente posible:
+                                    <ol>
+                                        <li>
+                                            Mantenga el Wi-Fi del teléfono inteligente encendido y, si es posible, permita que se conecte a las redes disponibles. Si el teléfono está conectado a un Wi-Fi, i-Log detecta la ubicación del usuario (cuando corresponde) desde allí y no desde el sensor GPS (que es el componente más dependiente de la energía del dispositivo, aparte de la pantalla (que hacemos) No utilice));
+                                        </li>
+                                        <li>
+                                            Dentro o cerca de los edificios, no hay señal de GPS. Si está en la oficina, en su escritorio, debe estar conectado a una red Wi-Fi; de lo contrario, i-Log sigue intentando detectar la señal GPS y esta es una tarea que requiere mucha energía.    
+                                        </li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">¿Recibiré las preguntas después de detener el i-Log?</a>
+                            </h4>
+                            <div id="collapse11" class="panel-collapse collapse">
+                                <p>
+                                    En realidad, cuando hace clic en "STOP" para cerrar el i-Log, no recibirá preguntas hasta que vuelva a abrir la aplicación haciendo clic en i-Log.
+                                    Sin embargo, si el sistema operativo mata el i-Log debido a algunos mecanismos de protección, ya no funcionará.                                                                           
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">¿Es i-Log compatible con aplicaciones externas de Battery Manager?</a>
+                            </h4>
+                            <div id="collapse12" class="panel-collapse collapse">
+                                <p>
+                                    En la tienda Google Play hoy en día es posible encontrar muchas aplicaciones que prometen salvar la vida útil de la batería de su dispositivo. Algunos dispositivos vienen con este tipo de aplicaciones preinstaladas. Como regla general, i-Log no es compatible con ellos porque simplemente eliminan todas las aplicaciones que se ejecutan en segundo plano. Las aplicaciones más inteligentes permiten incluir en la lista blanca y excluir algunas aplicaciones de este comportamiento: i-Log debería ser una de ellas. Para ser claros, sucede también con Whatsapp y otras aplicaciones muy populares, sin embargo, son tan populares que están excluidas por las políticas de ahorro de batería por defecto.                                                                         
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">¿Es i-Log compatible con la configuración de ahorro de batería (temporal) de mi teléfono inteligente?</a>
+                            </h4>
+                            <div id="collapse13" class="panel-collapse collapse">
+                                <p>
+                                    En muchos teléfonos Android existe la posibilidad de habilitar temporalmente una configuración específica que limita el consumo de batería, 
+                                    generalmente se llama Ahorro de batería (el nombre puede ser diferente, depende de la marca / modelo de su teléfono) y se puede acceder desde 
+                                    el menú superior ( desplazando hacia abajo). El usuario rara vez debe utilizar esta funcionalidad en aquellas situaciones en que el nivel de 
+                                    batería es bajo y necesita que dure algunas horas más. Cuando esta funcionalidad está habilitada, el sistema operativo bloquea i-Log (así como 
+                                    cualquier otra aplicación que se ejecute en segundo plano y / o obtenga datos en segundo plano) y no puede recopilar datos. Para superar esta 
+                                    limitación, la mayoría del sistema operativo permite excluir de este comportamiento algunas aplicaciones: i-Log debería ser una de ellas. 
+                                    La forma de hacerlo depende de diferentes factores y probablemente debería buscar en Google cómo hacerlo para su teléfono / sistema operativo. 
+                                    Para ser claros, sucede también con Whatsapp y otras aplicaciones muy populares, sin embargo, son tan populares que están excluidas por las
+                                        políticas de ahorro de batería por defecto.                                                                        
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">¿Es i-Log compatible con mi teléfono inteligente?</a>
+                            </h4>
+                            <div id="collapse14" class="panel-collapse collapse">
+                                <p>
+                                    i-Log funciona en todos los teléfonos que ejecutan Android> 5.1.1, puede verificar la versión de su 
+                                    sistema operativo en la Configuración de su dispositivo. En algunos teléfonos inteligentes existen 
+                                    algunas técnicas agresivas de ahorro de batería, como Xiaomi, Huawei, la última Samsung, entre otras. 
+                                    En estos teléfonos generalmente existe la posibilidad de excluir algunas aplicaciones de esto e i-Log 
+                                    debería ser una de ellas. La forma de hacerlo depende de diferentes factores y probablemente debería 
+                                    buscar en Google cómo hacerlo para su teléfono / sistema operativo. Para ser claros, sucede también 
+                                    con Whatsapp y otras aplicaciones muy populares, sin embargo, son tan populares que están excluidas 
+                                    por las políticas de ahorro de batería por defecto.
+                                </p>
+                                <p>
+                                    En los dispositivos que usan sistemas operativos Android estándar, es suficiente otorgarle a i-Log el 
+                                    permiso de batería durante el procedimiento de instalación, pero desafortunadamente esto no es suficiente en muchos dispositivos.                                                          
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">¿Es normal que no reciba notificaciones en i-Log (cuando corresponda)</a>
+                            </h4>
+                            <div id="collapse15" class="panel-collapse collapse">
+                                <p>
+                                    Si el experimento está inscrito para prever la posibilidad de enviar notificaciones a los usuarios, entonces no, no es normal que no las reciba.                                                                     
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">¿Por qué mis datos de ubicación no se pueden recopilar bien?</a>
+                            </h4>
+                            <div id="collapse16" class="panel-collapse collapse">
+                                <p>
+                                    <ol>
+                                        <li>
+                                            Asegúrese de activar la "Alta precisión de ubicación".
+                                        </li>
+                                        <li>
+                                            Asegúrese de activar los "Servicios de ubicación (posición en el menú del panel de notificaciones)" y permitir que el teléfono / i-Log recopile sus datos de ubicación.
+                                        </li>
+                                        <li>
+                                            Asegúrese de proporcionar permisos de ubicación durante el procedimiento de configuración de i-Log. Puede verificar esto en el menú Configuración de la aplicación.
+                                        </li>
+                                    </ol>               
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">¿I-Log adquiere todo tipo de permiso de mi teléfono?</a>
+                            </h4>
+                            <div id="collapse17" class="panel-collapse collapse">
+                                <p>
+                                    No, i-Log solo accede a algunos de los permisos de acuerdo con el propósito del estudio QROWDLab                                                                     
+                                </p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">¿Por qué no puedo cargar / sincronizar registros?</a>
+                            </h4>
+                            <div id="collapse18" class="panel-collapse collapse">
+                                <p>
+                                    Primero, verifique si se está conectando a un WiFi y la función "Sincronizar registro" está disponible (no en gris).
+                                    Luego debe verificar el permiso de sincronización. ¿Autorizó la sincronización al comienzo de la instalación? De lo contrario, debe desinstalar i-Log y volver a realizar la instalación desde el principio autorizando la sincronización.                                                                                                           
+                                </p>
                             </div>
                         </div>
                     </div>

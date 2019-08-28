@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 16:59-0400\n"
+"POT-Creation-Date: 2019-08-28 16:27-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,7 @@ msgstr "Italiano"
 #: .\smwebsite\templates\smartmoving\index.html:14
 #: .\smwebsite\templates\smartparking\index.html:14
 #: .\smwebsite\templates\smwebsite\index.html:14
+#: .\smwebsite\templates\ucarpooling\experiment.html:14
 #: .\smwebsite\templates\ucarpooling\index.html:14
 msgid "Smart Traffic Project"
 msgstr "Proyecto Smart Traffic"
@@ -43,6 +44,7 @@ msgstr "Proyecto Smart Traffic"
 #: .\smwebsite\templates\smartmoving\index.html:269
 #: .\smwebsite\templates\smartparking\index.html:265
 #: .\smwebsite\templates\smwebsite\index.html:660
+#: .\smwebsite\templates\ucarpooling\experiment.html:558
 #: .\smwebsite\templates\ucarpooling\index.html:276
 msgid "First presentation SmartMoving"
 msgstr "Primera presentación SmartMoving"
@@ -51,6 +53,7 @@ msgstr "Primera presentación SmartMoving"
 #: .\smwebsite\templates\smartmoving\index.html:273
 #: .\smwebsite\templates\smartparking\index.html:269
 #: .\smwebsite\templates\smwebsite\index.html:664
+#: .\smwebsite\templates\ucarpooling\experiment.html:562
 #: .\smwebsite\templates\ucarpooling\index.html:280
 msgid ""
 "Junior researcher Monica Fatecha gave her first presentation of her final "
@@ -71,6 +74,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:283
 #: .\smwebsite\templates\smartparking\index.html:279
 #: .\smwebsite\templates\smwebsite\index.html:674
+#: .\smwebsite\templates\ucarpooling\experiment.html:572
 #: .\smwebsite\templates\ucarpooling\index.html:290
 msgid "Expo 2019"
 msgstr ""
@@ -79,6 +83,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:287
 #: .\smwebsite\templates\smartparking\index.html:283
 #: .\smwebsite\templates\smwebsite\index.html:678
+#: .\smwebsite\templates\ucarpooling\experiment.html:576
 #: .\smwebsite\templates\ucarpooling\index.html:294
 msgid ""
 "The SmartTraffic project was presented at Expo 2019. Reaching people of all "
@@ -94,6 +99,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:297
 #: .\smwebsite\templates\smartparking\index.html:293
 #: .\smwebsite\templates\smwebsite\index.html:688
+#: .\smwebsite\templates\ucarpooling\experiment.html:586
 #: .\smwebsite\templates\ucarpooling\index.html:304
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
@@ -104,6 +110,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:301
 #: .\smwebsite\templates\smartparking\index.html:297
 #: .\smwebsite\templates\smwebsite\index.html:692
+#: .\smwebsite\templates\ucarpooling\experiment.html:590
 #: .\smwebsite\templates\ucarpooling\index.html:308
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
@@ -189,6 +196,8 @@ msgstr ""
 #: .\smwebsite\templates\smartparking\index.html:321
 #: .\smwebsite\templates\smwebsite\index.html:71
 #: .\smwebsite\templates\smwebsite\index.html:819
+#: .\smwebsite\templates\ucarpooling\experiment.html:70
+#: .\smwebsite\templates\ucarpooling\experiment.html:614
 #: .\smwebsite\templates\ucarpooling\index.html:68
 #: .\smwebsite\templates\ucarpooling\index.html:332
 msgid "Contact Us"
@@ -199,6 +208,7 @@ msgstr "Contáctenos"
 #: .\smwebsite\templates\smartmoving\index.html:326
 #: .\smwebsite\templates\smartparking\index.html:322
 #: .\smwebsite\templates\smwebsite\index.html:820
+#: .\smwebsite\templates\ucarpooling\experiment.html:615
 #: .\smwebsite\templates\ucarpooling\index.html:333
 msgid ""
 "Want to help? We will be very delighted to hear from you! Use the following "
@@ -212,6 +222,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:343
 #: .\smwebsite\templates\smartparking\index.html:339
 #: .\smwebsite\templates\smwebsite\index.html:837
+#: .\smwebsite\templates\ucarpooling\experiment.html:632
 #: .\smwebsite\templates\ucarpooling\index.html:350
 msgid "Telephone: "
 msgstr "Telefono: "
@@ -221,6 +232,7 @@ msgstr "Telefono: "
 #: .\smwebsite\templates\smartmoving\index.html:387
 #: .\smwebsite\templates\smartparking\index.html:383
 #: .\smwebsite\templates\smwebsite\index.html:881
+#: .\smwebsite\templates\ucarpooling\experiment.html:676
 #: .\smwebsite\templates\ucarpooling\index.html:394
 msgid "Or reach us on any of these social networks:"
 msgstr "O alcáncenos en cualquiera de estas redes sociales:"
@@ -292,7 +304,10 @@ msgstr "Contribuir"
 msgid ""
 "Improving mobility for pedestrians, providing information on the condition "
 "of the trails and recommending roads with fewer obstacles to a destination"
-msgstr "Mejorar la movilidad de los peatones, brindando información sobre el estado de los senderos y recomendando caminos peatonales con menos obstáculos a un destino."
+msgstr ""
+"Mejorar la movilidad de los peatones, brindando información sobre el estado "
+"de los senderos y recomendando caminos peatonales con menos obstáculos a un "
+"destino."
 
 #: .\smwebsite\templates\smartmoving\index.html:108
 msgid "SmartMoving Aplication"
@@ -304,7 +319,11 @@ msgid ""
 "were a total of 1836 complaints about the sidewalks, of which 749 were about "
 "obstruction and occupation of sidewalks and 686 where about construction and "
 "repair of sidewalks."
-msgstr "Según los datos obtenidos de la municipalidad de Asunción, en 2018 hubo un total de 1836 denuncias sobre las veredas, de las cuales 749 fueron sobre obstrucción y ocupación de veredas y 686 sobre construcción y reparación de veredas"
+msgstr ""
+"Según los datos obtenidos de la municipalidad de Asunción, en 2018 hubo un "
+"total de 1836 denuncias sobre las veredas, de las cuales 749 fueron sobre "
+"obstrucción y ocupación de veredas y 686 sobre construcción y reparación de "
+"veredas"
 
 #: .\smwebsite\templates\smartmoving\index.html:114
 msgid ""
@@ -312,7 +331,11 @@ msgid ""
 "find the problems a citizen faces in Asunción. In the survey the 73%% "
 "responded that the state of the sidewalks is a serious or very serious "
 "problem"
-msgstr "De parte del proyecto SmartTraffic, se realizó una encuesta de ciudadanía para encontrar los problemas que enfrenta un ciudadano en Asunción. En la encuesta, el 73% respondió que el estado de las aceras es un problema grave o muy grave"
+msgstr ""
+"De parte del proyecto SmartTraffic, se realizó una encuesta de ciudadanía "
+"para encontrar los problemas que enfrenta un ciudadano en Asunción. En la "
+"encuesta, el 73% respondió que el estado de las aceras es un problema grave "
+"o muy grave"
 
 #: .\smwebsite\templates\smartmoving\index.html:117
 msgid ""
@@ -320,11 +343,16 @@ msgid ""
 "through the municipality, it was seen as an opportunity to make a mobile "
 "application system that offers information about the state of sidewalks and "
 "road recommendations."
-msgstr "Entonces, de los resultados de la encuesta y la gran cantidad de quejas hechas a través del municipio, se vio como una oportunidad para hacer una aplicación móvil que brindará información sobre el estado de las veredas y recomendará caminos peatonales"
+msgstr ""
+"Entonces, de los resultados de la encuesta y la gran cantidad de quejas "
+"hechas a través del municipio, se vio como una oportunidad para hacer una "
+"aplicación móvil que brindará información sobre el estado de las veredas y "
+"recomendará caminos peatonales"
 
 #: .\smwebsite\templates\smartmoving\index.html:119
 #: .\smwebsite\templates\smartparking\index.html:116
 #: .\smwebsite\templates\smwebsite\index.html:105
+#: .\smwebsite\templates\ucarpooling\experiment.html:134
 #: .\smwebsite\templates\ucarpooling\index.html:122
 msgid "Primary Goal"
 msgstr "Objetivo Principal"
@@ -336,7 +364,12 @@ msgid ""
 "obstacles to a destination. It would benefit people who have reduced "
 "mobility such as people in a wheelchair, walker, cane and with a baby "
 "carriage"
-msgstr "Desarrollar una aplicación para proporcionar al usuario información sobre el estado de las veredas cerca de su ubicación actual y recomiendan caminos con menos obstáculos a un destino. Beneficiaría a las personas con movilidad reducida como personas en silla de ruedas, andador, bastón y con carro de bebé"
+msgstr ""
+"Desarrollar una aplicación para proporcionar al usuario información sobre el "
+"estado de las veredas cerca de su ubicación actual y recomiendan caminos con "
+"menos obstáculos a un destino. Beneficiaría a las personas con movilidad "
+"reducida como personas en silla de ruedas, andador, bastón y con carro de "
+"bebé"
 
 #: .\smwebsite\templates\smartmoving\index.html:132
 #: .\smwebsite\templates\smartparking\index.html:147
@@ -348,14 +381,17 @@ msgstr "Objetivos Específicos"
 #: .\smwebsite\templates\smartmoving\index.html:136
 msgid ""
 "Study the techniques and strategies that apply to the smartmoving solution"
-msgstr "Conocer el estado del arte de las herramientas y tecnologías que se utilizarán en el trabajo"
-
+msgstr ""
+"Conocer el estado del arte de las herramientas y tecnologías que se "
+"utilizarán en el trabajo"
 
 #: .\smwebsite\templates\smartmoving\index.html:139
 msgid ""
 "Apply the user-centered design methodology to perform the following steps "
 "iteratively:"
-msgstr "Aplicar la metodología del diseño centrado en el usuario para realizar los siguientes pasos de manera iterativa:"
+msgstr ""
+"Aplicar la metodología del diseño centrado en el usuario para realizar los "
+"siguientes pasos de manera iterativa:"
 
 #: .\smwebsite\templates\smartmoving\index.html:143
 msgid "Design the solution and its architecture"
@@ -369,7 +405,9 @@ msgstr "Desarrollar un prototipo"
 msgid ""
 "Evaluate the prototype, qualitatively with users, in order to know their "
 "impression of its usefulness"
-msgstr "Evaluar el prototipo de manera cualitativa con usuarios finales, con el objetivo de conocer su impresión sobre la utilidad del mismo "
+msgstr ""
+"Evaluar el prototipo de manera cualitativa con usuarios finales, con el "
+"objetivo de conocer su impresión sobre la utilidad del mismo "
 
 #: .\smwebsite\templates\smartmoving\index.html:168
 msgid "What SmartMoving has to offer"
@@ -383,7 +421,9 @@ msgstr "Información relevante"
 msgid ""
 "Provides information on the state of the sidewalks showing the POI(Point of "
 "interest) reports near the users current location given"
-msgstr "Brinda información sobre el estado de las veredas mostrando reportes POI(Point of interest) cercanos a la ubicación actual del usuario"
+msgstr ""
+"Brinda información sobre el estado de las veredas mostrando reportes "
+"POI(Point of interest) cercanos a la ubicación actual del usuario"
 
 #: .\smwebsite\templates\smartmoving\index.html:187
 msgid "Recommend paths"
@@ -391,7 +431,8 @@ msgstr "Recomienda caminos"
 
 #: .\smwebsite\templates\smartmoving\index.html:188
 msgid "Recomend two possibles paths from the user location to a destination"
-msgstr "Recomienda dos posibles caminos desde la ubicación del usuario a un destino"
+msgstr ""
+"Recomienda dos posibles caminos desde la ubicación del usuario a un destino"
 
 #: .\smwebsite\templates\smartmoving\index.html:196
 msgid "POI Report Details"
@@ -401,7 +442,9 @@ msgstr "Detalles de los Reportes POI"
 msgid ""
 "The user would be able to visualize in detail the POI reports that were "
 "created by other users and can solve or confirm reports"
-msgstr "El usuario podrá visualizar con detalles los reportes POI que fueron creados por otros usuarios y podrán solucionar o confirmar reportes"
+msgstr ""
+"El usuario podrá visualizar con detalles los reportes POI que fueron creados "
+"por otros usuarios y podrán solucionar o confirmar reportes"
 
 #: .\smwebsite\templates\smartmoving\index.html:205
 msgid "POI Reports"
@@ -423,8 +466,9 @@ msgstr "Configuración manual de reportes negativos"
 msgid ""
 "SmartMoving is an open source project hosted in Github, feel free to "
 "contribute"
-msgstr "SmartMoving es un proyecto de código abierto alojado en Github, siéntase libre de contribuir"
-
+msgstr ""
+"SmartMoving es un proyecto de código abierto alojado en Github, siéntase "
+"libre de contribuir"
 
 #: .\smwebsite\templates\smartmoving\index.html:238
 #: .\smwebsite\templates\smartparking\index.html:233
@@ -452,6 +496,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:309
 #: .\smwebsite\templates\smartparking\index.html:305
 #: .\smwebsite\templates\smwebsite\index.html:700
+#: .\smwebsite\templates\ucarpooling\experiment.html:598
 #: .\smwebsite\templates\ucarpooling\index.html:316
 msgid "see more news"
 msgstr "ver más noticias"
@@ -476,19 +521,19 @@ msgid ""
 "consequent increase in the emission of toxic agents."
 msgstr ""
 "A Asunción ingresan aproximadamente un millón y medio de personas "
-"diariamente por diferentesrazones. La imposibilidad de la red de carreteras "
-"para satisfacer la demanda de estamovilización masiva conlleva varios "
-"problemas relacionados con la bajavelocidad media de desplazamiento "
-"(aproximadamente 15 km/h), un alto estrés y pérdida detiempo en lo que la "
-"población se mueve, aumentando el consumo de combustible y elaumento "
-"consiguiente en la emisión de agentes tóxicos."
+"diariamente por diferentes razones. La imposibilidad de la red vial para "
+"satisfacer la demanda de esta movilización masiva conlleva varios problemas "
+"relacionados con la baja velocidad media de desplazamiento (aproximadamente "
+"15 km/h), un alto estrés y pérdida de tiempo en lo que la población se "
+"mueve, aumentando el consumo de combustible y el aumento consiguiente en la "
+"emisión de agentes tóxicos."
 
 #: .\smwebsite\templates\smartparking\index.html:120
 msgid ""
 "Design a mobile application that facilitates the search for well-defined "
 "parking places and enabled by the relevant authorities"
 msgstr ""
-"Diseñar una aplicación móvil que permita facilitar la búsqueda de lugaresde "
+"Diseñar una aplicación móvil que permita facilitar la búsqueda de lugares de "
 "estacionamientos bien delimitados y habilitados por las autoridades "
 "pertinentes"
 
@@ -503,24 +548,20 @@ msgstr ""
 "Beneficiará a las personas en cuanto a un ahorro de combustible y tiempo"
 
 #: .\smwebsite\templates\smartparking\index.html:133
-#, fuzzy, python-format
-#| msgid ""
-#| "It is considered that 30% of the traffic congestion in an area is "
-#| "generated by people in search of a place to park"
 msgid ""
 "It is considered that 30%% of the traffic congestion in an area is generated "
 "by people in search of a place to park"
 msgstr ""
-"Se considera que el 30% de la congestión vial de una zona, se genera "
-"porpersonas en búsqueda de lugar en donde estacionar"
+"Se considera que el 30%% de la congestión vial de una zona, se genera por "
+"personas en búsqueda de lugar en donde estacionar"
 
 #: .\smwebsite\templates\smartparking\index.html:138
 msgid ""
 "Experts indicate parking collapse in Asunción, if this problem is not "
 "addressed as soon as possible"
 msgstr ""
-"Expertos indican colapso del estacionamiento en Asunción, si no setrata este "
-"problema en la brevedad posible"
+"Expertos indican colapso del estacionamiento en Asunción, si no se trata "
+"este problema en la brevedad posible"
 
 #: .\smwebsite\templates\smartparking\index.html:153
 msgid ""
@@ -533,7 +574,7 @@ msgstr ""
 #: .\smwebsite\templates\smartparking\index.html:158
 msgid "Design of a solution focused on the problem of parking spot search"
 msgstr ""
-"Diseño de una solución enfocada al problema de búsquedade lugar de "
+"Diseño de una solución enfocada al problema de búsqueda de lugar de "
 "estacionamiento"
 
 #: .\smwebsite\templates\smartparking\index.html:163
@@ -557,7 +598,7 @@ msgid ""
 "The system details the availability of parking spaces of a registered "
 "property"
 msgstr ""
-"El sistema detalla la disponibilidad de los lugares deestacionamiento de un "
+"El sistema detalla la disponibilidad de los lugares de estacionamiento de un "
 "predio registrado"
 
 #: .\smwebsite\templates\smartparking\index.html:200
@@ -587,8 +628,8 @@ msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
 msgstr ""
-"SmartParking es un proyecto de código abierto alojado en Github, "
-"siéntaselibre de contribuir"
+"SmartParking es un proyecto de código abierto alojado en Github, siéntase "
+"libre de contribuir"
 
 #: .\smwebsite\templates\smwebsite\index.html:66
 #: .\smwebsite\templates\smwebsite\index.html:149
@@ -747,6 +788,7 @@ msgstr "Administrador"
 msgid "Junior Researcher"
 msgstr "Investigador en formación"
 
+#: .\smwebsite\templates\ucarpooling\experiment.html:84
 #: .\smwebsite\templates\ucarpooling\index.html:82
 msgid ""
 "Improving congestion by reducing the number of vehicles on the streets, at "
@@ -777,12 +819,6 @@ msgstr ""
 "dinero y polución al medio ambiente."
 
 #: .\smwebsite\templates\ucarpooling\index.html:114
-#, fuzzy, python-format
-#| msgid ""
-#| "On behalf of the SmartTraffic project, a citizenship survey was conducted "
-#| "to find the problems a citizen faces in Asunción regarding their daily "
-#| "mobility. The survey resulted in the majority, with 73%% of respondents, "
-#| "using their own car as the main means of transportation."
 msgid ""
 "On behalf of the SmartTraffic project, a citizenship survey was conducted to "
 "find the problems a citizen faces in Asunción regarding their daily "

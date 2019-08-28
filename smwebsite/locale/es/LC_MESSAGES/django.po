@@ -777,12 +777,6 @@ msgstr ""
 "dinero y polución al medio ambiente."
 
 #: .\smwebsite\templates\ucarpooling\index.html:114
-#, fuzzy, python-format
-#| msgid ""
-#| "On behalf of the SmartTraffic project, a citizenship survey was conducted "
-#| "to find the problems a citizen faces in Asunción regarding their daily "
-#| "mobility. The survey resulted in the majority, with 73%% of respondents, "
-#| "using their own car as the main means of transportation."
 msgid ""
 "On behalf of the SmartTraffic project, a citizenship survey was conducted to "
 "find the problems a citizen faces in Asunción regarding their daily "

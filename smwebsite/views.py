@@ -26,6 +26,14 @@ class UcarpoolingExperimentPageView(TemplateView):
         return super().dispatch(request, *args, **kwargs)
 
 
+class UcarpoolingGuidePageView(TemplateView):
+    template_name = "ucarpooling/ilog_guide.html"
+
+    def dispatch(self, request, *args, **kwargs):
+        translation.activate(request.LANGUAGE_CODE)
+        return super().dispatch(request, *args, **kwargs)
+
+
 class SmartmovingHomePageView(TemplateView):
     template_name = "smartmoving/index.html"
 
@@ -61,6 +69,7 @@ class DisseminationHomePageView(TemplateView):
 home = HomePageView.as_view()
 ucarpooling = UcarpoolingHomePageView.as_view()
 ucarpoolingExperiment = UcarpoolingExperimentPageView.as_view()
+ucarpoolingGuide = UcarpoolingGuidePageView.as_view()
 smartparking = SmartparkingHomePageView.as_view()
 smartmoving = SmartmovingHomePageView.as_view()
 blog = BlogHomePageView.as_view()

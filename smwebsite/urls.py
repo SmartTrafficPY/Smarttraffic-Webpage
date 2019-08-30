@@ -28,6 +28,7 @@ urlpatterns += i18n_patterns(
     #URLs for UCArpooling
     path('UCArpooling/', views.ucarpooling, name='ucarpooling'),
     path('UCArpooling/experimento', views.ucarpoolingExperiment, name='ucarpoolingExperiment'),
+    path('UCArpooling/guia-voluntario', views.ucarpoolingGuide, name='ucarpoolingGuide'),
     #URLs for SmartParking
     path('SmartParking/', views.smartparking, name='smartparking'),
     #URLs for SmartMoving

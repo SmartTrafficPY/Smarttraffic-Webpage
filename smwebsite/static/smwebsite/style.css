@@ -181,6 +181,27 @@ template classes
 *Default Background Class
 **/
 
+
+/**
+Experiment page classes
+**/
+
+.screenshot-guide-foto{
+    
+}
+
+.screenshot-guide-foto img{
+
+max-height: 412px
+
+}
+
+
+.screenshot-guide-description{
+    margin-top: auto;
+margin-bottom: auto;
+}
+
 /**
 User-defined classes
 **/
@@ -368,7 +389,7 @@ template-defined classes
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 9999999;
+    z-index: 10;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }

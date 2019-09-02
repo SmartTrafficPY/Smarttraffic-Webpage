@@ -25,10 +25,17 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     path('', views.home, name='home'),
+    #URLs for UCArpooling
     path('UCArpooling/', views.ucarpooling, name='ucarpooling'),
+    path('UCArpooling/experimento', views.ucarpoolingExperiment, name='ucarpoolingExperiment'),
+    path('UCArpooling/guia-voluntario', views.ucarpoolingGuide, name='ucarpoolingGuide'),
+    #URLs for SmartParking
     path('SmartParking/', views.smartparking, name='smartparking'),
+    #URLs for SmartMoving
     path('SmartMoving/', views.smartmoving, name='smartmoving'),
+    #URL for the blog site, news from the project
     path('blog/', views.blog, name='blog'),
+    #URL for the dissemination results site, articles, presentations from the project
     path('dissemination/', views.dissemination, name='dissemination'),
 )
 

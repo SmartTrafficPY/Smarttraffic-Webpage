@@ -79,9 +79,11 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#experiment-section">Experimento</a></li>
-                    <li><a href="#execution-section">Ejecución</a></li>
-                    <li><a href="#prizes-section">Premios</a></li>
+                    <li class="active"><a href="#introduction-section">Introduccion</a></li>
+                    <li><a href="#installation-section">Instalacion</a></li>
+                    <li><a href="#register-section">Registro</a></li>
+                    <li><a href="#permissions-section">Permisos</a></li>
+                    <li><a href="#dialy-use-section">Uso diario</a></li>
                     <li><a href="#faq-section">FAQ</a></li>
                     <li><a href="#blog-page">Blog</a></li>
                     <li><a href="#contact-page">{% trans 'Contact Us' %}</a></li>
@@ -115,7 +117,7 @@
     <!--SE VAN DETALLANDO MAS ABAJO LAS SECCIONES DIVIDIDAS EN PAGINAS, PARA SALTOS...(team, institutions,etc...)-->
 
     <!--Use case objective section-->
-    <section class="gray-bg section-padding" id="experiment-section">
+    <section class="gray-bg section-padding" id="introduction-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -124,9 +126,53 @@
                             <h2>Guia para el voluntario del experimento UCArpooling</h2>
                         </div>
                         <p>
-                            Lorem ipsum
-
-                            Todas las imagenes son clickeables
+                            Esta es la guía para cualquier voluntario que participe del experimento para UCArpooling de SmartTraffic. 
+                            Provee una serie de pasos a seguir pero solo sirven como referencia ya que el proceso es bastante fácil e intuitivo. 
+                            No te olvides que todas las imágenes son clickeables para hacer zoom.
+                        </p>
+                        <p>
+                            Esta guía contiene desde como instalar la herramienta, <a
+                            style="color:rgb(58, 58, 251);background-color: rgb(184, 177, 177)"
+                            class="badge badge-light" target="_blank" href="#dialy-use-section">
+                            como se usa diariamente
+                            </a>
+                            , y las
+                            <a
+                            style="color:rgb(58, 58, 251);background-color: rgb(184, 177, 177)"
+                            class="badge badge-light" target="_blank" href="#faq-section">
+                            preguntas frecuentes
+                            </a>
+                        </p>
+                        <p>
+                           
+                        </p>
+                        <p>
+                            Si tienes alguna <strong>duda</strong> puedes comunicarte con el equipo de ayuda por mail: <a
+                            style="color:blue;background-color: white"
+                            class="badge badge-light" target="_blank">
+                            <i style="color: #67b4b4; font-size: 22px" class="fa fa-envelope" aria-hidden="true"></i>
+                            smarttraffic@uc.edu.py
+                            </a>.
+                        </p>
+                        <p>
+                            Para saber más del proyecto visite: <a
+                            style="color:blue;background-color: white"
+                            class="badge badge-light" target="_blank" href="{% url 'home' %}">
+                            <i style="color: #67b4b4; font-size: 22px" class="fa fa-car" aria-hidden="true"></i>
+                            SmartTraffic
+                            </a>.
+                            Para saber más de UCArpooling visite: <a
+                            style="color:blue;background-color: white"
+                            class="badge badge-light" target="_blank" href="{% url 'ucarpooling' %}">
+                            <i style="color: #67b4b4; font-size: 22px" class="fa fa-users" aria-hidden="true"></i>
+                            UCArpooling
+                            </a>.
+                            Para saber más del experimento de UCArpooling visite: <a
+                            style="color:blue;background-color: white"
+                            class="badge badge-light" target="_blank" href="{% url 'ucarpoolingExperiment' %}">
+                            <i style="color: #67b4b4; font-size: 22px" class="fa fa-mobile" aria-hidden="true"></i>
+                            UCArpooling experimento
+                            </a>.
                         </p>
                     </div>
                 </div>
@@ -136,16 +182,16 @@
     <!--Use case objective section/-->
 
 
-    <section class="gray-bg section-padding" id="execution-section" style="background-color:rgb(0, 204, 255, 0.19);">
+    <section class="gray-bg section-padding" id="installation-section" style="background-color:rgb(0, 204, 255, 0.19);">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="section-title">
                         <div class="text-center">
-                            <h2>Instalacion</h2>
+                            <h2>Instalación</h2>
                         </div>
                         <p>
-                            i-Log se encuentra en el Google Play Store y se puede encontrar aca: <a
+                            i-Log se encuentra en el Google Play Store y se puede encontrar aquí: <a
                                 style="color:blue;background-color: white"
                                 href="https://play.google.com/store/apps/details?id=it.unitn.disi.witmee.sensorlog"
                                 class="badge badge-light" target="_blank">
@@ -170,12 +216,12 @@
                                                 <div class="align-middle">
                                                     <div class="row">
                                                         <h4>
-                                                            Instalacion
+                                                            Instalación
                                                         </h4>
                                                     </div>
                                                     <div class="row">
                                                         <p>
-                                                            Bajar de Google play.
+                                                            Bajar de Google play. Lastimosamente i-Log no está disponible en el app store para IOS
                                                         </p>
                                                     </div>
                                                 </div>
@@ -209,7 +255,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <p>
-                                                            Aceptar los requerimientos de acceso
+                                                            Aceptar los requerimientos de acceso.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -226,14 +272,12 @@
     </section>
 
 
-    <section class="price-area overlay section-padding" id="prizes-section">
+    <section class="price-area overlay section-padding" id="register-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="section-title">
                         <h2>Registro</h2>
-                        <p>Se premiará a 3 personas que tengan prendido i-Log corriendo en su celular la mayor cantidad
-                            tiempo y respondan la mayor cantidad de preguntas!</p>
                     </div>
                 </div>
             </div>
@@ -254,12 +298,12 @@
                                     <div class="align-middle">
                                         <div class="row">
                                             <h4>
-                                                Codigo de experimento
+                                                Código de experimento
                                             </h4>
                                         </div>
                                         <div class="row">
                                             <p>
-                                                Introducir el codigo de experimento
+                                                Introducir el código de experimento que se le fue proveído por mail.
                                             </p>
                                         </div>
                                     </div>
@@ -303,7 +347,7 @@
                                         </div>
                                         <div class="row">
                                             <p>
-                                                Introducir el codigo de experimento
+                                                Hacer login con la cuenta de mail utilizada para la inscripción al experimento.
                                             </p>
                                         </div>
                                     </div>
@@ -347,7 +391,7 @@
                                         </div>
                                         <div class="row">
                                             <p>
-                                                Introducir el codigo de experimento
+                                                Aceptar el consentimiento de recopilación de datos
                                             </p>
                                         </div>
                                     </div>
@@ -363,7 +407,7 @@
     </section>
 
 
-    <section class="gray-bg section-padding" id="execution-section" style="background-color:#166d8330;">
+    <section class="gray-bg section-padding" id="permissions-section" style="background-color:#166d8330;">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -393,7 +437,7 @@
                                                         </div>
                                                         <div class="row">
                                                             <p>
-                                                                Introducir el codigo de experimento
+                                                                Hacer click en la caja de permisos. A continuación, deberá de aceptar los permisos de uso de sensores del teléfono.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -420,12 +464,12 @@
                                                     <div class="align-middle">
                                                         <div class="row">
                                                             <h4>
-                                                                Sincronizacion
+                                                                Sincronización
                                                             </h4>
                                                         </div>
                                                         <div class="row">
                                                             <p>
-                                                                Introducir el codigo de experimento
+                                                                Aceptar la autorización de sincronizar los datos censados a través de una red wi-fi para evitar gastos de paquete de datos.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -452,12 +496,12 @@
                                                     <div class="align-middle">
                                                         <div class="row">
                                                             <h4>
-                                                                Bateria
+                                                                Batería
                                                             </h4>
                                                         </div>
                                                         <div class="row">
                                                             <p>
-                                                                Introducir el codigo de experimento
+                                                                Aceptar el permiso de permitir correr i-log en el teléfono. Les pedimos cordialmente que ignoren la opción de optimizar la bateria, ya que i-log no afecta la batería significadamente.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -489,7 +533,7 @@
                                                         </div>
                                                         <div class="row">
                                                             <p>
-                                                                Introducir el codigo de experimento
+                                                                Aceptar el uso del sensor GPS
                                                             </p>
                                                         </div>
                                                     </div>
@@ -516,12 +560,12 @@
                                                     <div class="align-middle">
                                                         <div class="row">
                                                             <h4>
-                                                                Fin de instalacion
+                                                                Fin de instalación
                                                             </h4>
                                                         </div>
                                                         <div class="row">
                                                             <p>
-                                                                Introducir el codigo de experimento
+                                                                Felicidades, ya terminó la fase de permisos. Presionar "<strong>Completa</strong>" para avanzar
                                                             </p>
                                                         </div>
                                                     </div>
@@ -537,7 +581,7 @@
             </div>
         </section>
 
-    <section class="gray-bg section-padding" id="execution-section" style="background-color:rgb(0, 204, 255, 0.19);">
+    <section class="gray-bg section-padding" id="dialy-use-section" style="background-color:rgb(0, 204, 255, 0.19);">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -552,9 +596,9 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="screenshot-guide-foto ">
-                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\7_corriendo.png' %}"
                                                         class="screen-popup"> <img class="img-thumbnail"
-                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\7_corriendo.png' %}"
                                                             alt=""></a>
                                                 </div>
                                             </div>
@@ -567,7 +611,10 @@
                                                     </div>
                                                     <div class="row">
                                                         <p>
-                                                            Introducir el codigo de experimento
+                                                            Habrá una notificación de que i-Log esta corriendo en el celular.
+                                                        </p>
+                                                        <p>
+                                                            <em>Una de las condiciones para ganar los premios es mantener corriendo i-Log durante la ida y venida a la UCA. </em>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -584,9 +631,9 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="screenshot-guide-foto ">
-                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\8_notificacion_pregunta.png' %}"
                                                         class="screen-popup"> <img class="img-thumbnail"
-                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\8_notificacion_pregunta.png' %}"
                                                             alt=""></a>
                                                 </div>
                                             </div>
@@ -594,12 +641,70 @@
                                                 <div class="align-middle">
                                                     <div class="row">
                                                         <h4>
-                                                            Notificacion pregunta
+                                                            Notificación pregunta
                                                         </h4>
                                                     </div>
                                                     <div class="row">
                                                         <p>
-                                                            Notificacion pregunta
+                                                            Todos los días a las <strong>13:00</strong> y <strong>19:00</strong> se generarán una serie de preguntas acerca del viaje de ida y vuelta a la UCA respectivamente
+                                                        </p>
+                                                        <p>
+                                                            Se tienen hasta 120 minutos para responder, una vez pasado este tiempo, la pregunta expirará.
+                                                        </p>
+                                                        <p>
+                                                            <em>Una de las condiciones para ganar los premios es responder todas las preguntas antes de que expiren.</em> 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="screenshot-guide-foto ">
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\8_1_preguntas_incompletas.png' %}"
+                                                        class="screen-popup"> <img class="img-thumbnail"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\8_1_preguntas_incompletas.png' %}"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 screenshot-guide-description ">
+                                                <div class="align-middle">
+                                                    <div class="row">
+                                                        <h4>
+                                                            Preguntas sin completar
+                                                        </h4>
+                                                    </div>
+                                                    <div class="row">
+                                                        <p>
+                                                            Para ver las preguntas que hacen falta completar, se debe scrollear hasta la sección de "<strong>Tareas/Preguntas</strong>"
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="screenshot-guide-foto ">
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\8_2_Preguntas.png' %}"
+                                                        class="screen-popup"> <img class="img-thumbnail"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\8_2_Preguntas.png' %}"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 screenshot-guide-description ">
+                                                <div class="align-middle">
+                                                    <div class="row">
+                                                        <h4>
+                                                            Listado de preguntas
+                                                        </h4>
+                                                    </div>
+                                                    <div class="row">
+                                                        <p>
+                                                            Allí se listaran las preguntas que hacen falta responder
                                                         </p>
                                                     </div>
                                                 </div>
@@ -616,9 +721,9 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="screenshot-guide-foto ">
-                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\9_pregunta.png' %}"
                                                         class="screen-popup"> <img class="img-thumbnail"
-                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\9_pregunta.png' %}"
                                                             alt=""></a>
                                                 </div>
                                             </div>
@@ -631,7 +736,10 @@
                                                     </div>
                                                     <div class="row">
                                                         <p>
-                                                            Notificacion pregunta
+                                                            Primero se debe elegir la opción y luego clickear en "<strong>succesivo</strong>" para avanzar a la siguiente pregunta
+                                                        </p>
+                                                        <p>
+                                                            Con la opción "<strong>precedente</strong>" se puede volver a la pregunta anterior
                                                         </p>
                                                     </div>
                                                 </div>
@@ -648,9 +756,9 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="screenshot-guide-foto ">
-                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\10_configuracion_notif.png' %}"
                                                         class="screen-popup"> <img class="img-thumbnail"
-                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\5_permisos.png' %}"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\10_configuracion_notif.png' %}"
                                                             alt=""></a>
                                                 </div>
                                             </div>
@@ -658,12 +766,41 @@
                                                 <div class="align-middle">
                                                     <div class="row">
                                                         <h4>
-                                                            Configuracion
+                                                            Configuración
                                                         </h4>
                                                     </div>
                                                     <div class="row">
                                                         <p>
-                                                            Notificacion pregunta
+                                                            Se puede deslizar hacia abajo la notificación de i-Log para revelar la opción de <strong>configuración</strong>.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="screenshot-guide-foto ">
+                                                    <a href="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\10_1_conf_pagina.png' %}"
+                                                        class="screen-popup"> <img class="img-thumbnail"
+                                                            src="{% static 'smwebsite\images\ucarpooling\Screenshots_ilog\10_1_conf_pagina.png' %}"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 screenshot-guide-description ">
+                                                <div class="align-middle">
+                                                    <div class="row">
+                                                        <h4>
+                                                            Configuración
+                                                        </h4>
+                                                    </div>
+                                                    <div class="row">
+                                                        <p>
+                                                            Allí se podrá ajustar i-Log de acorde al deseo del usuario.
+                                                        </p>
+                                                        <p>
+                                                            <em>El mail debe ser el mismo proveído por la inscripción al experimento</em>>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -715,12 +852,12 @@
                                     Tienen que cumplir 2 condiciones:
                                     <ol>
                                         <li>
-                                            Estar seguro que i-Log este corriendo en el celular, EN ESPECIAL en el
+                                            Estar seguro que i-Log este corriendo en el celular, <strong>EN ESPECIAL</strong> en el
                                             momento de ir y venir a la UCA
                                         </li>
                                         <li>
                                             Responder todas las preguntas antes de que expiren. Las preguntas se generan
-                                            a una hora fija todos los dias y tienen hasta 120 minutos para responder
+                                            a las <strong>13:00</strong> y <strong>19:00</strong> horas todos los dias.
                                         </li>
                                     </ol>
                                     Al final del experimento, se sorteara entre las personas que tuvieron prendido i-log
@@ -751,8 +888,7 @@
                                     aplicación está funcionando?</a>
                             </h4>
                             <div id="collapse4" class="panel-collapse collapse">
-                                <p>La aplicación se está ejecutando si al menos una notificación que dice "i-Log, el
-                                    seguimiento está activado" aparece en la barra de notificaciones del teléfono
+                                <p>La aplicación se está ejecutando si al menos una notificación que dice "i-Log, deteccion activa" aparece en la barra de notificaciones del teléfono
                                     inteligente. Deberías ver uno (o varios) pequeños íconos en la parte superior
                                     izquierda de la pantalla y una (o varias) notificaciones cuando desliza hacia abajo
                                     desde la parte superior (Nota: esto depende del teléfono inteligente, algunas marcas
@@ -1032,7 +1168,56 @@
 
 
 
-
+    <section class="price-area overlay section-padding" id="prizes-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="section-title">
+                        <h2>Premios</h2>
+                        <p>Se premiará a 3 personas que tengan prendido i-Log corriendo en su celular de ida y venida a la UCA y respondan la mayor cantidad de preguntas!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table active">
+                        <span class="price-info"> <span class="ti-crown"></span> 1er premio  </span>
+                        <h3 class="text-uppercase price-title">Jbl FLip 4</h3>
+                        <hr>
+                        <div class="prize-photo">
+                            <img src="{% static 'smwebsite\images\ucarpooling\jbl_flip_4.jpg' %}" alt="">
+                        </div>
+                        <hr>
+                        <a href="https://www.jbl.com/bluetooth-speakers/JBL+Flip+4.html"  target="_blank" class="button">Página oficial del producto</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <span class="price-info">2do premio</span>
+                        <h3 class="text-uppercase price-title">Xiaomi Mi Band 4</h3>
+                        <hr>
+                        <div class="prize-photo">
+                            <img src="{% static 'smwebsite\images\ucarpooling\xiaomi_mi_band_4.jpg' %}" alt="">
+                        </div>
+                        <hr>
+                        <a href="https://www.mi.com/es/mi-smart-band-4/"  target="_blank" class="button">Página oficial del producto</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <span class="price-info">3er premio</span>
+                        <h3 class="text-uppercase price-title">Chromecast 2</h3>
+                        <hr>
+                        <div class="prize-photo">
+                            <img src="{% static 'smwebsite\images\ucarpooling\chromecast_2.jpg' %}" alt="">
+                        </div>
+                        <hr>
+                        <a href="https://www.xataka.com/accesorios/chromecast-2"  target="_blank" class="button">Características del producto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="testimonial-area section-padding gray-bg overlay" id="blog-page">

@@ -213,6 +213,25 @@
         </div>
     </section>
 
+    {% comment %} 
+        Experiment section
+    {% endcomment %}
+
+    <section class="gray-bg section-padding" id="experiment-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="section-title">
+                        <h2>{% trans 'Participate in our experiment' %}</h2>
+                        <p>{% trans 'We are conducting an experiment to evaluate Smart Parking! If you want to participate press the following button that will redirect you to our form' %} 
+                        </p>
+                        <a target="_blank" href="{% url 'smartparkingforms' %}" class="button">{% trans 'Go to the form' %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 <!--Contribution open source code repo. it has support for a background image similar to the background header image-->
     <section class="gray-bg section-padding" id="contribution-section">

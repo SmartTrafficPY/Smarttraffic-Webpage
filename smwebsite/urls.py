@@ -31,6 +31,7 @@ urlpatterns += i18n_patterns(
     path('UCArpooling/guia-voluntario', views.ucarpoolingGuide, name='ucarpoolingGuide'),
     #URLs for SmartParking
     path('SmartParking/', views.smartparking, name='smartparking'),
+    path('SmartParking/redirect', views.random_urls, name='smartparkingforms'),
     #URLs for SmartMoving
     path('SmartMoving/', views.smartmoving, name='smartmoving'),
     #URL for the blog site, news from the project

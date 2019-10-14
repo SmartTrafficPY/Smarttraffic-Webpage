@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-14 14:29-0300\n"
+"POT-Creation-Date: 2019-10-14 18:10-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,23 +41,41 @@ msgstr "Italiano"
 msgid "Smart Traffic Project"
 msgstr "Proyecto Smart Traffic"
 
-#: .\smwebsite\templates\blog\index.html:84
-#: .\smwebsite\templates\smartmoving\index.html:269
-#: .\smwebsite\templates\smartparking\index.html:285
-#: .\smwebsite\templates\smwebsite\index.html:660
-#: .\smwebsite\templates\ucarpooling\experiment.html:571
-#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1272
-#: .\smwebsite\templates\ucarpooling\index.html:300
-msgid "First presentation SmartMoving"
-msgstr "Primera presentación SmartMoving"
-
 #: .\smwebsite\templates\blog\index.html:89
 #: .\smwebsite\templates\smartmoving\index.html:273
 #: .\smwebsite\templates\smartparking\index.html:289
 #: .\smwebsite\templates\smwebsite\index.html:664
 #: .\smwebsite\templates\ucarpooling\experiment.html:575
-#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1276
 #: .\smwebsite\templates\ucarpooling\index.html:304
+msgid "UCarpooling awards"
+msgstr "Premios UCarpooling"
+
+#: .\smwebsite\templates\blog\index.html:94
+#: .\smwebsite\templates\smartmoving\index.html:278
+#: .\smwebsite\templates\smartparking\index.html:294
+#: .\smwebsite\templates\smwebsite\index.html:669
+#: .\smwebsite\templates\ucarpooling\experiment.html:580
+#: .\smwebsite\templates\ucarpooling\index.html:309
+msgid "Winners of the UCarpooling experience raffle were awarded"
+msgstr "Ganadores del sorteo de la experiencia de UCarpooling"
+
+#: .\smwebsite\templates\blog\index.html:105
+#: .\smwebsite\templates\smartmoving\index.html:289
+#: .\smwebsite\templates\smartparking\index.html:305
+#: .\smwebsite\templates\smwebsite\index.html:680
+#: .\smwebsite\templates\ucarpooling\experiment.html:591
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1272
+#: .\smwebsite\templates\ucarpooling\index.html:320
+msgid "First presentation SmartMoving"
+msgstr "Primera presentación SmartMoving"
+
+#: .\smwebsite\templates\blog\index.html:110
+#: .\smwebsite\templates\smartmoving\index.html:294
+#: .\smwebsite\templates\smartparking\index.html:310
+#: .\smwebsite\templates\smwebsite\index.html:685
+#: .\smwebsite\templates\ucarpooling\experiment.html:596
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1276
+#: .\smwebsite\templates\ucarpooling\index.html:325
 msgid ""
 "Junior researcher Monica Fatecha gave her first presentation of her final "
 "project of the Catholic University \"Nuestra Señora de la Asunción\" for "
@@ -73,23 +91,23 @@ msgstr ""
 "recopilar información sobre el estado de las aceras y recomendar caminos a "
 "peatones con reducida movilidad\" "
 
-#: .\smwebsite\templates\blog\index.html:99
-#: .\smwebsite\templates\smartmoving\index.html:283
-#: .\smwebsite\templates\smartparking\index.html:299
-#: .\smwebsite\templates\smwebsite\index.html:674
-#: .\smwebsite\templates\ucarpooling\experiment.html:585
+#: .\smwebsite\templates\blog\index.html:120
+#: .\smwebsite\templates\smartmoving\index.html:304
+#: .\smwebsite\templates\smartparking\index.html:320
+#: .\smwebsite\templates\smwebsite\index.html:695
+#: .\smwebsite\templates\ucarpooling\experiment.html:606
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1288
-#: .\smwebsite\templates\ucarpooling\index.html:314
+#: .\smwebsite\templates\ucarpooling\index.html:335
 msgid "Expo 2019"
-msgstr ""
+msgstr "Expo 2019"
 
-#: .\smwebsite\templates\blog\index.html:104
-#: .\smwebsite\templates\smartmoving\index.html:287
-#: .\smwebsite\templates\smartparking\index.html:303
-#: .\smwebsite\templates\smwebsite\index.html:678
-#: .\smwebsite\templates\ucarpooling\experiment.html:589
+#: .\smwebsite\templates\blog\index.html:125
+#: .\smwebsite\templates\smartmoving\index.html:309
+#: .\smwebsite\templates\smartparking\index.html:325
+#: .\smwebsite\templates\smwebsite\index.html:700
+#: .\smwebsite\templates\ucarpooling\experiment.html:611
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1292
-#: .\smwebsite\templates\ucarpooling\index.html:318
+#: .\smwebsite\templates\ucarpooling\index.html:340
 msgid ""
 "The SmartTraffic project was presented at Expo 2019. Reaching people of all "
 "ages, explaining the problems we have in Asunción about mobility and the "
@@ -99,37 +117,27 @@ msgstr ""
 "todas las edades, explicando la problemática que tenemos en Asunción acerca "
 "de la movilidad y de las soluciones que proponemos"
 
-#: .\smwebsite\templates\blog\index.html:114
-#: .\smwebsite\templates\blog\index.html:193
-#: .\smwebsite\templates\smartmoving\index.html:297
-#: .\smwebsite\templates\smartparking\index.html:313
-#: .\smwebsite\templates\smwebsite\index.html:688
-#: .\smwebsite\templates\ucarpooling\experiment.html:599
+#: .\smwebsite\templates\blog\index.html:137
+#: .\smwebsite\templates\blog\index.html:214
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1304
-#: .\smwebsite\templates\ucarpooling\index.html:328
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
 "Presentación del proyecto a alumnos de la materia Introducción a la "
 "ingeniería."
 
-#: .\smwebsite\templates\blog\index.html:119
-#: .\smwebsite\templates\smartmoving\index.html:301
-#: .\smwebsite\templates\smartparking\index.html:317
-#: .\smwebsite\templates\smwebsite\index.html:692
-#: .\smwebsite\templates\ucarpooling\experiment.html:603
+#: .\smwebsite\templates\blog\index.html:142
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1309
-#: .\smwebsite\templates\ucarpooling\index.html:332
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
 "Una vez más, los chicos inspiraron a los más jóvenes a realizar proyectos."
 
-#: .\smwebsite\templates\blog\index.html:131
+#: .\smwebsite\templates\blog\index.html:152
 msgid "Presentation of the results of the survey in the Meeting of Researchers"
 msgstr ""
 "Presentación de los resultados de la encuesta en el Encuentro de "
 "Investigadores."
 
-#: .\smwebsite\templates\blog\index.html:136
+#: .\smwebsite\templates\blog\index.html:157
 msgid ""
 "The psychologist of the team presented the results of the survey in the "
 "meeting of researchers."
@@ -137,11 +145,11 @@ msgstr ""
 "La psicóloga del equipo presentó los resultados de la encuesta en la reunión "
 "de investigadores."
 
-#: .\smwebsite\templates\blog\index.html:146
+#: .\smwebsite\templates\blog\index.html:167
 msgid "Presentation of the project in JitCita"
 msgstr "Presentación del proyecto en JitCita."
 
-#: .\smwebsite\templates\blog\index.html:151
+#: .\smwebsite\templates\blog\index.html:172
 msgid ""
 "The project was presented in the JitCita forum held at the Autonomous "
 "University of Asuncion."
@@ -149,11 +157,11 @@ msgstr ""
 "El proyecto se presentó en el foro JitCita celebrado en la Universidad "
 "Autónoma de Asunción."
 
-#: .\smwebsite\templates\blog\index.html:161
+#: .\smwebsite\templates\blog\index.html:184
 msgid "Presentation to the students of the UCA"
 msgstr "Presentación a los alumnos de la UCA."
 
-#: .\smwebsite\templates\blog\index.html:166
+#: .\smwebsite\templates\blog\index.html:189
 msgid ""
 "The researcher of the team, Javier Paniagua, presented the Smartrtraffic "
 "project to the 4th year students of Informatics Engineering of the Catholic "
@@ -163,11 +171,11 @@ msgstr ""
 "Smartrtraffic a los alumnos de 4º año de Ingeniería Informática de la "
 "Universidad Católica \"Nuestra Señora de la Asunción\"."
 
-#: .\smwebsite\templates\blog\index.html:178
+#: .\smwebsite\templates\blog\index.html:199
 msgid "Inauguration of the office"
 msgstr "Inauguración de la oficina."
 
-#: .\smwebsite\templates\blog\index.html:183
+#: .\smwebsite\templates\blog\index.html:204
 msgid ""
 "The team of researchers launched new office equipment to improve research "
 "performance."
@@ -175,19 +183,19 @@ msgstr ""
 "El equipo de investigadores lanzó nuevos equipos de oficina para mejorar el "
 "rendimiento de la investigación."
 
-#: .\smwebsite\templates\blog\index.html:198
+#: .\smwebsite\templates\blog\index.html:219
 msgid "The boys inspired the youngest ones to carry out projects."
 msgstr "Los chicos inspiraron a los más pequeños a realizar proyectos."
 
-#: .\smwebsite\templates\blog\index.html:208
+#: .\smwebsite\templates\blog\index.html:231
 msgid "Presentation of the project in the ASU Viva forum"
 msgstr "Presentación del proyecto en el foro de ASU Viva."
 
-#: .\smwebsite\templates\blog\index.html:211
+#: .\smwebsite\templates\blog\index.html:234
 msgid "April"
 msgstr "Abril"
 
-#: .\smwebsite\templates\blog\index.html:213
+#: .\smwebsite\templates\blog\index.html:236
 msgid ""
 "The first presentation of the project in public of the forum ASU Viva with "
 "the participation of the mayor."
@@ -195,31 +203,31 @@ msgstr ""
 "La primera presentación del proyecto en público del foro ASU Viva con la "
 "participación del alcalde."
 
-#: .\smwebsite\templates\blog\index.html:230
+#: .\smwebsite\templates\blog\index.html:253
 #: .\smwebsite\templates\dissemination\index.html:272
-#: .\smwebsite\templates\smartmoving\index.html:68
-#: .\smwebsite\templates\smartmoving\index.html:325
-#: .\smwebsite\templates\smartparking\index.html:68
-#: .\smwebsite\templates\smartparking\index.html:341
-#: .\smwebsite\templates\smwebsite\index.html:71
-#: .\smwebsite\templates\smwebsite\index.html:819
-#: .\smwebsite\templates\ucarpooling\experiment.html:83
-#: .\smwebsite\templates\ucarpooling\experiment.html:627
+#: .\smwebsite\templates\smartmoving\index.html:72
+#: .\smwebsite\templates\smartmoving\index.html:333
+#: .\smwebsite\templates\smartparking\index.html:72
+#: .\smwebsite\templates\smartparking\index.html:349
+#: .\smwebsite\templates\smwebsite\index.html:75
+#: .\smwebsite\templates\smwebsite\index.html:827
+#: .\smwebsite\templates\ucarpooling\experiment.html:87
+#: .\smwebsite\templates\ucarpooling\experiment.html:635
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:90
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1333
-#: .\smwebsite\templates\ucarpooling\index.html:68
-#: .\smwebsite\templates\ucarpooling\index.html:356
+#: .\smwebsite\templates\ucarpooling\index.html:72
+#: .\smwebsite\templates\ucarpooling\index.html:364
 msgid "Contact Us"
 msgstr "Contáctenos"
 
-#: .\smwebsite\templates\blog\index.html:231
+#: .\smwebsite\templates\blog\index.html:254
 #: .\smwebsite\templates\dissemination\index.html:273
-#: .\smwebsite\templates\smartmoving\index.html:326
-#: .\smwebsite\templates\smartparking\index.html:342
-#: .\smwebsite\templates\smwebsite\index.html:820
-#: .\smwebsite\templates\ucarpooling\experiment.html:628
+#: .\smwebsite\templates\smartmoving\index.html:334
+#: .\smwebsite\templates\smartparking\index.html:350
+#: .\smwebsite\templates\smwebsite\index.html:828
+#: .\smwebsite\templates\ucarpooling\experiment.html:636
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1334
-#: .\smwebsite\templates\ucarpooling\index.html:357
+#: .\smwebsite\templates\ucarpooling\index.html:365
 msgid ""
 "Want to help? We will be very delighted to hear from you! Use the following "
 "channels and have your say:"
@@ -227,25 +235,25 @@ msgstr ""
 "¿Quisiera ayudar? ¡Estaremos encantados de saber de usted! Utilice los "
 "siguientes canales y dé su opinión:"
 
-#: .\smwebsite\templates\blog\index.html:248
+#: .\smwebsite\templates\blog\index.html:271
 #: .\smwebsite\templates\dissemination\index.html:292
-#: .\smwebsite\templates\smartmoving\index.html:343
-#: .\smwebsite\templates\smartparking\index.html:359
-#: .\smwebsite\templates\smwebsite\index.html:837
-#: .\smwebsite\templates\ucarpooling\experiment.html:645
+#: .\smwebsite\templates\smartmoving\index.html:351
+#: .\smwebsite\templates\smartparking\index.html:367
+#: .\smwebsite\templates\smwebsite\index.html:845
+#: .\smwebsite\templates\ucarpooling\experiment.html:653
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1353
-#: .\smwebsite\templates\ucarpooling\index.html:374
+#: .\smwebsite\templates\ucarpooling\index.html:382
 msgid "Telephone: "
 msgstr "Telefono: "
 
-#: .\smwebsite\templates\blog\index.html:292
+#: .\smwebsite\templates\blog\index.html:315
 #: .\smwebsite\templates\dissemination\index.html:327
-#: .\smwebsite\templates\smartmoving\index.html:387
-#: .\smwebsite\templates\smartparking\index.html:403
-#: .\smwebsite\templates\smwebsite\index.html:881
-#: .\smwebsite\templates\ucarpooling\experiment.html:689
+#: .\smwebsite\templates\smartmoving\index.html:395
+#: .\smwebsite\templates\smartparking\index.html:411
+#: .\smwebsite\templates\smwebsite\index.html:889
+#: .\smwebsite\templates\ucarpooling\experiment.html:697
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1400
-#: .\smwebsite\templates\ucarpooling\index.html:418
+#: .\smwebsite\templates\ucarpooling\index.html:426
 msgid "Or reach us on any of these social networks:"
 msgstr "O alcáncenos en cualquiera de estas redes sociales:"
 
@@ -288,31 +296,31 @@ msgstr "Diseminación"
 msgid "End-of-career project documents"
 msgstr "Documentos de proyectos de fin de carrera"
 
-#: .\smwebsite\templates\smartmoving\index.html:64
-#: .\smwebsite\templates\smartparking\index.html:64
-#: .\smwebsite\templates\smwebsite\index.html:64
-#: .\smwebsite\templates\ucarpooling\index.html:64
+#: .\smwebsite\templates\smartmoving\index.html:68
+#: .\smwebsite\templates\smartparking\index.html:68
+#: .\smwebsite\templates\smwebsite\index.html:68
+#: .\smwebsite\templates\ucarpooling\index.html:68
 msgid "Project"
 msgstr "Proyecto"
 
-#: .\smwebsite\templates\smartmoving\index.html:65
-#: .\smwebsite\templates\smartmoving\index.html:167
-#: .\smwebsite\templates\smartparking\index.html:65
-#: .\smwebsite\templates\ucarpooling\index.html:65
-#: .\smwebsite\templates\ucarpooling\index.html:183
+#: .\smwebsite\templates\smartmoving\index.html:69
+#: .\smwebsite\templates\smartmoving\index.html:171
+#: .\smwebsite\templates\smartparking\index.html:69
+#: .\smwebsite\templates\ucarpooling\index.html:69
+#: .\smwebsite\templates\ucarpooling\index.html:187
 msgid "Features"
 msgstr "Características"
 
-#: .\smwebsite\templates\smartmoving\index.html:66
-#: .\smwebsite\templates\smartmoving\index.html:229
-#: .\smwebsite\templates\smartparking\index.html:66
-#: .\smwebsite\templates\smartparking\index.html:244
-#: .\smwebsite\templates\ucarpooling\index.html:66
-#: .\smwebsite\templates\ucarpooling\index.html:259
+#: .\smwebsite\templates\smartmoving\index.html:70
+#: .\smwebsite\templates\smartmoving\index.html:233
+#: .\smwebsite\templates\smartparking\index.html:70
+#: .\smwebsite\templates\smartparking\index.html:248
+#: .\smwebsite\templates\ucarpooling\index.html:70
+#: .\smwebsite\templates\ucarpooling\index.html:263
 msgid "Contribute"
 msgstr "Contribuir"
 
-#: .\smwebsite\templates\smartmoving\index.html:82
+#: .\smwebsite\templates\smartmoving\index.html:86
 msgid ""
 "Improving mobility for pedestrians, providing information on the condition "
 "of the trails and recommending roads with fewer obstacles to a destination"
@@ -321,11 +329,11 @@ msgstr ""
 "de los senderos y recomendando caminos peatonales con menos obstáculos a un "
 "destino."
 
-#: .\smwebsite\templates\smartmoving\index.html:108
+#: .\smwebsite\templates\smartmoving\index.html:112
 msgid "SmartMoving Aplication"
 msgstr "Aplicación SmartMoving"
 
-#: .\smwebsite\templates\smartmoving\index.html:111
+#: .\smwebsite\templates\smartmoving\index.html:115
 msgid ""
 "According to data obtained from the municipality of Asunción, in 2018 there "
 "were a total of 1836 complaints about the sidewalks, of which 749 were about "
@@ -337,7 +345,7 @@ msgstr ""
 "obstrucción y ocupación de veredas y 686 sobre construcción y reparación de "
 "veredas"
 
-#: .\smwebsite\templates\smartmoving\index.html:114
+#: .\smwebsite\templates\smartmoving\index.html:118
 #, fuzzy, python-format
 #| msgid ""
 #| "On behalf of the SmartTraffic project, a citizenship survey was conducted "
@@ -355,7 +363,7 @@ msgstr ""
 "encuesta, el 73% respondió que el estado de las aceras es un problema grave "
 "o muy grave"
 
-#: .\smwebsite\templates\smartmoving\index.html:117
+#: .\smwebsite\templates\smartmoving\index.html:121
 msgid ""
 "So, taking the results of the survey and the large number of complaints made "
 "through the municipality, it was seen as an opportunity to make a mobile "
@@ -367,15 +375,15 @@ msgstr ""
 "aplicación móvil que brindará información sobre el estado de las veredas y "
 "recomendará caminos peatonales"
 
-#: .\smwebsite\templates\smartmoving\index.html:119
-#: .\smwebsite\templates\smartparking\index.html:116
-#: .\smwebsite\templates\smwebsite\index.html:105
-#: .\smwebsite\templates\ucarpooling\experiment.html:147
-#: .\smwebsite\templates\ucarpooling\index.html:122
+#: .\smwebsite\templates\smartmoving\index.html:123
+#: .\smwebsite\templates\smartparking\index.html:120
+#: .\smwebsite\templates\smwebsite\index.html:109
+#: .\smwebsite\templates\ucarpooling\experiment.html:151
+#: .\smwebsite\templates\ucarpooling\index.html:126
 msgid "Primary Goal"
 msgstr "Objetivo Principal"
 
-#: .\smwebsite\templates\smartmoving\index.html:123
+#: .\smwebsite\templates\smartmoving\index.html:127
 msgid ""
 "Develop an application to provide the user with information about the state "
 "of the sidewalks near their current location and recommend paths with fewer "
@@ -389,21 +397,21 @@ msgstr ""
 "reducida como personas en silla de ruedas, andador, bastón y con carro de "
 "bebé"
 
-#: .\smwebsite\templates\smartmoving\index.html:132
-#: .\smwebsite\templates\smartparking\index.html:147
-#: .\smwebsite\templates\smwebsite\index.html:120
-#: .\smwebsite\templates\ucarpooling\index.html:153
+#: .\smwebsite\templates\smartmoving\index.html:136
+#: .\smwebsite\templates\smartparking\index.html:151
+#: .\smwebsite\templates\smwebsite\index.html:124
+#: .\smwebsite\templates\ucarpooling\index.html:157
 msgid "Specific Goals"
 msgstr "Objetivos Específicos"
 
-#: .\smwebsite\templates\smartmoving\index.html:136
+#: .\smwebsite\templates\smartmoving\index.html:140
 msgid ""
 "Study the techniques and strategies that apply to the smartmoving solution"
 msgstr ""
 "Conocer el estado del arte de las herramientas y tecnologías que se "
 "utilizarán en el trabajo"
 
-#: .\smwebsite\templates\smartmoving\index.html:139
+#: .\smwebsite\templates\smartmoving\index.html:143
 msgid ""
 "Apply the user-centered design methodology to perform the following steps "
 "iteratively:"
@@ -411,15 +419,15 @@ msgstr ""
 "Aplicar la metodología del diseño centrado en el usuario para realizar los "
 "siguientes pasos de manera iterativa:"
 
-#: .\smwebsite\templates\smartmoving\index.html:143
+#: .\smwebsite\templates\smartmoving\index.html:147
 msgid "Design the solution and its architecture"
 msgstr "Diseñar la solucion y la arquitectura"
 
-#: .\smwebsite\templates\smartmoving\index.html:146
+#: .\smwebsite\templates\smartmoving\index.html:150
 msgid "Develop a prototype"
 msgstr "Desarrollar un prototipo"
 
-#: .\smwebsite\templates\smartmoving\index.html:149
+#: .\smwebsite\templates\smartmoving\index.html:153
 msgid ""
 "Evaluate the prototype, qualitatively with users, in order to know their "
 "impression of its usefulness"
@@ -427,15 +435,15 @@ msgstr ""
 "Evaluar el prototipo de manera cualitativa con usuarios finales, con el "
 "objetivo de conocer su impresión sobre la utilidad del mismo "
 
-#: .\smwebsite\templates\smartmoving\index.html:168
+#: .\smwebsite\templates\smartmoving\index.html:172
 msgid "What SmartMoving has to offer"
 msgstr "Lo que SmartMoving tiene para ofrecer"
 
-#: .\smwebsite\templates\smartmoving\index.html:178
+#: .\smwebsite\templates\smartmoving\index.html:182
 msgid "Information"
 msgstr "Información relevante"
 
-#: .\smwebsite\templates\smartmoving\index.html:179
+#: .\smwebsite\templates\smartmoving\index.html:183
 msgid ""
 "Provides information on the state of the sidewalks showing the POI(Point of "
 "interest) reports near the users current location given"
@@ -443,20 +451,20 @@ msgstr ""
 "Brinda información sobre el estado de las veredas mostrando reportes "
 "POI(Point of interest) cercanos a la ubicación actual del usuario"
 
-#: .\smwebsite\templates\smartmoving\index.html:187
+#: .\smwebsite\templates\smartmoving\index.html:191
 msgid "Recommend paths"
 msgstr "Recomienda caminos"
 
-#: .\smwebsite\templates\smartmoving\index.html:188
+#: .\smwebsite\templates\smartmoving\index.html:192
 msgid "Recomend two possibles paths from the user location to a destination"
 msgstr ""
 "Recomienda dos posibles caminos desde la ubicación del usuario a un destino"
 
-#: .\smwebsite\templates\smartmoving\index.html:196
+#: .\smwebsite\templates\smartmoving\index.html:200
 msgid "POI Report Details"
 msgstr "Detalles de los Reportes POI"
 
-#: .\smwebsite\templates\smartmoving\index.html:197
+#: .\smwebsite\templates\smartmoving\index.html:201
 msgid ""
 "The user would be able to visualize in detail the POI reports that were "
 "created by other users and can solve or confirm reports"
@@ -464,23 +472,23 @@ msgstr ""
 "El usuario podrá visualizar con detalles los reportes POI que fueron creados "
 "por otros usuarios y podrán solucionar o confirmar reportes"
 
-#: .\smwebsite\templates\smartmoving\index.html:205
+#: .\smwebsite\templates\smartmoving\index.html:209
 msgid "POI Reports"
 msgstr "Reportes POI"
 
-#: .\smwebsite\templates\smartmoving\index.html:206
+#: .\smwebsite\templates\smartmoving\index.html:210
 msgid "The list of the reports that an user would be able to create"
 msgstr "Lista de los reportes que los usuarios podrán crear"
 
-#: .\smwebsite\templates\smartmoving\index.html:214
+#: .\smwebsite\templates\smartmoving\index.html:218
 msgid "Configuration of the POI reports"
 msgstr "Inauguración de la oficina."
 
-#: .\smwebsite\templates\smartmoving\index.html:215
+#: .\smwebsite\templates\smartmoving\index.html:219
 msgid "Manual configuration about negatives reports"
 msgstr "Configuración manual de reportes negativos"
 
-#: .\smwebsite\templates\smartmoving\index.html:230
+#: .\smwebsite\templates\smartmoving\index.html:234
 msgid ""
 "SmartMoving is an open source project hosted in Github, feel free to "
 "contribute"
@@ -488,22 +496,22 @@ msgstr ""
 "SmartMoving es un proyecto de código abierto alojado en Github, siéntase "
 "libre de contribuir"
 
-#: .\smwebsite\templates\smartmoving\index.html:238
-#: .\smwebsite\templates\smartparking\index.html:253
+#: .\smwebsite\templates\smartmoving\index.html:242
+#: .\smwebsite\templates\smartparking\index.html:257
 msgid "The project is develop for Android devices"
 msgstr "El proyecto está desarrollado para dispositivos Android"
 
-#: .\smwebsite\templates\smartmoving\index.html:240
-#: .\smwebsite\templates\smartmoving\index.html:247
-#: .\smwebsite\templates\smartparking\index.html:255
-#: .\smwebsite\templates\smartparking\index.html:262
-#: .\smwebsite\templates\ucarpooling\index.html:270
-#: .\smwebsite\templates\ucarpooling\index.html:277
+#: .\smwebsite\templates\smartmoving\index.html:244
+#: .\smwebsite\templates\smartmoving\index.html:251
+#: .\smwebsite\templates\smartparking\index.html:259
+#: .\smwebsite\templates\smartparking\index.html:266
+#: .\smwebsite\templates\ucarpooling\index.html:274
+#: .\smwebsite\templates\ucarpooling\index.html:281
 msgid "Repository"
 msgstr "Repositorio"
 
-#: .\smwebsite\templates\smartmoving\index.html:245
-#: .\smwebsite\templates\smartparking\index.html:260
+#: .\smwebsite\templates\smartmoving\index.html:249
+#: .\smwebsite\templates\smartparking\index.html:264
 msgid ""
 "Work with a Django server, a Postgresql database and a map server based on "
 "CartoDB"
@@ -511,26 +519,26 @@ msgstr ""
 "Trabaja con un servidor Django, una base de datos Postgresql y un servidor "
 "de mapas basado en CartoDB"
 
-#: .\smwebsite\templates\smartmoving\index.html:309
-#: .\smwebsite\templates\smartparking\index.html:325
-#: .\smwebsite\templates\smwebsite\index.html:700
-#: .\smwebsite\templates\ucarpooling\experiment.html:611
+#: .\smwebsite\templates\smartmoving\index.html:317
+#: .\smwebsite\templates\smartparking\index.html:333
+#: .\smwebsite\templates\smwebsite\index.html:708
+#: .\smwebsite\templates\ucarpooling\experiment.html:619
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1317
-#: .\smwebsite\templates\ucarpooling\index.html:340
+#: .\smwebsite\templates\ucarpooling\index.html:348
 msgid "see more news"
 msgstr "ver más noticias"
 
-#: .\smwebsite\templates\smartparking\index.html:85
+#: .\smwebsite\templates\smartparking\index.html:89
 msgid "Improving congestion by helping the user find a place to park"
 msgstr ""
 "Mejorar la congestión al ayudar al usuario a encontrar un lugar para "
 "estacionar"
 
-#: .\smwebsite\templates\smartparking\index.html:111
+#: .\smwebsite\templates\smartparking\index.html:115
 msgid "SmartParking application"
 msgstr "Aplicación SmartParking"
 
-#: .\smwebsite\templates\smartparking\index.html:114
+#: .\smwebsite\templates\smartparking\index.html:118
 msgid ""
 "Asunción enters about one and a half million people daily for different "
 "reasons. The impossibility of the road network to meet the demand that this "
@@ -547,7 +555,7 @@ msgstr ""
 "mueve, aumentando el consumo de combustible y el aumento consiguiente en la "
 "emisión de agentes tóxicos."
 
-#: .\smwebsite\templates\smartparking\index.html:120
+#: .\smwebsite\templates\smartparking\index.html:124
 msgid ""
 "Design a mobile application that facilitates the search for well-defined "
 "parking places and enabled by the relevant authorities"
@@ -556,17 +564,17 @@ msgstr ""
 "estacionamientos bien delimitados y habilitados por las autoridades "
 "pertinentes"
 
-#: .\smwebsite\templates\smartparking\index.html:124
-#: .\smwebsite\templates\ucarpooling\index.html:130
+#: .\smwebsite\templates\smartparking\index.html:128
+#: .\smwebsite\templates\ucarpooling\index.html:134
 msgid "Benefits"
 msgstr "Beneficios"
 
-#: .\smwebsite\templates\smartparking\index.html:128
+#: .\smwebsite\templates\smartparking\index.html:132
 msgid "It will benefit people in terms of saving fuel and time"
 msgstr ""
 "Beneficiará a las personas en cuanto a un ahorro de combustible y tiempo"
 
-#: .\smwebsite\templates\smartparking\index.html:133
+#: .\smwebsite\templates\smartparking\index.html:137
 #, python-format
 msgid ""
 "It is considered that 30%% of the traffic congestion in an area is generated "
@@ -575,7 +583,7 @@ msgstr ""
 "Se considera que el 30%% de la congestión vial de una zona, se genera por "
 "personas en búsqueda de lugar en donde estacionar"
 
-#: .\smwebsite\templates\smartparking\index.html:138
+#: .\smwebsite\templates\smartparking\index.html:142
 msgid ""
 "Experts indicate parking collapse in Asunción, if this problem is not "
 "addressed as soon as possible"
@@ -583,7 +591,7 @@ msgstr ""
 "Expertos indican colapso del estacionamiento en Asunción, si no se trata "
 "este problema en la brevedad posible"
 
-#: .\smwebsite\templates\smartparking\index.html:153
+#: .\smwebsite\templates\smartparking\index.html:157
 msgid ""
 "Study of the techniques and strategies to be used in the implementation of "
 "systems focused on solving parking place problems"
@@ -591,29 +599,29 @@ msgstr ""
 "Estudio de las técnicas y estrategias que se utilizarán en la implementación "
 "de sistemas enfocados en resolver problemas de estacionamiento"
 
-#: .\smwebsite\templates\smartparking\index.html:158
+#: .\smwebsite\templates\smartparking\index.html:162
 msgid "Design of a solution focused on the problem of parking spot search"
 msgstr ""
 "Diseño de una solución enfocada al problema de búsqueda de lugar de "
 "estacionamiento"
 
-#: .\smwebsite\templates\smartparking\index.html:163
+#: .\smwebsite\templates\smartparking\index.html:167
 msgid "Implementation of the previously designed solution"
 msgstr "Implementación de la solución previamente diseñada"
 
-#: .\smwebsite\templates\smartparking\index.html:180
+#: .\smwebsite\templates\smartparking\index.html:184
 msgid "Main features"
 msgstr "Principales características"
 
-#: .\smwebsite\templates\smartparking\index.html:181
+#: .\smwebsite\templates\smartparking\index.html:185
 msgid "What does SmartParking offer us?"
 msgstr "Qué nos ofrece SmartParking?"
 
-#: .\smwebsite\templates\smartparking\index.html:191
+#: .\smwebsite\templates\smartparking\index.html:195
 msgid "Map of registered places"
 msgstr "Mapa de lugares registrados"
 
-#: .\smwebsite\templates\smartparking\index.html:192
+#: .\smwebsite\templates\smartparking\index.html:196
 msgid ""
 "The system details the availability of parking spaces of a registered "
 "property"
@@ -621,44 +629,46 @@ msgstr ""
 "El sistema detalla la disponibilidad de los lugares de estacionamiento de un "
 "predio registrado"
 
-#: .\smwebsite\templates\smartparking\index.html:200
+#: .\smwebsite\templates\smartparking\index.html:204
 msgid "Proximity Notifications"
 msgstr "Notificaciones de cercanía"
 
-#: .\smwebsite\templates\smartparking\index.html:201
+#: .\smwebsite\templates\smartparking\index.html:205
 msgid ""
 "SmartParking notifies us when we approach a property registered in the system"
 msgstr ""
 "SmartParking nos avisa cuando nos acercamos un predio registrado en el "
 "sistema"
 
-#: .\smwebsite\templates\smartparking\index.html:209
+#: .\smwebsite\templates\smartparking\index.html:213
 msgid "Relevant information"
 msgstr "Información relevante"
 
-#: .\smwebsite\templates\smartparking\index.html:210
+#: .\smwebsite\templates\smartparking\index.html:214
 msgid ""
 "Provides the user with important information of nearby places where he is"
 msgstr ""
 "Provee al usuario de información importante de lugares cercanos en donde se "
 "encuentra"
 
-#: .\smwebsite\templates\smartparking\index.html:227
+#: .\smwebsite\templates\smartparking\index.html:231
 msgid "Participate in our experiment"
 msgstr "Participa en nuestro experimento"
 
-#: .\smwebsite\templates\smartparking\index.html:228
+#: .\smwebsite\templates\smartparking\index.html:232
 msgid ""
 "We are conducting an experiment to evaluate Smart Parking! If you want to "
 "participate press the following button that will redirect you to our form"
-msgstr "Estamos realizando un experimento para evaluar el estacionamiento inteligente. "
-"Si desea participar, presione el siguiente botón que lo redirigirá a nuestro formulario"
+msgstr ""
+"Estamos realizando un experimento para evaluar el estacionamiento "
+"inteligente. Si desea participar, presione el siguiente botón que lo "
+"redirigirá a nuestro formulario"
 
-#: .\smwebsite\templates\smartparking\index.html:230
+#: .\smwebsite\templates\smartparking\index.html:234
 msgid "Go to the form"
 msgstr "Ir al formulario"
 
-#: .\smwebsite\templates\smartparking\index.html:245
+#: .\smwebsite\templates\smartparking\index.html:249
 msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
@@ -666,26 +676,26 @@ msgstr ""
 "SmartParking es un proyecto de código abierto alojado en Github, siéntase "
 "libre de contribuir"
 
-#: .\smwebsite\templates\smwebsite\index.html:66
-#: .\smwebsite\templates\smwebsite\index.html:149
+#: .\smwebsite\templates\smwebsite\index.html:70
+#: .\smwebsite\templates\smwebsite\index.html:153
 msgid "Institutions"
 msgstr "Instituciones"
 
-#: .\smwebsite\templates\smwebsite\index.html:67
-#: .\smwebsite\templates\smwebsite\index.html:227
+#: .\smwebsite\templates\smwebsite\index.html:71
+#: .\smwebsite\templates\smwebsite\index.html:231
 msgid "Expected Results"
 msgstr "Resultados Esperados"
 
-#: .\smwebsite\templates\smwebsite\index.html:68
-#: .\smwebsite\templates\smwebsite\index.html:483
+#: .\smwebsite\templates\smwebsite\index.html:72
+#: .\smwebsite\templates\smwebsite\index.html:487
 msgid "Team"
 msgstr "Equipo"
 
-#: .\smwebsite\templates\smwebsite\index.html:83
+#: .\smwebsite\templates\smwebsite\index.html:87
 msgid "Improving urban mobility in Asunción, Paraguay"
 msgstr "Mejorando la movilidad urbana en Asunción, Paraguay"
 
-#: .\smwebsite\templates\smwebsite\index.html:84
+#: .\smwebsite\templates\smwebsite\index.html:88
 msgid ""
 "This project is part of the PROCIENCIA program, financed by CONACYT to make "
 "solutions for the people."
@@ -693,11 +703,11 @@ msgstr ""
 "Este proyecto es parte del programa PROCIENCIA, financiada por la CONACYT "
 "para generar soluciones para los ciudadanos"
 
-#: .\smwebsite\templates\smwebsite\index.html:103
+#: .\smwebsite\templates\smwebsite\index.html:107
 msgid "Project Goals"
 msgstr "Objetivos del Proyecto"
 
-#: .\smwebsite\templates\smwebsite\index.html:107
+#: .\smwebsite\templates\smwebsite\index.html:111
 msgid ""
 "Research, design, and implementation of technologies that exploit the "
 "advantages of Collective Adaptative Systems (CAS) and Mobile Crowdsensing "
@@ -708,7 +718,7 @@ msgstr ""
 "Sistemas Colectivos Adaptativos (CAS) y Mobile Crowdsensing (MCS) para "
 "mejorar la movilidad urbana en Asunción, capital de Paraguay"
 
-#: .\smwebsite\templates\smwebsite\index.html:110
+#: .\smwebsite\templates\smwebsite\index.html:114
 msgid ""
 "Mobile crowdsensing (MCS), or simply crowdsensing, is a sensing paradigm "
 "that uses the power of various mobile devices, such as smartphones, tablets, "
@@ -719,7 +729,7 @@ msgstr ""
 "celulares inteligentes, tabletas, relojes inteligentes, sensores "
 "inteligentes, para monitorear un fenómeno de gran escala"
 
-#: .\smwebsite\templates\smwebsite\index.html:113
+#: .\smwebsite\templates\smwebsite\index.html:117
 msgid ""
 "Collective Adaptive Systems (CAS) are systems that consist of multiple "
 "components or agents that interact collaboratively on common goals, and "
@@ -732,7 +742,7 @@ msgstr ""
 "múltiples componentes o agentes que interactúan de manera colaborativa por "
 "objetivos comunes, y compiten para alcanzar objetivos individuales. "
 
-#: .\smwebsite\templates\smwebsite\index.html:124
+#: .\smwebsite\templates\smwebsite\index.html:128
 msgid ""
 "Understand the start of the art on CAS- and MCS-based technologies proposed "
 "to address urban mobility problems."
@@ -740,7 +750,7 @@ msgstr ""
 "Comprender el estado del arte sobre tecnologías basadas en CAS y MCS que "
 "proponen abordar problemas de movilidad urbana"
 
-#: .\smwebsite\templates\smwebsite\index.html:129
+#: .\smwebsite\templates\smwebsite\index.html:133
 msgid ""
 "Model, design, and implement solutions that leverage on CAS and MCS "
 "technologies to improve the urban mobility of Asuncion, Paraguay."
@@ -748,7 +758,7 @@ msgstr ""
 "Modelar, diseñar e implementar soluciones que aprovechen tecnologías sobre "
 "CAS y MCS para mejor la movilidad urbana en Asunción, Paraguay"
 
-#: .\smwebsite\templates\smwebsite\index.html:134
+#: .\smwebsite\templates\smwebsite\index.html:138
 msgid ""
 "Validate the solutions as efficient platforms to solve problems in urban "
 "mobility."
@@ -756,12 +766,12 @@ msgstr ""
 "Validar las soluciones como plataformas eficientes que resuelvan problemas "
 "de movilidad urbana"
 
-#: .\smwebsite\templates\smwebsite\index.html:237
-#: .\smwebsite\templates\smwebsite\index.html:281
+#: .\smwebsite\templates\smwebsite\index.html:241
+#: .\smwebsite\templates\smwebsite\index.html:285
 msgid "Prototype"
 msgstr "Prototipo"
 
-#: .\smwebsite\templates\smwebsite\index.html:240
+#: .\smwebsite\templates\smwebsite\index.html:244
 msgid ""
 "The implementation of the prototype platform \"SmartCity of Asunción\" that "
 "offers services of registration and processing of the collected data, and "
@@ -775,11 +785,11 @@ msgstr ""
 "recolectar datos de entrada de cada sensor en el móvil  y presentar el "
 "resultado monitoreado cuando es requerido por el usuario."
 
-#: .\smwebsite\templates\smwebsite\index.html:262
+#: .\smwebsite\templates\smwebsite\index.html:266
 msgid "Dissemination of results"
 msgstr "Diseminación de resultados"
 
-#: .\smwebsite\templates\smwebsite\index.html:265
+#: .\smwebsite\templates\smwebsite\index.html:269
 msgid ""
 "Dissemination of results and software tools resulting in web and other "
 "social media. Consolidation of research: publication in congresses and "
@@ -790,42 +800,42 @@ msgstr ""
 "oficial y en redes sociales del proyecto. Consolidación de la investigación: "
 "publicación en congresos y revistas internacionales. "
 
-#: .\smwebsite\templates\smwebsite\index.html:271
+#: .\smwebsite\templates\smwebsite\index.html:275
 msgid "Results"
 msgstr "Resultados Esperados"
 
-#: .\smwebsite\templates\smwebsite\index.html:284
+#: .\smwebsite\templates\smwebsite\index.html:288
 msgid "Dissemination"
 msgstr "Diseminación"
 
-#: .\smwebsite\templates\smwebsite\index.html:494
+#: .\smwebsite\templates\smwebsite\index.html:498
 msgid "Lead Researcher"
 msgstr "Investigadora Principal"
 
-#: .\smwebsite\templates\smwebsite\index.html:510
-#: .\smwebsite\templates\smwebsite\index.html:570
+#: .\smwebsite\templates\smwebsite\index.html:514
+#: .\smwebsite\templates\smwebsite\index.html:574
 msgid "Associated Researcher"
 msgstr "Investigador Asociado"
 
-#: .\smwebsite\templates\smwebsite\index.html:524
-#: .\smwebsite\templates\smwebsite\index.html:540
-#: .\smwebsite\templates\smwebsite\index.html:555
+#: .\smwebsite\templates\smwebsite\index.html:528
+#: .\smwebsite\templates\smwebsite\index.html:544
+#: .\smwebsite\templates\smwebsite\index.html:559
 msgid "Researcher"
 msgstr "Investigador"
 
-#: .\smwebsite\templates\smwebsite\index.html:585
+#: .\smwebsite\templates\smwebsite\index.html:589
 msgid "Administrator"
 msgstr "Administrador"
 
-#: .\smwebsite\templates\smwebsite\index.html:600
-#: .\smwebsite\templates\smwebsite\index.html:615
-#: .\smwebsite\templates\smwebsite\index.html:630
+#: .\smwebsite\templates\smwebsite\index.html:604
+#: .\smwebsite\templates\smwebsite\index.html:619
+#: .\smwebsite\templates\smwebsite\index.html:634
 msgid "Junior Researcher"
 msgstr "Investigador en formación"
 
-#: .\smwebsite\templates\ucarpooling\experiment.html:97
+#: .\smwebsite\templates\ucarpooling\experiment.html:101
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:104
-#: .\smwebsite\templates\ucarpooling\index.html:82
+#: .\smwebsite\templates\ucarpooling\index.html:86
 msgid ""
 "Improving congestion by reducing the number of vehicles on the streets, at "
 "the same time providing security"
@@ -833,11 +843,11 @@ msgstr ""
 "Mejorando la congestión al reducir el número de vehículos en las calles, al "
 "mismo tiempo proporcionando seguridad"
 
-#: .\smwebsite\templates\ucarpooling\index.html:108
+#: .\smwebsite\templates\ucarpooling\index.html:112
 msgid "UCArpooling Application"
 msgstr "Aplicación UCArpooling"
 
-#: .\smwebsite\templates\ucarpooling\index.html:111
+#: .\smwebsite\templates\ucarpooling\index.html:115
 msgid ""
 "Asunción suffers serious mobility problems at the time of commuting because "
 "it does not offer support for the number of citizens, where 1,320,000 people "
@@ -854,7 +864,7 @@ msgstr ""
 "el uso de los transportes resultando en largas filas de vehículos,pérdida de "
 "dinero y polución al medio ambiente."
 
-#: .\smwebsite\templates\ucarpooling\index.html:114
+#: .\smwebsite\templates\ucarpooling\index.html:118
 #, fuzzy, python-format
 #| msgid ""
 #| "On behalf of the SmartTraffic project, a citizenship survey was conducted "
@@ -873,7 +883,7 @@ msgstr ""
 "mayoría, con 73% de los encuestados, utiliza su propio auto como principal "
 "medio de transporte."
 
-#: .\smwebsite\templates\ucarpooling\index.html:117
+#: .\smwebsite\templates\ucarpooling\index.html:121
 msgid ""
 "In relation to the other transport alternatives in Asunción, public "
 "transport has a poor service, where most of the bus fleet has mechanical "
@@ -892,7 +902,7 @@ msgstr ""
 "la infraestructura necesaria para su circulación segura, como lo es la "
 "bicisenda."
 
-#: .\smwebsite\templates\ucarpooling\index.html:120
+#: .\smwebsite\templates\ucarpooling\index.html:124
 msgid ""
 "So, taking the low average number of people per vehicle, plus most people "
 "move in their own car and the drawbacks already mentioned in relation to the "
@@ -906,7 +916,7 @@ msgstr ""
 "oportunidad la de realizar un sistema de aplicación para celulares que "
 "ofrezca emparejamiento para carpooling a personas de un mismo entorno."
 
-#: .\smwebsite\templates\ucarpooling\index.html:126
+#: .\smwebsite\templates\ucarpooling\index.html:130
 msgid ""
 "Design a non-profit carpooling system with a mobile application aimed at "
 "closed communities, decreasing the number of vehicles while commuting."
@@ -915,7 +925,7 @@ msgstr ""
 "aplicación móvil dirigida a comunidades cerradas, disminuyendo la cantidad "
 "de vehículos mientras viaja a su lugar de trabajo o estudio."
 
-#: .\smwebsite\templates\ucarpooling\index.html:134
+#: .\smwebsite\templates\ucarpooling\index.html:138
 msgid ""
 "It would benefit the city by reducing the number of vehicles on the road and "
 "everything that this causes, like less waiting time at traffic lights, "
@@ -925,7 +935,7 @@ msgstr ""
 "carretera  y todo lo que esto causa, como menos tiempo de espera en los "
 "semáforos, especialmente  durante las horas pico."
 
-#: .\smwebsite\templates\ucarpooling\index.html:139
+#: .\smwebsite\templates\ucarpooling\index.html:143
 msgid ""
 "It would benefit the institution that adopts it, by improving the "
 "camaraderie among its members and would help with difficulties of parking "
@@ -935,7 +945,7 @@ msgstr ""
 "sus miembros y ayudaría con las dificultades de los espacios de "
 "estacionamiento."
 
-#: .\smwebsite\templates\ucarpooling\index.html:144
+#: .\smwebsite\templates\ucarpooling\index.html:148
 msgid ""
 "It would benefit people by saving fuel money and generating new friendships "
 "and connections"
@@ -943,7 +953,7 @@ msgstr ""
 "Beneficiaría a las personas al ahorrar dinero del combustible y generar "
 "nuevas amistades y conexiones."
 
-#: .\smwebsite\templates\ucarpooling\index.html:157
+#: .\smwebsite\templates\ucarpooling\index.html:161
 msgid ""
 "Study the techniques and strategies that apply to the situation of a "
 "carpooling system for users of the same institution"
@@ -952,16 +962,16 @@ msgstr ""
 "sistema de uso compartido del automóvil para los usuarios de la misma "
 "institución."
 
-#: .\smwebsite\templates\ucarpooling\index.html:160
+#: .\smwebsite\templates\ucarpooling\index.html:164
 msgid "Design the carpooling system taking into account what has been studied"
 msgstr ""
 "Diseñar el sistema de coche compartido teniendo en cuenta lo estudiado."
 
-#: .\smwebsite\templates\ucarpooling\index.html:163
+#: .\smwebsite\templates\ucarpooling\index.html:167
 msgid "Implement the matcher module between people for the system"
 msgstr "Implementar el módulo emparejador entre personas para el sistema."
 
-#: .\smwebsite\templates\ucarpooling\index.html:166
+#: .\smwebsite\templates\ucarpooling\index.html:170
 msgid ""
 "Analyze the impact of such system in a closed community. In particular at "
 "the Catholic University \"Nuestra señora de la Asunción\""
@@ -969,70 +979,70 @@ msgstr ""
 "Analizar el impacto de dicho sistema en una comunidad cerrada. En particular "
 "en La Universidad Católica \"Nuestra Señora de la Asunción\""
 
-#: .\smwebsite\templates\ucarpooling\index.html:184
+#: .\smwebsite\templates\ucarpooling\index.html:188
 msgid "What UCArpooling has to offer"
 msgstr "Lo que UCArpooling tiene para ofrecer"
 
-#: .\smwebsite\templates\ucarpooling\index.html:191
+#: .\smwebsite\templates\ucarpooling\index.html:195
 msgid "Safe"
 msgstr "Seguro"
 
-#: .\smwebsite\templates\ucarpooling\index.html:192
+#: .\smwebsite\templates\ucarpooling\index.html:196
 msgid "Only the people of a community can make carpool between them"
 msgstr ""
 "Solo las personas de una comunidad pueden hacer viajes compartidos entre "
 "ellos."
 
-#: .\smwebsite\templates\ucarpooling\index.html:197
+#: .\smwebsite\templates\ucarpooling\index.html:201
 msgid "Automatic matching"
 msgstr "Emparejamiento automático"
 
-#: .\smwebsite\templates\ucarpooling\index.html:198
+#: .\smwebsite\templates\ucarpooling\index.html:202
 msgid "Accepting fellow poolers based on a level of compatibility"
 msgstr ""
 "Aceptar compañeros de poolers en función de un nivel de compatibilidad."
 
-#: .\smwebsite\templates\ucarpooling\index.html:203
+#: .\smwebsite\templates\ucarpooling\index.html:207
 msgid "In-app chat system"
 msgstr "Sistema de chat en la aplicación"
 
-#: .\smwebsite\templates\ucarpooling\index.html:204
+#: .\smwebsite\templates\ucarpooling\index.html:208
 msgid "Chat with pool mates within the app to not share phone numbers or email"
 msgstr ""
 "Chatea con compañeros de grupo dentro de la aplicación para no compartir "
 "números de teléfono o correo electrónico"
 
-#: .\smwebsite\templates\ucarpooling\index.html:209
+#: .\smwebsite\templates\ucarpooling\index.html:213
 msgid "Filter of poolers"
 msgstr "Filtro de poolers"
 
-#: .\smwebsite\templates\ucarpooling\index.html:210
+#: .\smwebsite\templates\ucarpooling\index.html:214
 msgid ""
 "The ability to filter by sex, musical tastes, level of eloquence, smoker"
 msgstr ""
 "La capacidad de filtrar por sexo, gustos musicales, nivel de elocuencia, "
 "fumador."
 
-#: .\smwebsite\templates\ucarpooling\index.html:215
+#: .\smwebsite\templates\ucarpooling\index.html:219
 msgid "Real-time map"
 msgstr "Mapa en tiempo real"
 
-#: .\smwebsite\templates\ucarpooling\index.html:216
+#: .\smwebsite\templates\ucarpooling\index.html:220
 msgid "To be able to see exactly where the fellow poolers are"
 msgstr "Para poder ver exactamente dónde están los compañeros de la piscina."
 
-#: .\smwebsite\templates\ucarpooling\index.html:221
+#: .\smwebsite\templates\ucarpooling\index.html:225
 msgid "Reviews and friends in common system"
 msgstr "Comentarios y amigos en sistema común."
 
-#: .\smwebsite\templates\ucarpooling\index.html:222
+#: .\smwebsite\templates\ucarpooling\index.html:226
 msgid ""
 "The ability to have the necessary information to accept or reject a carpool"
 msgstr ""
 "La capacidad de tener la información necesaria para aceptar o rechazar un "
 "viaje compartido."
 
-#: .\smwebsite\templates\ucarpooling\index.html:260
+#: .\smwebsite\templates\ucarpooling\index.html:264
 msgid ""
 "UCArpooling is an open source project hosted in Github, feel free to "
 "contribute. The repository contains the source code and the installation "
@@ -1041,7 +1051,7 @@ msgstr ""
 "UCArpooling es un proyecto de código abierto alojado en Github, siéntase "
 "libre de contribuir"
 
-#: .\smwebsite\templates\ucarpooling\index.html:268
+#: .\smwebsite\templates\ucarpooling\index.html:272
 msgid ""
 "The consumer of back-end services. All source code for such application can "
 "be found on Github"
@@ -1049,7 +1059,7 @@ msgstr ""
 "El consumidor de los servicios del back-end. El código fuente de dicha "
 "aplicación se puede encontrar en Github"
 
-#: .\smwebsite\templates\ucarpooling\index.html:275
+#: .\smwebsite\templates\ucarpooling\index.html:279
 msgid ""
 "Django 2.2.3 is used as an API server providing all the necessary functions. "
 "All source code for such a server can be found on Github"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 16:27-0400\n"
+"POT-Creation-Date: 2019-10-14 14:29-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,25 +36,28 @@ msgstr "Italiano"
 #: .\smwebsite\templates\smartparking\index.html:14
 #: .\smwebsite\templates\smwebsite\index.html:14
 #: .\smwebsite\templates\ucarpooling\experiment.html:14
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:14
 #: .\smwebsite\templates\ucarpooling\index.html:14
 msgid "Smart Traffic Project"
 msgstr "Progetto Smart Traffic"
 
 #: .\smwebsite\templates\blog\index.html:84
 #: .\smwebsite\templates\smartmoving\index.html:269
-#: .\smwebsite\templates\smartparking\index.html:265
+#: .\smwebsite\templates\smartparking\index.html:285
 #: .\smwebsite\templates\smwebsite\index.html:660
-#: .\smwebsite\templates\ucarpooling\experiment.html:558
-#: .\smwebsite\templates\ucarpooling\index.html:276
+#: .\smwebsite\templates\ucarpooling\experiment.html:571
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1272
+#: .\smwebsite\templates\ucarpooling\index.html:300
 msgid "First presentation SmartMoving"
 msgstr ""
 
 #: .\smwebsite\templates\blog\index.html:89
 #: .\smwebsite\templates\smartmoving\index.html:273
-#: .\smwebsite\templates\smartparking\index.html:269
+#: .\smwebsite\templates\smartparking\index.html:289
 #: .\smwebsite\templates\smwebsite\index.html:664
-#: .\smwebsite\templates\ucarpooling\experiment.html:562
-#: .\smwebsite\templates\ucarpooling\index.html:280
+#: .\smwebsite\templates\ucarpooling\experiment.html:575
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1276
+#: .\smwebsite\templates\ucarpooling\index.html:304
 msgid ""
 "Junior researcher Monica Fatecha gave her first presentation of her final "
 "project of the Catholic University \"Nuestra Señora de la Asunción\" for "
@@ -66,19 +69,21 @@ msgstr ""
 
 #: .\smwebsite\templates\blog\index.html:99
 #: .\smwebsite\templates\smartmoving\index.html:283
-#: .\smwebsite\templates\smartparking\index.html:279
+#: .\smwebsite\templates\smartparking\index.html:299
 #: .\smwebsite\templates\smwebsite\index.html:674
-#: .\smwebsite\templates\ucarpooling\experiment.html:572
-#: .\smwebsite\templates\ucarpooling\index.html:290
+#: .\smwebsite\templates\ucarpooling\experiment.html:585
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1288
+#: .\smwebsite\templates\ucarpooling\index.html:314
 msgid "Expo 2019"
 msgstr ""
 
 #: .\smwebsite\templates\blog\index.html:104
 #: .\smwebsite\templates\smartmoving\index.html:287
-#: .\smwebsite\templates\smartparking\index.html:283
+#: .\smwebsite\templates\smartparking\index.html:303
 #: .\smwebsite\templates\smwebsite\index.html:678
-#: .\smwebsite\templates\ucarpooling\experiment.html:576
-#: .\smwebsite\templates\ucarpooling\index.html:294
+#: .\smwebsite\templates\ucarpooling\experiment.html:589
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1292
+#: .\smwebsite\templates\ucarpooling\index.html:318
 msgid ""
 "The SmartTraffic project was presented at Expo 2019. Reaching people of all "
 "ages, explaining the problems we have in Asunción about mobility and the "
@@ -91,20 +96,22 @@ msgstr ""
 #: .\smwebsite\templates\blog\index.html:114
 #: .\smwebsite\templates\blog\index.html:193
 #: .\smwebsite\templates\smartmoving\index.html:297
-#: .\smwebsite\templates\smartparking\index.html:293
+#: .\smwebsite\templates\smartparking\index.html:313
 #: .\smwebsite\templates\smwebsite\index.html:688
-#: .\smwebsite\templates\ucarpooling\experiment.html:586
-#: .\smwebsite\templates\ucarpooling\index.html:304
+#: .\smwebsite\templates\ucarpooling\experiment.html:599
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1304
+#: .\smwebsite\templates\ucarpooling\index.html:328
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
 "presentazione del progetto agli studenti di introduzione all'ingegneria"
 
 #: .\smwebsite\templates\blog\index.html:119
 #: .\smwebsite\templates\smartmoving\index.html:301
-#: .\smwebsite\templates\smartparking\index.html:297
+#: .\smwebsite\templates\smartparking\index.html:317
 #: .\smwebsite\templates\smwebsite\index.html:692
-#: .\smwebsite\templates\ucarpooling\experiment.html:590
-#: .\smwebsite\templates\ucarpooling\index.html:308
+#: .\smwebsite\templates\ucarpooling\experiment.html:603
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1309
+#: .\smwebsite\templates\ucarpooling\index.html:332
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
 "Ancora una volta, i ragazzi hanno ispirato i più giovani a realizzare "
@@ -185,23 +192,26 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:68
 #: .\smwebsite\templates\smartmoving\index.html:325
 #: .\smwebsite\templates\smartparking\index.html:68
-#: .\smwebsite\templates\smartparking\index.html:321
+#: .\smwebsite\templates\smartparking\index.html:341
 #: .\smwebsite\templates\smwebsite\index.html:71
 #: .\smwebsite\templates\smwebsite\index.html:819
-#: .\smwebsite\templates\ucarpooling\experiment.html:70
-#: .\smwebsite\templates\ucarpooling\experiment.html:614
+#: .\smwebsite\templates\ucarpooling\experiment.html:83
+#: .\smwebsite\templates\ucarpooling\experiment.html:627
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:90
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1333
 #: .\smwebsite\templates\ucarpooling\index.html:68
-#: .\smwebsite\templates\ucarpooling\index.html:332
+#: .\smwebsite\templates\ucarpooling\index.html:356
 msgid "Contact Us"
 msgstr "Contattaci"
 
 #: .\smwebsite\templates\blog\index.html:231
 #: .\smwebsite\templates\dissemination\index.html:273
 #: .\smwebsite\templates\smartmoving\index.html:326
-#: .\smwebsite\templates\smartparking\index.html:322
+#: .\smwebsite\templates\smartparking\index.html:342
 #: .\smwebsite\templates\smwebsite\index.html:820
-#: .\smwebsite\templates\ucarpooling\experiment.html:615
-#: .\smwebsite\templates\ucarpooling\index.html:333
+#: .\smwebsite\templates\ucarpooling\experiment.html:628
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1334
+#: .\smwebsite\templates\ucarpooling\index.html:357
 msgid ""
 "Want to help? We will be very delighted to hear from you! Use the following "
 "channels and have your say:"
@@ -211,20 +221,22 @@ msgstr ""
 #: .\smwebsite\templates\blog\index.html:248
 #: .\smwebsite\templates\dissemination\index.html:292
 #: .\smwebsite\templates\smartmoving\index.html:343
-#: .\smwebsite\templates\smartparking\index.html:339
+#: .\smwebsite\templates\smartparking\index.html:359
 #: .\smwebsite\templates\smwebsite\index.html:837
-#: .\smwebsite\templates\ucarpooling\experiment.html:632
-#: .\smwebsite\templates\ucarpooling\index.html:350
+#: .\smwebsite\templates\ucarpooling\experiment.html:645
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1353
+#: .\smwebsite\templates\ucarpooling\index.html:374
 msgid "Telephone: "
 msgstr "Telefono: "
 
 #: .\smwebsite\templates\blog\index.html:292
 #: .\smwebsite\templates\dissemination\index.html:327
 #: .\smwebsite\templates\smartmoving\index.html:387
-#: .\smwebsite\templates\smartparking\index.html:383
+#: .\smwebsite\templates\smartparking\index.html:403
 #: .\smwebsite\templates\smwebsite\index.html:881
-#: .\smwebsite\templates\ucarpooling\experiment.html:676
-#: .\smwebsite\templates\ucarpooling\index.html:394
+#: .\smwebsite\templates\ucarpooling\experiment.html:689
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1400
+#: .\smwebsite\templates\ucarpooling\index.html:418
 msgid "Or reach us on any of these social networks:"
 msgstr "Oppure raggiungici su uno di questi social network:"
 
@@ -285,9 +297,9 @@ msgstr "Caratteristiche"
 #: .\smwebsite\templates\smartmoving\index.html:66
 #: .\smwebsite\templates\smartmoving\index.html:229
 #: .\smwebsite\templates\smartparking\index.html:66
-#: .\smwebsite\templates\smartparking\index.html:224
+#: .\smwebsite\templates\smartparking\index.html:244
 #: .\smwebsite\templates\ucarpooling\index.html:66
-#: .\smwebsite\templates\ucarpooling\index.html:235
+#: .\smwebsite\templates\ucarpooling\index.html:259
 msgid "Contribute"
 msgstr "Contribuire"
 
@@ -341,7 +353,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:119
 #: .\smwebsite\templates\smartparking\index.html:116
 #: .\smwebsite\templates\smwebsite\index.html:105
-#: .\smwebsite\templates\ucarpooling\experiment.html:134
+#: .\smwebsite\templates\ucarpooling\experiment.html:147
 #: .\smwebsite\templates\ucarpooling\index.html:122
 msgid "Primary Goal"
 msgstr "Obiettivo Principale"
@@ -464,21 +476,21 @@ msgstr ""
 "contribuire"
 
 #: .\smwebsite\templates\smartmoving\index.html:238
-#: .\smwebsite\templates\smartparking\index.html:233
+#: .\smwebsite\templates\smartparking\index.html:253
 msgid "The project is develop for Android devices"
 msgstr "Il progetto è sviluppato per dispositivi Android"
 
 #: .\smwebsite\templates\smartmoving\index.html:240
 #: .\smwebsite\templates\smartmoving\index.html:247
-#: .\smwebsite\templates\smartparking\index.html:235
-#: .\smwebsite\templates\smartparking\index.html:242
-#: .\smwebsite\templates\ucarpooling\index.html:246
-#: .\smwebsite\templates\ucarpooling\index.html:253
+#: .\smwebsite\templates\smartparking\index.html:255
+#: .\smwebsite\templates\smartparking\index.html:262
+#: .\smwebsite\templates\ucarpooling\index.html:270
+#: .\smwebsite\templates\ucarpooling\index.html:277
 msgid "Repository"
 msgstr "Deposito"
 
 #: .\smwebsite\templates\smartmoving\index.html:245
-#: .\smwebsite\templates\smartparking\index.html:240
+#: .\smwebsite\templates\smartparking\index.html:260
 msgid ""
 "Work with a Django server, a Postgresql database and a map server based on "
 "CartoDB"
@@ -487,10 +499,11 @@ msgstr ""
 "basato su CartoDB"
 
 #: .\smwebsite\templates\smartmoving\index.html:309
-#: .\smwebsite\templates\smartparking\index.html:305
+#: .\smwebsite\templates\smartparking\index.html:325
 #: .\smwebsite\templates\smwebsite\index.html:700
-#: .\smwebsite\templates\ucarpooling\experiment.html:598
-#: .\smwebsite\templates\ucarpooling\index.html:316
+#: .\smwebsite\templates\ucarpooling\experiment.html:611
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:1317
+#: .\smwebsite\templates\ucarpooling\index.html:340
 msgid "see more news"
 msgstr "vedi più notizie"
 
@@ -615,7 +628,22 @@ msgid ""
 msgstr ""
 "Fornisce all'utente informazioni importanti sui luoghi vicini in cui si trova"
 
-#: .\smwebsite\templates\smartparking\index.html:225
+#: .\smwebsite\templates\smartparking\index.html:227
+msgid "Participate in our experiment"
+msgstr "Partecipa al nostro esperimento"
+
+#: .\smwebsite\templates\smartparking\index.html:228
+msgid ""
+"We are conducting an experiment to evaluate Smart Parking! If you want to "
+"participate press the following button that will redirect you to our form"
+msgstr "Stiamo conducendo un esperimento per valutare Smart Parking! "
+"Se vuoi partecipare premi il seguente pulsante che ti reindirizzerà al nostro modulo"
+
+#: .\smwebsite\templates\smartparking\index.html:230
+msgid "Go to the form"
+msgstr "Vai al modulo"
+
+#: .\smwebsite\templates\smartparking\index.html:245
 msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
@@ -786,7 +814,8 @@ msgstr "Amministratore"
 msgid "Junior Researcher"
 msgstr "Ricercatore Junior"
 
-#: .\smwebsite\templates\ucarpooling\experiment.html:84
+#: .\smwebsite\templates\ucarpooling\experiment.html:97
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:104
 #: .\smwebsite\templates\ucarpooling\index.html:82
 msgid ""
 "Improving congestion by reducing the number of vehicles on the streets, at "
@@ -983,7 +1012,7 @@ msgstr ""
 "La capacità di avere le informazioni necessarie per accettare o rifiutare un "
 "car pooling"
 
-#: .\smwebsite\templates\ucarpooling\index.html:236
+#: .\smwebsite\templates\ucarpooling\index.html:260
 msgid ""
 "UCArpooling is an open source project hosted in Github, feel free to "
 "contribute. The repository contains the source code and the installation "
@@ -993,7 +1022,7 @@ msgstr ""
 "farlo contribuire. Il repository contiene il codice sorgente e le guide "
 "all'installazione"
 
-#: .\smwebsite\templates\ucarpooling\index.html:244
+#: .\smwebsite\templates\ucarpooling\index.html:268
 msgid ""
 "The consumer of back-end services. All source code for such application can "
 "be found on Github"
@@ -1001,7 +1030,7 @@ msgstr ""
 "Il consumatore di servizi di back-end. Tutto il codice sorgente per tale "
 "applicazione può essere trovato su Github"
 
-#: .\smwebsite\templates\ucarpooling\index.html:251
+#: .\smwebsite\templates\ucarpooling\index.html:275
 msgid ""
 "Django 2.2.3 is used as an API server providing all the necessary functions. "
 "All source code for such a server can be found on Github"

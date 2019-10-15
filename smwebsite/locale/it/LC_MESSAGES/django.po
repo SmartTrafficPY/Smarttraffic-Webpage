@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-14 18:10-0300\n"
+"POT-Creation-Date: 2019-10-15 14:00-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,32 +18,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: smwebsite/settings/base.py:113
+#: .\smwebsite\settings\base.py:113
 msgid "English"
 msgstr "Inglese"
 
-#: smwebsite/settings/base.py:114
+#: .\smwebsite\settings\base.py:114
 msgid "Spanish"
 msgstr "Spagnolo"
 
-#: smwebsite/settings/base.py:115
+#: .\smwebsite\settings\base.py:115
 msgid "Italian"
 msgstr "Italiano"
 
-#: smwebsite/templates/blog/index.html:14
-#: smwebsite/templates/dissemination/index.html:14
-#: smwebsite/templates/smartmoving/index.html:14
-#: smwebsite/templates/smartparking/index.html:14
-#: smwebsite/templates/smwebsite/index.html:14
-#: smwebsite/templates/ucarpooling/experiment.html:14
-#: smwebsite/templates/ucarpooling/ilog_guide.html:14
-#: smwebsite/templates/ucarpooling/index.html:14
+#: .\smwebsite\templates\blog\index.html:14
+#: .\smwebsite\templates\dissemination\index.html:14
+#: .\smwebsite\templates\smartmoving\index.html:14
+#: .\smwebsite\templates\smartparking\index.html:14
+#: .\smwebsite\templates\smwebsite\index.html:14
+#: .\smwebsite\templates\ucarpooling\experiment.html:14
+#: .\smwebsite\templates\ucarpooling\ilog_guide.html:14
+#: .\smwebsite\templates\ucarpooling\index.html:14
 msgid "Smart Traffic Project"
 msgstr "Progetto Smart Traffic"
 
 #: .\smwebsite\templates\blog\index.html:89
 #: .\smwebsite\templates\smartmoving\index.html:273
-#: .\smwebsite\templates\smartparking\index.html:289
+#: .\smwebsite\templates\smartparking\index.html:291
 #: .\smwebsite\templates\smwebsite\index.html:664
 #: .\smwebsite\templates\ucarpooling\experiment.html:575
 #: .\smwebsite\templates\ucarpooling\index.html:304
@@ -52,16 +52,17 @@ msgstr "Premi UCarpooling"
 
 #: .\smwebsite\templates\blog\index.html:94
 #: .\smwebsite\templates\smartmoving\index.html:278
-#: .\smwebsite\templates\smartparking\index.html:294
+#: .\smwebsite\templates\smartparking\index.html:296
 #: .\smwebsite\templates\smwebsite\index.html:669
 #: .\smwebsite\templates\ucarpooling\experiment.html:580
 #: .\smwebsite\templates\ucarpooling\index.html:309
 msgid "Winners of the UCarpooling experience raffle were awarded"
-msgstr "Sono stati premiati i vincitori della lotteria di esperienza UCarpooling"
+msgstr ""
+"Sono stati premiati i vincitori della lotteria di esperienza UCarpooling"
 
 #: .\smwebsite\templates\blog\index.html:105
 #: .\smwebsite\templates\smartmoving\index.html:289
-#: .\smwebsite\templates\smartparking\index.html:305
+#: .\smwebsite\templates\smartparking\index.html:307
 #: .\smwebsite\templates\smwebsite\index.html:680
 #: .\smwebsite\templates\ucarpooling\experiment.html:591
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1272
@@ -71,7 +72,7 @@ msgstr "Prima presentazione SmartMoving"
 
 #: .\smwebsite\templates\blog\index.html:110
 #: .\smwebsite\templates\smartmoving\index.html:294
-#: .\smwebsite\templates\smartparking\index.html:310
+#: .\smwebsite\templates\smartparking\index.html:312
 #: .\smwebsite\templates\smwebsite\index.html:685
 #: .\smwebsite\templates\ucarpooling\experiment.html:596
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1276
@@ -83,15 +84,17 @@ msgid ""
 "project entitled \"SmartMoving: Application to collect information on the "
 "state of the sidewalks and recommend roads to pedestrians with reduced "
 "mobility\" "
-msgstr "La giovane ricercatrice Monica Fatecha ha tenuto la sua prima presentazione del suo progetto finale "
-"dell 'Università Cattolica\" Nuestra Señora de la Asunción\" per l'Ingegneria Informatica. "
-"La presentazione è stata uno dei casi d'uso del progetto intitolato"
-" \"SmartMoving: applicazione per raccogliere informazioni sullo stato dei marciapiedi e raccomandare strade "
+msgstr ""
+"La giovane ricercatrice Monica Fatecha ha tenuto la sua prima presentazione "
+"del suo progetto finale dell 'Università Cattolica\" Nuestra Señora de la "
+"Asunción\" per l'Ingegneria Informatica. La presentazione è stata uno dei "
+"casi d'uso del progetto intitolato \"SmartMoving: applicazione per "
+"raccogliere informazioni sullo stato dei marciapiedi e raccomandare strade "
 "ai pedoni con mobilità ridotta \""
 
 #: .\smwebsite\templates\blog\index.html:120
 #: .\smwebsite\templates\smartmoving\index.html:304
-#: .\smwebsite\templates\smartparking\index.html:320
+#: .\smwebsite\templates\smartparking\index.html:322
 #: .\smwebsite\templates\smwebsite\index.html:695
 #: .\smwebsite\templates\ucarpooling\experiment.html:606
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1288
@@ -101,7 +104,7 @@ msgstr "Expo 2019"
 
 #: .\smwebsite\templates\blog\index.html:125
 #: .\smwebsite\templates\smartmoving\index.html:309
-#: .\smwebsite\templates\smartparking\index.html:325
+#: .\smwebsite\templates\smartparking\index.html:327
 #: .\smwebsite\templates\smwebsite\index.html:700
 #: .\smwebsite\templates\ucarpooling\experiment.html:611
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1292
@@ -204,7 +207,7 @@ msgstr ""
 #: .\smwebsite\templates\smartmoving\index.html:72
 #: .\smwebsite\templates\smartmoving\index.html:333
 #: .\smwebsite\templates\smartparking\index.html:72
-#: .\smwebsite\templates\smartparking\index.html:349
+#: .\smwebsite\templates\smartparking\index.html:351
 #: .\smwebsite\templates\smwebsite\index.html:75
 #: .\smwebsite\templates\smwebsite\index.html:827
 #: .\smwebsite\templates\ucarpooling\experiment.html:87
@@ -219,7 +222,7 @@ msgstr "Contattaci"
 #: .\smwebsite\templates\blog\index.html:254
 #: .\smwebsite\templates\dissemination\index.html:273
 #: .\smwebsite\templates\smartmoving\index.html:334
-#: .\smwebsite\templates\smartparking\index.html:350
+#: .\smwebsite\templates\smartparking\index.html:352
 #: .\smwebsite\templates\smwebsite\index.html:828
 #: .\smwebsite\templates\ucarpooling\experiment.html:636
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1334
@@ -233,7 +236,7 @@ msgstr ""
 #: .\smwebsite\templates\blog\index.html:271
 #: .\smwebsite\templates\dissemination\index.html:292
 #: .\smwebsite\templates\smartmoving\index.html:351
-#: .\smwebsite\templates\smartparking\index.html:367
+#: .\smwebsite\templates\smartparking\index.html:369
 #: .\smwebsite\templates\smwebsite\index.html:845
 #: .\smwebsite\templates\ucarpooling\experiment.html:653
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1353
@@ -244,7 +247,7 @@ msgstr "Telefono: "
 #: .\smwebsite\templates\blog\index.html:315
 #: .\smwebsite\templates\dissemination\index.html:327
 #: .\smwebsite\templates\smartmoving\index.html:395
-#: .\smwebsite\templates\smartparking\index.html:411
+#: .\smwebsite\templates\smartparking\index.html:413
 #: .\smwebsite\templates\smwebsite\index.html:889
 #: .\smwebsite\templates\ucarpooling\experiment.html:697
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1400
@@ -252,42 +255,40 @@ msgstr "Telefono: "
 msgid "Or reach us on any of these social networks:"
 msgstr "Oppure raggiungici su uno di questi social network:"
 
-#: smwebsite/templates/dissemination/index.html:72
+#: .\smwebsite\templates\dissemination\index.html:72
 msgid "Publications and Technical Documents"
 msgstr "Pubblicazioni e documenti tecnici"
 
-#: smwebsite/templates/dissemination/index.html:74
+#: .\smwebsite\templates\dissemination\index.html:74
 msgid "Project deliverables"
 msgstr "Risultati del progetto"
 
-#: smwebsite/templates/dissemination/index.html:82
-#: smwebsite/templates/dissemination/index.html:98
-#: smwebsite/templates/dissemination/index.html:116
-#: smwebsite/templates/dissemination/index.html:140
-#: smwebsite/templates/dissemination/index.html:157
-#: smwebsite/templates/dissemination/index.html:174
-#: smwebsite/templates/dissemination/index.html:191
-#: smwebsite/templates/dissemination/index.html:209
-#: smwebsite/templates/dissemination/index.html:227
-#: smwebsite/templates/dissemination/index.html:245
+#: .\smwebsite\templates\dissemination\index.html:82
+#: .\smwebsite\templates\dissemination\index.html:98
+#: .\smwebsite\templates\dissemination\index.html:116
+#: .\smwebsite\templates\dissemination\index.html:140
+#: .\smwebsite\templates\dissemination\index.html:157
+#: .\smwebsite\templates\dissemination\index.html:174
+#: .\smwebsite\templates\dissemination\index.html:191
+#: .\smwebsite\templates\dissemination\index.html:209
+#: .\smwebsite\templates\dissemination\index.html:227
+#: .\smwebsite\templates\dissemination\index.html:245
 msgid "Document"
 msgstr "Documento"
 
-#: smwebsite/templates/dissemination/index.html:102
-#: smwebsite/templates/dissemination/index.html:124
+#: .\smwebsite\templates\dissemination\index.html:102
+#: .\smwebsite\templates\dissemination\index.html:124
 msgid "Poster"
 msgstr "Manifesto"
 
-#: smwebsite/templates/dissemination/index.html:120
-#: smwebsite/templates/dissemination/index.html:213
-#: smwebsite/templates/dissemination/index.html:231
-#: smwebsite/templates/dissemination/index.html:249
-#, fuzzy
-#| msgid "Dissemination"
+#: .\smwebsite\templates\dissemination\index.html:120
+#: .\smwebsite\templates\dissemination\index.html:213
+#: .\smwebsite\templates\dissemination\index.html:231
+#: .\smwebsite\templates\dissemination\index.html:249
 msgid "Presentation"
 msgstr "Diffusione"
 
-#: smwebsite/templates/dissemination/index.html:201
+#: .\smwebsite\templates\dissemination\index.html:201
 msgid "End-of-career project documents"
 msgstr "Documenti di progetto di fine carriera"
 
@@ -309,7 +310,7 @@ msgstr "Caratteristiche"
 #: .\smwebsite\templates\smartmoving\index.html:70
 #: .\smwebsite\templates\smartmoving\index.html:233
 #: .\smwebsite\templates\smartparking\index.html:70
-#: .\smwebsite\templates\smartparking\index.html:248
+#: .\smwebsite\templates\smartparking\index.html:250
 #: .\smwebsite\templates\ucarpooling\index.html:70
 #: .\smwebsite\templates\ucarpooling\index.html:263
 msgid "Contribute"
@@ -322,10 +323,8 @@ msgid ""
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:112
-#, fuzzy
-#| msgid "UCArpooling Application"
 msgid "SmartMoving Aplication"
-msgstr "Applicazione SmartParking"
+msgstr "Applicazione SmartMoving"
 
 #: .\smwebsite\templates\smartmoving\index.html:115
 msgid ""
@@ -336,12 +335,7 @@ msgid ""
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:118
-#, fuzzy, python-format
-#| msgid ""
-#| "On behalf of the SmartTraffic project, a citizenship survey was conducted "
-#| "to find the problems a citizen faces in Asunción regarding their daily "
-#| "mobility. The survey resulted in the majority, with 73%% of respondents, "
-#| "using their own car as the main means of transportation."
+#, python-format
 msgid ""
 "On behalf of the SmartTraffic project, a citizenship survey was conducted to "
 "find the problems a citizen faces in Asunción. In the survey the 73%% "
@@ -387,10 +381,6 @@ msgid "Specific Goals"
 msgstr "Obiettivi specifici"
 
 #: .\smwebsite\templates\smartmoving\index.html:140
-#, fuzzy
-#| msgid ""
-#| "Study the techniques and strategies that apply to the situation of a "
-#| "carpooling system for users of the same institution"
 msgid ""
 "Study the techniques and strategies that apply to the smartmoving solution"
 msgstr ""
@@ -418,14 +408,10 @@ msgid ""
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:172
-#, fuzzy
-#| msgid "What UCArpooling has to offer"
 msgid "What SmartMoving has to offer"
 msgstr "Cosa UCArpooling ha da offrire"
 
 #: .\smwebsite\templates\smartmoving\index.html:182
-#, fuzzy
-#| msgid "Relevant information"
 msgid "Information"
 msgstr "Informazioni rilevanti"
 
@@ -444,8 +430,6 @@ msgid "Recomend two possibles paths from the user location to a destination"
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:200
-#, fuzzy
-#| msgid "Report"
 msgid "POI Report Details"
 msgstr "Report"
 
@@ -456,8 +440,6 @@ msgid ""
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:209
-#, fuzzy
-#| msgid "Report"
 msgid "POI Reports"
 msgstr "Report"
 
@@ -466,8 +448,6 @@ msgid "The list of the reports that an user would be able to create"
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:218
-#, fuzzy
-#| msgid "Inauguration of the office"
 msgid "Configuration of the POI reports"
 msgstr "Inaugurazione dell'ufficio"
 
@@ -476,33 +456,29 @@ msgid "Manual configuration about negatives reports"
 msgstr ""
 
 #: .\smwebsite\templates\smartmoving\index.html:234
-#, fuzzy
-#| msgid ""
-#| "SmartParking is an open source project hosted in Github, feel free to "
-#| "contribute"
 msgid ""
 "SmartMoving is an open source project hosted in Github, feel free to "
 "contribute"
 msgstr ""
-"SmartParking è un progetto open source ospitato in Github, sentiti libero di "
+"SmartMoving è un progetto open source ospitato in Github, sentiti libero di "
 "contribuire"
 
 #: .\smwebsite\templates\smartmoving\index.html:242
-#: .\smwebsite\templates\smartparking\index.html:257
+#: .\smwebsite\templates\smartparking\index.html:259
 msgid "The project is develop for Android devices"
 msgstr "Il progetto è sviluppato per dispositivi Android"
 
 #: .\smwebsite\templates\smartmoving\index.html:244
 #: .\smwebsite\templates\smartmoving\index.html:251
-#: .\smwebsite\templates\smartparking\index.html:259
-#: .\smwebsite\templates\smartparking\index.html:266
+#: .\smwebsite\templates\smartparking\index.html:261
+#: .\smwebsite\templates\smartparking\index.html:268
 #: .\smwebsite\templates\ucarpooling\index.html:274
 #: .\smwebsite\templates\ucarpooling\index.html:281
 msgid "Repository"
 msgstr "Deposito"
 
 #: .\smwebsite\templates\smartmoving\index.html:249
-#: .\smwebsite\templates\smartparking\index.html:264
+#: .\smwebsite\templates\smartparking\index.html:266
 msgid ""
 "Work with a Django server, a Postgresql database and a map server based on "
 "CartoDB"
@@ -511,7 +487,7 @@ msgstr ""
 "basato su CartoDB"
 
 #: .\smwebsite\templates\smartmoving\index.html:317
-#: .\smwebsite\templates\smartparking\index.html:333
+#: .\smwebsite\templates\smartparking\index.html:335
 #: .\smwebsite\templates\smwebsite\index.html:708
 #: .\smwebsite\templates\ucarpooling\experiment.html:619
 #: .\smwebsite\templates\ucarpooling\ilog_guide.html:1317
@@ -526,8 +502,6 @@ msgstr ""
 "parcheggiare"
 
 #: .\smwebsite\templates\smartparking\index.html:115
-#, fuzzy
-#| msgid "UCArpooling Application"
 msgid "SmartParking application"
 msgstr "Applicazione SmartParking"
 
@@ -653,10 +627,18 @@ msgstr ""
 "partecipare premi il seguente pulsante che ti reindirizzerà al nostro modulo"
 
 #: .\smwebsite\templates\smartparking\index.html:234
+msgid ""
+"The experiment is carried out only with students of the Catholic University "
+"of Asunción who attend the Santa Librada campus"
+msgstr ""
+" L'esperimento viene condotto solo con studenti dell'Università Cattolica "
+" \"Nuestra Señora de la Asunción\" che frequentano il campus di Santa Librada. "
+
+#: .\smwebsite\templates\smartparking\index.html:236
 msgid "Go to the form"
 msgstr "Vai al modulo"
 
-#: .\smwebsite\templates\smartparking\index.html:249
+#: .\smwebsite\templates\smartparking\index.html:251
 msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
@@ -793,8 +775,6 @@ msgstr ""
 "specializzate"
 
 #: .\smwebsite\templates\smwebsite\index.html:275
-#, fuzzy
-#| msgid "Expected Results"
 msgid "Results"
 msgstr "Risultati Attesi"
 

@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="{% static 'smwebsite/css/responsive.css' %}">
     <script src="{% static 'smwebsite/main.js' %}"></script>
     <script src="{% static 'smwebsite/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -78,7 +83,23 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">
-                            <img src="{% static 'smwebsite\images\dissemination\20190725-presentMoni\moni-presentacion.jpg' %}" alt="">
+                            <a data-fancybox="gallery" href="{% static 'smwebsite\images\dissemination\20191004-premiosUCarpooling\jbl_ganador(big).jpg' %}"><img src="{% static 'smwebsite\images\dissemination\20191004-premiosUCarpooling\jbl_ganador(small).jpg' %}"></a>
+                        </div>
+                        <div class="blog-content">
+                            <h3>{% trans 'UCarpooling awards' %}</h3>
+                            <ul class="blog-meta">
+                                <!--                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>-->
+                                <li><span class="ti-calendar"></span>Oct 4, 2019</li>
+                            </ul>
+                            <p>{% trans 'Winners of the UCarpooling experience raffle were awarded'%} </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-foto">
+                            <a data-fancybox="gallery" href="{% static 'smwebsite\images\dissemination\20190725-presentMoni\moni-presentacio(big).jpg' %}"><img src="{% static 'smwebsite\images\dissemination\20190725-presentMoni\moni-presentacio(small).jpg' %}"></a>
+                            <!-- <img src="{% static 'smwebsite\images\dissemination\20190725-presentMoni\moni-presentacion.jpg' %}" alt=""> -->
                         </div>
                         <div class="blog-content">
                             <h3>{% trans 'First presentation SmartMoving' %}</h3>
@@ -93,7 +114,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">
-                            <img src="{% static 'smwebsite/images/dissemination/20190718-expo2019/20190718-expo2019.jpg' %}" alt="">
+                            <a data-fancybox="gallery" href="{% static 'smwebsite\images\dissemination\20190718-expo2019\20190718-expo2019(big).jpg' %}"><img src="{% static 'smwebsite\images\dissemination\20190718-expo2019\20190718-expo2019(small).jpg' %}"></a>
                         </div>
                         <div class="blog-content">
                             <h3>{% trans 'Expo 2019' %}</h3>
@@ -105,6 +126,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">
@@ -120,8 +143,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">
@@ -152,6 +173,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">
@@ -167,8 +190,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">
@@ -199,6 +220,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-foto">

@@ -1,5 +1,7 @@
 from django.utils import translation
 from django.views.generic.base import TemplateView
+import random
+from django.shortcuts import redirect
 
 
 class HomePageView(TemplateView):
@@ -64,6 +66,14 @@ class DisseminationHomePageView(TemplateView):
     def dispatch(self, request, *args, **kwargs):
         translation.activate(request.LANGUAGE_CODE)
         return super().dispatch(request, *args, **kwargs)
+
+
+def random_urls(request):
+    url_id = random.randint(1, 2)
+    if url_id == 1:
+        return redirect('https://docs.google.com/forms/d/e/1FAIpQLSd4rgXkvPSNXeumAsIKDvtAnqr_qXjvQ8sL7hsURH8JCrzT7Q/viewform')
+    else:
+        return redirect('https://docs.google.com/forms/d/e/1FAIpQLScrb2FY7oQMlskqLLbwsCwzODyz5-JI1JQAp8OdhRv_AzeMxg/viewform')
 
 
 home = HomePageView.as_view()

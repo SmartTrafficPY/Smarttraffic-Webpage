@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -18,26 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\smwebsite\settings\base.py:113
+#: smwebsite/settings/base.py:113
 msgid "English"
 msgstr "Inglés"
 
-#: .\smwebsite\settings\base.py:114
+#: smwebsite/settings/base.py:114
 msgid "Spanish"
 msgstr "Español"
 
-#: .\smwebsite\settings\base.py:115
+#: smwebsite/settings/base.py:115
 msgid "Italian"
 msgstr "Italiano"
 
-#: .\smwebsite\templates\blog\index.html:14
-#: .\smwebsite\templates\dissemination\index.html:14
-#: .\smwebsite\templates\smartmoving\index.html:14
-#: .\smwebsite\templates\smartparking\index.html:14
-#: .\smwebsite\templates\smwebsite\index.html:14
-#: .\smwebsite\templates\ucarpooling\experiment.html:14
-#: .\smwebsite\templates\ucarpooling\ilog_guide.html:14
-#: .\smwebsite\templates\ucarpooling\index.html:14
+#: smwebsite/templates/blog/index.html:14
+#: smwebsite/templates/dissemination/index.html:14
+#: smwebsite/templates/smartmoving/index.html:14
+#: smwebsite/templates/smartparking/index.html:14
+#: smwebsite/templates/smwebsite/index.html:14
+#: smwebsite/templates/ucarpooling/experiment.html:14
+#: smwebsite/templates/ucarpooling/ilog_guide.html:14
+#: smwebsite/templates/ucarpooling/index.html:14
 msgid "Smart Traffic Project"
 msgstr "Proyecto Smart Traffic"
 
@@ -257,42 +257,42 @@ msgstr "Telefono: "
 msgid "Or reach us on any of these social networks:"
 msgstr "O alcáncenos en cualquiera de estas redes sociales:"
 
-#: .\smwebsite\templates\dissemination\index.html:72
+#: smwebsite/templates/dissemination/index.html:72
 msgid "Publications and Technical Documents"
 msgstr "Publicaciones y Documentos Técnicos."
 
-#: .\smwebsite\templates\dissemination\index.html:74
+#: smwebsite/templates/dissemination/index.html:74
 msgid "Project deliverables"
 msgstr "Entregables del proyecto"
 
-#: .\smwebsite\templates\dissemination\index.html:82
-#: .\smwebsite\templates\dissemination\index.html:98
-#: .\smwebsite\templates\dissemination\index.html:116
-#: .\smwebsite\templates\dissemination\index.html:140
-#: .\smwebsite\templates\dissemination\index.html:157
-#: .\smwebsite\templates\dissemination\index.html:174
-#: .\smwebsite\templates\dissemination\index.html:191
-#: .\smwebsite\templates\dissemination\index.html:209
-#: .\smwebsite\templates\dissemination\index.html:227
-#: .\smwebsite\templates\dissemination\index.html:245
+#: smwebsite/templates/dissemination/index.html:82
+#: smwebsite/templates/dissemination/index.html:98
+#: smwebsite/templates/dissemination/index.html:116
+#: smwebsite/templates/dissemination/index.html:140
+#: smwebsite/templates/dissemination/index.html:157
+#: smwebsite/templates/dissemination/index.html:174
+#: smwebsite/templates/dissemination/index.html:191
+#: smwebsite/templates/dissemination/index.html:209
+#: smwebsite/templates/dissemination/index.html:227
+#: smwebsite/templates/dissemination/index.html:245
 msgid "Document"
 msgstr "Documento"
 
-#: .\smwebsite\templates\dissemination\index.html:102
-#: .\smwebsite\templates\dissemination\index.html:124
+#: smwebsite/templates/dissemination/index.html:102
+#: smwebsite/templates/dissemination/index.html:124
 msgid "Poster"
 msgstr "Poster"
 
-#: .\smwebsite\templates\dissemination\index.html:120
-#: .\smwebsite\templates\dissemination\index.html:213
-#: .\smwebsite\templates\dissemination\index.html:231
-#: .\smwebsite\templates\dissemination\index.html:249
+#: smwebsite/templates/dissemination/index.html:120
+#: smwebsite/templates/dissemination/index.html:213
+#: smwebsite/templates/dissemination/index.html:231
+#: smwebsite/templates/dissemination/index.html:249
 #, fuzzy
 #| msgid "Dissemination"
 msgid "Presentation"
 msgstr "Diseminación"
 
-#: .\smwebsite\templates\dissemination\index.html:201
+#: smwebsite/templates/dissemination/index.html:201
 msgid "End-of-career project documents"
 msgstr "Documentos de proyectos de fin de carrera"
 

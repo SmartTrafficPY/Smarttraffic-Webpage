@@ -4,13 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==2.2.*"
-docker-compose = "*"
-pyyaml = "==4.2b4"
+django = "==3.0.*"
 
 [dev-packages]
 "flake8" = "*"
 isort = "*"
+docker-compose = "*"
 
 [requires]
 python_version = "3.7"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-18 00:57+0000\n"
+"POT-Creation-Date: 2020-03-20 18:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,38 +45,56 @@ msgstr "Progetto Smart Traffic"
 #: smwebsite/templates/smartmoving/index.html:273
 #: smwebsite/templates/smartparking/index.html:292
 #: smwebsite/templates/smwebsite/index.html:664
-#: smwebsite/templates/ucarpooling/experiment.html:575
 #: smwebsite/templates/ucarpooling/index.html:304
-msgid "UCarpooling awards"
-msgstr "Premi UCarpooling"
+msgid "Final presentation"
+msgstr "Presentazione finale"
 
 #: smwebsite/templates/blog/index.html:94
 #: smwebsite/templates/smartmoving/index.html:278
 #: smwebsite/templates/smartparking/index.html:297
 #: smwebsite/templates/smwebsite/index.html:669
-#: smwebsite/templates/ucarpooling/experiment.html:580
 #: smwebsite/templates/ucarpooling/index.html:309
+msgid ""
+"Junior researchers are finally computer engineers after defending their "
+"respective thesis"
+msgstr "I ricercatori junior sono finalmente ingegneri informatici dopo aver difeso le loro rispettive tesi"
+
+#: smwebsite/templates/blog/index.html:104
+#: smwebsite/templates/smartmoving/index.html:288
+#: smwebsite/templates/smartparking/index.html:307
+#: smwebsite/templates/smwebsite/index.html:679
+#: smwebsite/templates/ucarpooling/experiment.html:575
+#: smwebsite/templates/ucarpooling/index.html:319
+msgid "UCarpooling awards"
+msgstr "Premi UCarpooling"
+
+#: smwebsite/templates/blog/index.html:109
+#: smwebsite/templates/smartmoving/index.html:293
+#: smwebsite/templates/smartparking/index.html:312
+#: smwebsite/templates/smwebsite/index.html:684
+#: smwebsite/templates/ucarpooling/experiment.html:580
+#: smwebsite/templates/ucarpooling/index.html:324
 msgid "Winners of the UCarpooling experience raffle were awarded"
 msgstr ""
 "Sono stati premiati i vincitori della lotteria di esperienza UCarpooling"
 
-#: smwebsite/templates/blog/index.html:105
-#: smwebsite/templates/smartmoving/index.html:289
-#: smwebsite/templates/smartparking/index.html:308
-#: smwebsite/templates/smwebsite/index.html:680
+#: smwebsite/templates/blog/index.html:120
+#: smwebsite/templates/smartmoving/index.html:304
+#: smwebsite/templates/smartparking/index.html:323
+#: smwebsite/templates/smwebsite/index.html:695
 #: smwebsite/templates/ucarpooling/experiment.html:591
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1272
-#: smwebsite/templates/ucarpooling/index.html:320
+#: smwebsite/templates/ucarpooling/index.html:335
 msgid "First presentation SmartMoving"
 msgstr "Prima presentazione SmartMoving"
 
-#: smwebsite/templates/blog/index.html:110
-#: smwebsite/templates/smartmoving/index.html:294
-#: smwebsite/templates/smartparking/index.html:313
-#: smwebsite/templates/smwebsite/index.html:685
+#: smwebsite/templates/blog/index.html:125
+#: smwebsite/templates/smartmoving/index.html:309
+#: smwebsite/templates/smartparking/index.html:328
+#: smwebsite/templates/smwebsite/index.html:700
 #: smwebsite/templates/ucarpooling/experiment.html:596
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1276
-#: smwebsite/templates/ucarpooling/index.html:325
+#: smwebsite/templates/ucarpooling/index.html:340
 msgid ""
 "Junior researcher Monica Fatecha gave her first presentation of her final "
 "project of the Catholic University \"Nuestra Señora de la Asunción\" for "
@@ -92,23 +110,15 @@ msgstr ""
 "raccogliere informazioni sullo stato dei marciapiedi e raccomandare strade "
 "ai pedoni con mobilità ridotta \""
 
-#: smwebsite/templates/blog/index.html:120
-#: smwebsite/templates/smartmoving/index.html:304
-#: smwebsite/templates/smartparking/index.html:323
-#: smwebsite/templates/smwebsite/index.html:695
+#: smwebsite/templates/blog/index.html:137
 #: smwebsite/templates/ucarpooling/experiment.html:606
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1288
-#: smwebsite/templates/ucarpooling/index.html:335
 msgid "Expo 2019"
 msgstr "Expo 2019"
 
-#: smwebsite/templates/blog/index.html:125
-#: smwebsite/templates/smartmoving/index.html:309
-#: smwebsite/templates/smartparking/index.html:328
-#: smwebsite/templates/smwebsite/index.html:700
+#: smwebsite/templates/blog/index.html:142
 #: smwebsite/templates/ucarpooling/experiment.html:611
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1292
-#: smwebsite/templates/ucarpooling/index.html:340
 msgid ""
 "The SmartTraffic project was presented at Expo 2019. Reaching people of all "
 "ages, explaining the problems we have in Asunción about mobility and the "
@@ -118,25 +128,25 @@ msgstr ""
 "persone di tutte le età, spiegando i problemi che abbiamo ad Asunción sulla "
 "mobilità e le soluzioni che proponiamo"
 
-#: smwebsite/templates/blog/index.html:137
-#: smwebsite/templates/blog/index.html:214
+#: smwebsite/templates/blog/index.html:152
+#: smwebsite/templates/blog/index.html:231
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1304
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
 "presentazione del progetto agli studenti di introduzione all'ingegneria"
 
-#: smwebsite/templates/blog/index.html:142
+#: smwebsite/templates/blog/index.html:157
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1309
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
 "Ancora una volta, i ragazzi hanno ispirato i più giovani a realizzare "
 "progetti."
 
-#: smwebsite/templates/blog/index.html:152
+#: smwebsite/templates/blog/index.html:167
 msgid "Presentation of the results of the survey in the Meeting of Researchers"
 msgstr "Presentazione dei risultati del sondaggio nel Meeting of Researchers"
 
-#: smwebsite/templates/blog/index.html:157
+#: smwebsite/templates/blog/index.html:172
 msgid ""
 "The psychologist of the team presented the results of the survey in the "
 "meeting of researchers."
@@ -144,11 +154,11 @@ msgstr ""
 "La psicologa del team ha presentato i risultati del sondaggio nella riunione "
 "dei ricercatori."
 
-#: smwebsite/templates/blog/index.html:167
+#: smwebsite/templates/blog/index.html:184
 msgid "Presentation of the project in JitCita"
 msgstr "Presentazione del progetto in JitCita"
 
-#: smwebsite/templates/blog/index.html:172
+#: smwebsite/templates/blog/index.html:189
 msgid ""
 "The project was presented in the JitCita forum held at the Autonomous "
 "University of Asuncion."
@@ -156,11 +166,11 @@ msgstr ""
 "Il progetto è stato presentato nel forum JitCita presso l'Università "
 "Autonoma di Asunción."
 
-#: smwebsite/templates/blog/index.html:184
+#: smwebsite/templates/blog/index.html:199
 msgid "Presentation to the students of the UCA"
 msgstr "Presentazione agli studenti dell'UCA"
 
-#: smwebsite/templates/blog/index.html:189
+#: smwebsite/templates/blog/index.html:204
 msgid ""
 "The researcher of the team, Javier Paniagua, presented the Smartrtraffic "
 "project to the 4th year students of Informatics Engineering of the Catholic "
@@ -170,11 +180,11 @@ msgstr ""
 "Smartrtraffic agli studenti del 4 ° anno dell'Ingegneria Informatica "
 "dell'Università Cattolica \"Nuestra Señora de la Asuncion\"."
 
-#: smwebsite/templates/blog/index.html:199
+#: smwebsite/templates/blog/index.html:214
 msgid "Inauguration of the office"
 msgstr "Inaugurazione dell'ufficio"
 
-#: smwebsite/templates/blog/index.html:204
+#: smwebsite/templates/blog/index.html:219
 msgid ""
 "The team of researchers launched new office equipment to improve research "
 "performance."
@@ -182,19 +192,19 @@ msgstr ""
 "Il team di ricercatori ha lanciato nuove apparecchiature per ufficio per "
 "migliorare le prestazioni della ricerca."
 
-#: smwebsite/templates/blog/index.html:219
+#: smwebsite/templates/blog/index.html:236
 msgid "The boys inspired the youngest ones to carry out projects."
 msgstr "I ragazzi hanno ispirato i più giovani a realizzare progetti."
 
-#: smwebsite/templates/blog/index.html:231
+#: smwebsite/templates/blog/index.html:246
 msgid "Presentation of the project in the ASU Viva forum"
 msgstr "Presentazione del progetto nel forum ASU Viva"
 
-#: smwebsite/templates/blog/index.html:234
+#: smwebsite/templates/blog/index.html:249
 msgid "April"
 msgstr "Aprile"
 
-#: smwebsite/templates/blog/index.html:236
+#: smwebsite/templates/blog/index.html:251
 msgid ""
 "The first presentation of the project in public of the forum ASU Viva with "
 "the participation of the mayor."
@@ -202,7 +212,7 @@ msgstr ""
 "La prima presentazione del progetto in pubblico del forum ASU Viva con la "
 "partecipazione del sindaco."
 
-#: smwebsite/templates/blog/index.html:253
+#: smwebsite/templates/blog/index.html:268
 #: smwebsite/templates/dissemination/index.html:272
 #: smwebsite/templates/smartmoving/index.html:72
 #: smwebsite/templates/smartmoving/index.html:333
@@ -219,7 +229,7 @@ msgstr ""
 msgid "Contact Us"
 msgstr "Contattaci"
 
-#: smwebsite/templates/blog/index.html:254
+#: smwebsite/templates/blog/index.html:269
 #: smwebsite/templates/dissemination/index.html:273
 #: smwebsite/templates/smartmoving/index.html:334
 #: smwebsite/templates/smartparking/index.html:353
@@ -233,7 +243,7 @@ msgid ""
 msgstr ""
 "Vuoi aiutare? Saremo lieti di sentirti! Usa i seguenti canali e contattaci:"
 
-#: smwebsite/templates/blog/index.html:271
+#: smwebsite/templates/blog/index.html:286
 #: smwebsite/templates/dissemination/index.html:292
 #: smwebsite/templates/smartmoving/index.html:351
 #: smwebsite/templates/smartparking/index.html:370
@@ -244,7 +254,7 @@ msgstr ""
 msgid "Telephone: "
 msgstr "Telefono: "
 
-#: smwebsite/templates/blog/index.html:315
+#: smwebsite/templates/blog/index.html:330
 #: smwebsite/templates/dissemination/index.html:327
 #: smwebsite/templates/smartmoving/index.html:395
 #: smwebsite/templates/smartparking/index.html:414

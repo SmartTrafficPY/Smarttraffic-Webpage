@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8-slim
 
 # RUN addgroup -S app && \
 #     adduser -S -G app app && \

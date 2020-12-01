@@ -38,8 +38,8 @@ msgstr "Italiano"
 #: smwebsite/templates/ucarpooling/experiment.html:14
 #: smwebsite/templates/ucarpooling/ilog_guide.html:14
 #: smwebsite/templates/ucarpooling/index.html:14
-msgid "Smart Traffic Project"
-msgstr "Progetto Smart Traffic"
+msgid "SmartTraffic Project"
+msgstr "Progetto SmartTraffic"
 
 #: smwebsite/templates/blog/index.html:89
 #: smwebsite/templates/smartmoving/index.html:273
@@ -56,8 +56,8 @@ msgstr "Presentazione finale"
 #: smwebsite/templates/ucarpooling/index.html:309
 msgid ""
 "Junior researchers are finally computer engineers after defending their "
-"respective thesis"
-msgstr "I ricercatori junior sono finalmente ingegneri informatici dopo aver difeso le loro rispettive tesi"
+"respective theses"
+msgstr "I ricercatori junior hanno ottenuto la Laura in Ingegneria Informatica dopo aver fatto la difesa delle loro tesi"
 
 #: smwebsite/templates/blog/index.html:104
 #: smwebsite/templates/smartmoving/index.html:288
@@ -76,7 +76,7 @@ msgstr "Premi UCarpooling"
 #: smwebsite/templates/ucarpooling/index.html:324
 msgid "Winners of the UCarpooling experience raffle were awarded"
 msgstr ""
-"Sono stati premiati i vincitori della lotteria di esperienza UCarpooling"
+"Sono stati premiati i vincitori della lotteria Esperienza UCarpooling"
 
 #: smwebsite/templates/blog/index.html:120
 #: smwebsite/templates/smartmoving/index.html:304
@@ -103,12 +103,11 @@ msgid ""
 "state of the sidewalks and recommend roads to pedestrians with reduced "
 "mobility\" "
 msgstr ""
-"La giovane ricercatrice Monica Fatecha ha tenuto la sua prima presentazione "
-"del suo progetto finale dell 'Università Cattolica\" Nuestra Señora de la "
-"Asunción\" per l'Ingegneria Informatica. La presentazione è stata uno dei "
-"casi d'uso del progetto intitolato \"SmartMoving: applicazione per "
-"raccogliere informazioni sullo stato dei marciapiedi e raccomandare strade "
-"ai pedoni con mobilità ridotta \""
+"La giovane ricercatrice Monica Fatecha ha fatto la prima presentazione "
+"del suo progetto finale di Ingegneria Informatica. La presentazione si è fatta su uno dei "
+"casi d'uso del progetto intitolato \"SmartMoving: applicazione di "
+"raccolta informazione sullo stato dei marciapiedi e di raccomandazione strade "
+"per i pedoni con mobilità ridotta \""
 
 #: smwebsite/templates/blog/index.html:137
 #: smwebsite/templates/ucarpooling/experiment.html:606
@@ -124,8 +123,8 @@ msgid ""
 "ages, explaining the problems we have in Asunción about mobility and the "
 "solutions we propose."
 msgstr ""
-"Il progetto SmartTraffic è stato presentato all'Expo 2019. Raggiungere "
-"persone di tutte le età, spiegando i problemi che abbiamo ad Asunción sulla "
+"Il progetto SmartTraffic è stato presentato all'Expo 2019, raggiungendo "
+"persone di tutte le età e spiegando i problemi che abbiamo ad Asunción riguardo la "
 "mobilità e le soluzioni che proponiamo"
 
 #: smwebsite/templates/blog/index.html:152
@@ -133,18 +132,18 @@ msgstr ""
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1304
 msgid "Presentation of the project to students of introduction to engineering"
 msgstr ""
-"presentazione del progetto agli studenti di introduzione all'ingegneria"
+"Presentazione del progetto agli studenti di Introduzione all'Ingegneria"
 
 #: smwebsite/templates/blog/index.html:157
 #: smwebsite/templates/ucarpooling/ilog_guide.html:1309
 msgid "Once again, the boys inspired the youngest to carry out projects."
 msgstr ""
-"Ancora una volta, i ragazzi hanno ispirato i più giovani a realizzare "
+"Ancora una volta, i ragazzi hanno ispirato i più giovani a lavorare in nuovi "
 "progetti."
 
 #: smwebsite/templates/blog/index.html:167
 msgid "Presentation of the results of the survey in the Meeting of Researchers"
-msgstr "Presentazione dei risultati del sondaggio nel Meeting of Researchers"
+msgstr "Presentazione dei risultati del sondaggio nella riunione dei ricercatori"
 
 #: smwebsite/templates/blog/index.html:172
 msgid ""
@@ -177,7 +176,7 @@ msgid ""
 "University \"Nuestra Señora de la Asuncion\"."
 msgstr ""
 "Il ricercatore del team, Javier Paniagua, ha presentato il progetto "
-"Smartrtraffic agli studenti del 4 ° anno dell'Ingegneria Informatica "
+"Smartrtraffic agli studenti del 4 ° anno di Ingegneria Informatica "
 "dell'Università Cattolica \"Nuestra Señora de la Asuncion\"."
 
 #: smwebsite/templates/blog/index.html:214
@@ -189,12 +188,12 @@ msgid ""
 "The team of researchers launched new office equipment to improve research "
 "performance."
 msgstr ""
-"Il team di ricercatori ha lanciato nuove apparecchiature per ufficio per "
+"Il team dei ricercatori ha lanciato nuove apparecchiature per ufficio per "
 "migliorare le prestazioni della ricerca."
 
 #: smwebsite/templates/blog/index.html:236
 msgid "The boys inspired the youngest ones to carry out projects."
-msgstr "I ragazzi hanno ispirato i più giovani a realizzare progetti."
+msgstr "I ragazzi hanno ispirato i più giovani a lavorare in nuovi progetti."
 
 #: smwebsite/templates/blog/index.html:246
 msgid "Presentation of the project in the ASU Viva forum"
@@ -209,7 +208,7 @@ msgid ""
 "The first presentation of the project in public of the forum ASU Viva with "
 "the participation of the mayor."
 msgstr ""
-"La prima presentazione del progetto in pubblico del forum ASU Viva con la "
+"La prima presentazione in pubblico del progetto del forum ASU Viva con la "
 "partecipazione del sindaco."
 
 #: smwebsite/templates/blog/index.html:268
@@ -352,10 +351,10 @@ msgid ""
 "responded that the state of the sidewalks is a serious or very serious "
 "problem"
 msgstr ""
-"A nome del progetto SmartTraffic, è stato condotto un sondaggio sulla "
-"cittadinanza per trovare i problemi che un cittadino deve affrontare ad "
-"Asunción in merito alla sua mobilità quotidiana. Il sondaggio ha portato "
-"alla maggioranza, con il 73 %% degliintervistati, utilizzando la propria "
+"A nome del progetto SmartTraffic, è stato condotto un sondaggio ai "
+"cittadini per trovare i problemi che devono affrontare in "
+"Asunción in merito alla loro mobilità quotidiana. Il sondaggio ha mostrato "
+"che il 73 %% degli intervistati utilizza la propria "
 "auto come principale mezzo di trasporto."
 
 #: smwebsite/templates/smartmoving/index.html:121
@@ -395,7 +394,7 @@ msgid ""
 "Study the techniques and strategies that apply to the smartmoving solution"
 msgstr ""
 "Studiare le tecniche e le strategie che si applicano alla situazione di un "
-"sistema di carpooling per gli utenti della stessa istituzione"
+"sistema di carpooling per gli utenti nella stessa istituzione"
 
 #: smwebsite/templates/smartmoving/index.html:143
 msgid ""
@@ -419,7 +418,7 @@ msgstr ""
 
 #: smwebsite/templates/smartmoving/index.html:172
 msgid "What SmartMoving has to offer"
-msgstr "Cosa UCArpooling ha da offrire"
+msgstr "Che cose ci offre UCArpooling"
 
 #: smwebsite/templates/smartmoving/index.html:182
 msgid "Information"
@@ -642,7 +641,7 @@ msgid ""
 "SmartParking is an open source project hosted in Github, feel free to "
 "contribute"
 msgstr ""
-"SmartParking è un progetto open source ospitato in Github, sentiti libero di "
+"SmartParking è un progetto open source ospitato su Github, sentiti libero di "
 "contribuire"
 
 #: smwebsite/templates/smwebsite/index.html:70
@@ -653,12 +652,12 @@ msgstr "Istituzioni"
 #: smwebsite/templates/smwebsite/index.html:71
 #: smwebsite/templates/smwebsite/index.html:231
 msgid "Expected Results"
-msgstr "Risultati Attesi"
+msgstr "Obiettivi"
 
 #: smwebsite/templates/smwebsite/index.html:72
 #: smwebsite/templates/smwebsite/index.html:487
 msgid "Team"
-msgstr "Attrezzatura"
+msgstr "Team"
 
 #: smwebsite/templates/smwebsite/index.html:87
 msgid "Improving urban mobility in Asunción, Paraguay"

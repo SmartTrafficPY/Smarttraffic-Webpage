@@ -38,8 +38,8 @@ msgstr "Italiano"
 #: smwebsite/templates/ucarpooling/experiment.html:14
 #: smwebsite/templates/ucarpooling/ilog_guide.html:14
 #: smwebsite/templates/ucarpooling/index.html:14
-msgid "Smart Traffic Project"
-msgstr "Proyecto Smart Traffic"
+msgid "SmartTraffic Project"
+msgstr "Proyecto SmartTraffic"
 
 #: smwebsite/templates/blog/index.html:89
 #: smwebsite/templates/smartmoving/index.html:273
@@ -56,7 +56,7 @@ msgstr "Presentación Final"
 #: smwebsite/templates/ucarpooling/index.html:309
 msgid ""
 "Junior researchers are finally computer engineers after defending their "
-"respective thesis"
+"respective theses"
 msgstr "Los Investigadores juniors son finalmente Ingenieros Informáticos luego de haber defendido la tesis"
 
 #: smwebsite/templates/blog/index.html:104

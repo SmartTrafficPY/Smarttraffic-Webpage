@@ -3,10 +3,10 @@
 set -e
 
 export DOCKER_HOST=$(ip route show | grep 'default via' | awk '{print $3}')
-export PYTHONPATH=/home/user/code
+export PYTHONPATH=/home/app/code
 
-# mkdir -p /home/user/code/smwebsite/media
-# chown user /home/user/code/smwebsite/media
-# chmod 700 /home/user/code/smwebsite/media
+# mkdir -p /home/app/code/smwebsite/media
+# chown user /home/app/code/smwebsite/media
+# chmod 700 /home/app/code/smwebsite/media
 
 exec $@

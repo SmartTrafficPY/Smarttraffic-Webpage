@@ -3,16 +3,17 @@ services:
     smwebsite:
         image: smarttraffic/smwebsite:latest
         container_name: smwebsite
+        restart: always
         environment:
             - DJANGO_SETTINGS_MODULE=smwebsite.settings.production
-            - ALLOWED_HOSTS=www.smarttraffic.com.py,smarttraffic.com.py,127.0.0.1
+            - DJANGO_ALLOWED_HOSTS=smarttraffic.uc.edu.py,127.0.0.1
+            #- DJANGO_DEBUG=1
         # build:
         # context: ../
         # networks:
         #     - dsne-django-nginx
         volumes:
-            # - smwebsite-static:/home/user/static
-            - /var/www/smarttraffic.com.py/html/static:/home/user/static
+            - smwebsite-static:/home/app/static
         ports:
             - 8000:8888
 
@@ -30,9 +31,5 @@ services:
   #   depends_on:
   #     - django
 
-# volumes:
-#     smwebsite-static:
-
-# networks:
-#   dsne-django-nginx:
-#     driver:         bridge
+volumes:
+    smwebsite-static:
